@@ -28,7 +28,7 @@ Data is not included due to licensing restrictions. Please download from officia
 ### repoDB 数据库
 
 * 文件：`repoDB_full.csv`
-* 来源：https://go.drugbank.com/releases/latest
+* 来源：https://unmtid-shinyapps.net/shiny/repodb/
 * 作用：提供可靠的药物-疾病关联对
 
 ---
@@ -68,7 +68,7 @@ python main.py
 
 ---
 
-## 📂 6. 项目结构
+## 📂 4. 项目结构
 
 ```text
 📦 HFPM-DDA/
@@ -81,7 +81,7 @@ python main.py
 ├── 📁 output/                            # 输出结果
 │   ├── 🧾 new_drug_discoveries.csv       # 新药发现候选清单
 │   └── 🧠 association_rules.csv          # 关联规则库
-├── 📁 source/                            # 输出结果
+├── 📁 source/                            # 源代码目录
 │   ├── 🧾 data_parser.py                 # 数据解析模块
 │   ├── 🧾 transaction_builder.py         # 事务集构建模块
 │   ├── 🧾 fpm_miner.py                   # FP-Growth 关联规则挖掘模块
@@ -92,7 +92,7 @@ python main.py
 
 ---
 
-## 📈 7. 预期结果
+## 📈 5. 预期结果
 
 ```text
 🏆 Top 10 高特异性关联规则 (Emerging Patterns):
