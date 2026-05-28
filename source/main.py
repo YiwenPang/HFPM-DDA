@@ -117,25 +117,34 @@ def main():
         discovery_results = []
 
         for _, rule in high_value_rules.iterrows():
-            antecedents = set([x for x in rule['antecedents'] if str(x).startswith('TARGET_')])
-            consequents = set([x for x in rule['consequents'] if str(x).startswith('DISEASE_')])
+            # 1. 拆分提取不同维度的特征
+            rule_items = set(rule['antecedents']).union(set(rule['consequents']))
 
-            if not antecedents or not consequents:
+            antecedents_targets = set([x for x in rule['antecedents'] if str(x).startswith('TARGET_')])
+            consequents_diseases = set([x for x in rule['consequents'] if str(x).startswith('DISEASE_')])
+
+            # 新增：把规则中涉及到的基因桥梁提取出来
+            involved_genes = set([x for x in rule_items if str(x).startswith('GENE_')])
+
+            if not antecedents_targets or not consequents_diseases:
                 continue
 
-            target_disease_id = list(consequents)[0].replace("DISEASE_", "")
+            target_disease_id = list(consequents_diseases)[0].replace("DISEASE_", "")
 
             for db_id, info in drug_metadata.items():
                 drug_features = set(info.get("features", []))
 
-                if antecedents.issubset(drug_features):
+                # 2. 药物依然只需要满足 Target 匹配即可
+                if antecedents_targets.issubset(drug_features):
                     if (db_id, target_disease_id) not in known_pairs:
                         discovery_results.append({
                             "DrugBank_ID": db_id,
-                            "Drug_Name": info.get("name", db_id),  # 存入药物名
+                            "Drug_Name": info.get("name", db_id),
                             "Predicted_Disease_ID": target_disease_id,
-                            "Predicted_Disease_Name": get_disease_name(target_disease_id),  # 存入疾病名
-                            "Matched_Targets": ", ".join(antecedents),
+                            "Predicted_Disease_Name": get_disease_name(target_disease_id),
+                            "Matched_Targets": ", ".join(antecedents_targets),
+                            # 新增：将基因存入结果中
+                            "Bridging_Genes": ", ".join(involved_genes) if involved_genes else "无",
                             "Rule_Confidence": rule['confidence'],
                             "Rule_Growth_Rate": rule['growth_rate']
                         })
@@ -151,11 +160,13 @@ def main():
             # === 常规输出 Top 15（可能会出现扎堆现象） ===
             print("🌟 Top 15 新药重定位候选推荐 (按置信度排序):")
             top_15_df = discovery_df.head(15)
+            # ... 找到打印输出的代码段并修改 ...
             for idx, row in top_15_df.iterrows():
                 gr_str = "∞" if row['Rule_Growth_Rate'] == float('inf') else f"{row['Rule_Growth_Rate']:.2f}"
                 print(f"   💊 药物: {row['Drug_Name']} -> 🎯 预测主治: {row['Predicted_Disease_Name']}")
+                # 新增显示关联基因
                 print(
-                    f"      (命中靶向机制: {row['Matched_Targets']} | 规则置信度: {row['Rule_Confidence']:.4f} | 特异性: {gr_str})")
+                    f"      (靶向机制: {row['Matched_Targets']} | 关联基因: {row['Bridging_Genes']} | 置信度: {row['Rule_Confidence']:.4f} | 特异性: {gr_str})")
 
             # === 输出多样性、不重复的长尾候选 ===
             print("\n🌈 更多长尾/多样的重定位候选 (消除头部霸屏，展示不同病种):")
