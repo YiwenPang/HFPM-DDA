@@ -29,7 +29,7 @@ class TransactionBuilder:
             ctd_query_id = disease_id if str(disease_id).startswith("MESH:") else f"MESH:{disease_id}"
             disease_genes = self.disease_to_genes.get(ctd_query_id, [])
 
-            transaction = [f"DRUG_{db_id}"] + drug_features + [f"DISEASE_{disease_id}"]
+            transaction = [f"DRUG_{db_id}"] + drug_features + disease_genes + [f"DISEASE_{disease_id}"]
             transactions.append(transaction)
             pbar.update(1)
 
