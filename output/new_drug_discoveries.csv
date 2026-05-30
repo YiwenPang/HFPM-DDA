@@ -1,342 +1,183 @@
-DrugBank_ID,Drug_Name,Predicted_Disease_ID,Predicted_Disease_Name,Matched_Targets,Rule_Confidence,Rule_Growth_Rate
-DB15688,Zavegepant,C0149931,Migraine Disorders,TARGET_Calcitonin_gene-related_peptide_type_1_receptor,1.0,inf
-DB04869,Olcegepant,C0149931,Migraine Disorders,TARGET_Calcitonin_gene-related_peptide_type_1_receptor,1.0,inf
-DB16098,Atogepant,C0149931,Migraine Disorders,TARGET_Calcitonin_gene-related_peptide_type_1_receptor,1.0,inf
-DB12424,MK-3207,C0149931,Migraine Disorders,TARGET_Calcitonin_gene-related_peptide_type_1_receptor,1.0,inf
-DB12228,Telcagepant,C0149931,Migraine Disorders,TARGET_Calcitonin_gene-related_peptide_type_1_receptor,1.0,inf
-DB15691,Anti-SARS-CoV-2 REGN-COV2,C5203670,COVID19 (disease),TARGET_Spike_glycoprotein,1.0,inf
-DB18720,Pemivibart,C5203670,COVID19 (disease),TARGET_Spike_glycoprotein,1.0,inf
-DB21908,Sipavibart,C5203670,COVID19 (disease),TARGET_Spike_glycoprotein,1.0,inf
-DB16755,Bebtelovimab,C5203670,COVID19 (disease),TARGET_Spike_glycoprotein,1.0,inf
-DB18228,Raxtozinameran,C5203670,COVID19 (disease),TARGET_Spike_glycoprotein,1.0,inf
-DB12411,Bemcentinib,C5203670,COVID19 (disease),TARGET_Spike_glycoprotein,1.0,inf
-DB12753,Racivir,C0019693,HIV Infections,TARGET_Reverse_transcriptase/RNaseH,0.7916666666666666,9.843578546635314
-DB07935,"5-[(5-fluoro-3-methyl-1H-indazol-4-yl)oxy]benzene-1,3-dicarbonitrile",C0019693,HIV Infections,TARGET_Reverse_transcriptase/RNaseH,0.7916666666666666,9.843578546635314
-DB11365,Sennosides,C0019693,HIV Infections,TARGET_Reverse_transcriptase/RNaseH,0.7916666666666666,9.843578546635314
-DB12470,Dexelvucitabine,C0019693,HIV Infections,TARGET_Reverse_transcriptase/RNaseH,0.7916666666666666,9.843578546635314
-DB03413,Deoxyuridine-5'-Diphosphate,C0019693,HIV Infections,TARGET_Pol_polyprotein,0.75,inf
-DB00170,Menadione,C0019069,Hemophilia A,TARGET_Coagulation_factor_IX,0.75,inf
-DB21631,Lotiglipron,C0011860,"Diabetes Mellitus, Non-Insulin-Dependent",TARGET_Glucagon-like_peptide_1_receptor,0.75,3.108498488411152
-DB03435,Uridine-5'-Diphosphate,C0019693,HIV Infections,TARGET_Pol_polyprotein,0.75,inf
-DB04887,Brecanavir,C0019693,HIV Infections,TARGET_Pol_polyprotein,0.75,inf
-DB08253,NAM NAPTHYLAMINOALANINE,C0019693,HIV Infections,TARGET_Pol_polyprotein,0.75,inf
-DB07365,1-Naphthyl-L-alanine,C0019693,HIV Infections,TARGET_Pol_polyprotein,0.75,inf
-DB14817,Pegapamodutide,C0011860,"Diabetes Mellitus, Non-Insulin-Dependent",TARGET_Glucagon-like_peptide_1_receptor,0.75,3.108498488411152
-DB14806,Avexitide,C0011860,"Diabetes Mellitus, Non-Insulin-Dependent",TARGET_Glucagon-like_peptide_1_receptor,0.75,3.108498488411152
-DB06293,Pegnivacogin,C0019069,Hemophilia A,TARGET_Coagulation_factor_IX,0.75,inf
-DB01278,Pramlintide,C0011860,"Diabetes Mellitus, Non-Insulin-Dependent",TARGET_Glucagon-like_peptide_1_receptor,0.75,3.108498488411152
-DB05020,Besifovir dipivoxil,C0524909,"Hepatitis B, Chronic",TARGET_Protein_P,0.75,inf
-DB16697,Glutazumab,C0011860,"Diabetes Mellitus, Non-Insulin-Dependent",TARGET_Glucagon-like_peptide_1_receptor,0.75,3.108498488411152
-DB13192,Antihemophilic factor human,C0019069,Hemophilia A,TARGET_Coagulation_factor_IX,0.75,inf
-DB16662,Efanesoctocog alfa,C0019069,Hemophilia A,TARGET_Coagulation_factor_IX,0.75,inf
-DB16791,Etranacogene dezaparvovec,C0019069,Hemophilia A,TARGET_Coagulation_factor_IX,0.75,inf
-DB19834,Razaxaban,C0019069,Hemophilia A,TARGET_Coagulation_factor_IX,0.75,inf
-DB18998,Pemvidutide,C0011860,"Diabetes Mellitus, Non-Insulin-Dependent",TARGET_Glucagon-like_peptide_1_receptor,0.75,3.108498488411152
-DB18964,Orforglipron,C0011860,"Diabetes Mellitus, Non-Insulin-Dependent",TARGET_Glucagon-like_peptide_1_receptor,0.75,3.108498488411152
-DB01276,Exenatide,C0011860,"Diabetes Mellitus, Non-Insulin-Dependent",TARGET_Glucagon-like_peptide_1_receptor,0.75,3.108498488411152
-DB00040,Glucagon,C0011860,"Diabetes Mellitus, Non-Insulin-Dependent",TARGET_Glucagon-like_peptide_1_receptor,0.75,3.108498488411152
-DB16043,PF-06882961,C0011860,"Diabetes Mellitus, Non-Insulin-Dependent",TARGET_Glucagon-like_peptide_1_receptor,0.75,3.108498488411152
-DB15650,Efpeglenatide,C0011860,"Diabetes Mellitus, Non-Insulin-Dependent",TARGET_Glucagon-like_peptide_1_receptor,0.75,3.108498488411152
-DB05131,TTP889,C0019069,Hemophilia A,TARGET_Coagulation_factor_IX,0.75,inf
-DB03847,gamma-carboxy-L-glutamic acid,C0019069,Hemophilia A,TARGET_Coagulation_factor_IX,0.75,inf
-DB09332,Kappadione,C0019069,Hemophilia A,TARGET_Coagulation_factor_IX,0.75,inf
-DB14027,Taspoglutide,C0011860,"Diabetes Mellitus, Non-Insulin-Dependent",TARGET_Glucagon-like_peptide_1_receptor,0.75,3.108498488411152
-DB13150,Coagulation factor VII human,C0019069,Hemophilia A,TARGET_Coagulation_factor_IX,0.75,inf
-DB03800,Deoxyuridine monophosphate,C0019693,HIV Infections,TARGET_Pol_polyprotein,0.75,inf
-DB02333,Deoxyuridine-5'-Triphosphate,C0019693,HIV Infections,TARGET_Pol_polyprotein,0.75,inf
-DB03136,4-Iodobenzo[B]Thiophene-2-Carboxamidine,C0019069,Hemophilia A,TARGET_Coagulation_factor_IX,0.75,inf
-DB07722,3-(4-NITRO-PHENOXY)-PROPAN-1-OL,C0019693,HIV Infections,TARGET_Pol_polyprotein,0.75,inf
-DB01891,Tl-3-093,C0019693,HIV Infections,TARGET_Pol_polyprotein,0.75,inf
-DB14925,Tenofovir exalidex,C0019693,HIV Infections,TARGET_Gag-Pol_polyprotein,0.7441860465116279,16.578658604859477
-DB15623,TMC-310911,C0019693,HIV Infections,TARGET_Gag-Pol_polyprotein,0.7441860465116279,16.578658604859477
-DB11808,Faldaprevir,C0019693,HIV Infections,TARGET_Gag-Pol_polyprotein,0.7441860465116279,16.578658604859477
-DB11649,Lersivirine,C0019693,HIV Infections,TARGET_Gag-Pol_polyprotein,0.7441860465116279,16.578658604859477
-DB11586,Asunaprevir,C0019693,HIV Infections,TARGET_Gag-Pol_polyprotein,0.7441860465116279,16.578658604859477
-DB11575,Grazoprevir,C0019693,HIV Infections,TARGET_Gag-Pol_polyprotein,0.7441860465116279,16.578658604859477
-DB09297,Paritaprevir,C0019693,HIV Infections,TARGET_Gag-Pol_polyprotein,0.7441860465116279,16.578658604859477
-DB08686,"5,6,7,8,9,10-HEXAHYDRO-4-HYDROXY-3-(1-PHENYLPROPYL)CYCLOOCTA[B]PYRAN-2-ONE",C0019693,HIV Infections,TARGET_Gag-Pol_polyprotein,0.7441860465116279,16.578658604859477
-DB19546,Lasinavir,C0019693,HIV Infections,TARGET_Gag-Pol_polyprotein,0.7441860465116279,16.578658604859477
-DB19860,Lodenosine,C0019693,HIV Infections,TARGET_Gag-Pol_polyprotein,0.7441860465116279,16.578658604859477
-DB20083,Palinavir,C0019693,HIV Infections,TARGET_Gag-Pol_polyprotein,0.7441860465116279,16.578658604859477
-DB20750,Lexipafant,C0019693,HIV Infections,TARGET_Gag-Pol_polyprotein,0.7441860465116279,16.578658604859477
-DB15673,Lenacapavir,C0019693,HIV Infections,TARGET_Gag-Pol_polyprotein,0.7441860465116279,16.578658604859477
-DB16032,GW810781,C0019693,HIV Infections,TARGET_Gag-Pol_polyprotein,0.7441860465116279,16.578658604859477
-DB17120,Imifoplatin,C0019693,HIV Infections,TARGET_Gag-Pol_polyprotein,0.7441860465116279,16.578658604859477
-DB17759,Navuridine,C0019693,HIV Infections,TARGET_Gag-Pol_polyprotein,0.7441860465116279,16.578658604859477
-DB12999,MK-6186,C0019693,HIV Infections,TARGET_Gag-Pol_polyprotein,0.7441860465116279,16.578658604859477
-DB13373,Acriflavine,C0019693,HIV Infections,TARGET_Gag-Pol_polyprotein,0.7441860465116279,16.578658604859477
-DB11929,Vaniprevir,C0019693,HIV Infections,TARGET_Gag-Pol_polyprotein,0.7441860465116279,16.578658604859477
-DB11998,Sorivudine,C0019693,HIV Infections,TARGET_Gag-Pol_polyprotein,0.7441860465116279,16.578658604859477
-DB12069,Sovaprevir,C0019693,HIV Infections,TARGET_Gag-Pol_polyprotein,0.7441860465116279,16.578658604859477
-DB12074,Censavudine,C0019693,HIV Infections,TARGET_Gag-Pol_polyprotein,0.7441860465116279,16.578658604859477
-DB12116,Epigallocatechin gallate,C0019693,HIV Infections,TARGET_Gag-Pol_polyprotein,0.7441860465116279,16.578658604859477
-DB12178,Telinavir,C0019693,HIV Infections,TARGET_Gag-Pol_polyprotein,0.7441860465116279,16.578658604859477
-DB12264,Atevirdine,C0019693,HIV Infections,TARGET_Gag-Pol_polyprotein,0.7441860465116279,16.578658604859477
-DB12405,Triciribine,C0019693,HIV Infections,TARGET_Gag-Pol_polyprotein,0.7441860465116279,16.578658604859477
-DB12423,Fozivudine Tidoxil,C0019693,HIV Infections,TARGET_Gag-Pol_polyprotein,0.7441860465116279,16.578658604859477
-DB12531,Lobucavir,C0019693,HIV Infections,TARGET_Gag-Pol_polyprotein,0.7441860465116279,16.578658604859477
-DB12855,Apricitabine,C0019693,HIV Infections,TARGET_Gag-Pol_polyprotein,0.7441860465116279,16.578658604859477
-DB12876,GS-9256,C0019693,HIV Infections,TARGET_Gag-Pol_polyprotein,0.7441860465116279,16.578658604859477
-DB12894,Raluridine,C0019693,HIV Infections,TARGET_Gag-Pol_polyprotein,0.7441860465116279,16.578658604859477
-DB11779,Danoprevir,C0019693,HIV Infections,TARGET_Gag-Pol_polyprotein,0.7441860465116279,16.578658604859477
-DB11751,Cabotegravir,C0019693,HIV Infections,TARGET_Gag-Pol_polyprotein,0.7441860465116279,16.578658604859477
-DB13119,GSK-364735,C0019693,HIV Infections,TARGET_Gag-Pol_polyprotein,0.7441860465116279,16.578658604859477
-DB08372,1-[2-(4-ETHOXY-3-FLUOROPYRIDIN-2-YL)ETHYL]-3-(5-METHYLPYRIDIN-2-YL)THIOUREA,C0019693,HIV Infections,TARGET_Gag-Pol_polyprotein,0.7441860465116279,16.578658604859477
-DB08379,6-(4-chloro-2-fluoro-3-phenoxybenzyl)pyridazin-3(2H)-one,C0019693,HIV Infections,TARGET_Gag-Pol_polyprotein,0.7441860465116279,16.578658604859477
-DB08414,PNU-142721,C0019693,HIV Infections,TARGET_Gag-Pol_polyprotein,0.7441860465116279,16.578658604859477
-DB08421,PIPERIDINE-2-CARBOXYLIC ACID TERT-BUTYLAMIDE,C0019693,HIV Infections,TARGET_Gag-Pol_polyprotein,0.7441860465116279,16.578658604859477
-DB08428,3(S)-AMINO-4-PHENYL-BUTAN-2(S)-OL,C0019693,HIV Infections,TARGET_Gag-Pol_polyprotein,0.7441860465116279,16.578658604859477
-DB08444,"3-[2-bromo-4-(1H-pyrazolo[3,4-c]pyridazin-3-ylmethyl)phenoxy]-5-methylbenzonitrile",C0019693,HIV Infections,TARGET_Gag-Pol_polyprotein,0.7441860465116279,16.578658604859477
-DB08446,"3-[6-bromo-2-fluoro-3-(1H-pyrazolo[3,4-c]pyridazin-3-ylmethyl)phenoxy]-5-chlorobenzonitrile",C0019693,HIV Infections,TARGET_Gag-Pol_polyprotein,0.7441860465116279,16.578658604859477
-DB08457,"4-(3,5-DIMETHYLPHENOXY)-5-(FURAN-2-YLMETHYLSULFANYLMETHYL)-3-IODO-6-METHYLPYRIDIN-2(1H)-ONE",C0019693,HIV Infections,TARGET_Gag-Pol_polyprotein,0.7441860465116279,16.578658604859477
-DB08459,"3-chloro-5-[2-chloro-5-(1H-pyrazolo[3,4-b]pyridin-3-ylmethoxy)phenoxy]benzonitrile",C0019693,HIV Infections,TARGET_Gag-Pol_polyprotein,0.7441860465116279,16.578658604859477
-DB08460,MK-4965,C0019693,HIV Infections,TARGET_Gag-Pol_polyprotein,0.7441860465116279,16.578658604859477
-DB08474,3-(CARBOXYAMIDE(2-CARBOXYAMIDE-2-TERTBUTYLETHYL))PENTAN,C0019693,HIV Infections,TARGET_Gag-Pol_polyprotein,0.7441860465116279,16.578658604859477
-DB08494,"S-{2-[(2-chloro-4-sulfamoylphenyl)amino]-2-oxoethyl} 6-methyl-3,4-dihydroquinoline-1(2H)-carbothioate",C0019693,HIV Infections,TARGET_Gag-Pol_polyprotein,0.7441860465116279,16.578658604859477
-DB08502,Capravirine,C0019693,HIV Infections,TARGET_Gag-Pol_polyprotein,0.7441860465116279,16.578658604859477
-DB08528,"2-AMINO-6-(3,5-DIMETHYLPHENYL)SULFONYLBENZONITRILE",C0019693,HIV Infections,TARGET_Gag-Pol_polyprotein,0.7441860465116279,16.578658604859477
-DB08598,R-82913,C0019693,HIV Infections,TARGET_Gag-Pol_polyprotein,0.7441860465116279,16.578658604859477
-DB08600,Tivirapine,C0019693,HIV Infections,TARGET_Gag-Pol_polyprotein,0.7441860465116279,16.578658604859477
-DB08622,"4-(4-CHLORO-PHENYL)-1-{3-[2-(4-FLUORO-PHENYL)-[1,3]DITHIOLAN-2-YL]-PROPYL}-PIPERIDIN-4-OL",C0019693,HIV Infections,TARGET_Gag-Pol_polyprotein,0.7441860465116279,16.578658604859477
-DB08634,6-BENZYL-1-BENZYLOXYMETHYL-5-ISOPROPYL URACIL,C0019693,HIV Infections,TARGET_Gag-Pol_polyprotein,0.7441860465116279,16.578658604859477
-DB08639,Dapivirine,C0019693,HIV Infections,TARGET_Gag-Pol_polyprotein,0.7441860465116279,16.578658604859477
-DB08662,3-[1-(4-BROMO-PHENYL)-2-METHYL-PROPYL]-4-HYDROXY-CHROMEN-2-ONE,C0019693,HIV Infections,TARGET_Gag-Pol_polyprotein,0.7441860465116279,16.578658604859477
-DB08663,4-HYDROXY-7-METHOXY-3-(1-PHENYL-PROPYL)-CHROMEN-2-ONE,C0019693,HIV Infections,TARGET_Gag-Pol_polyprotein,0.7441860465116279,16.578658604859477
-DB08664,({3-[1-(4-Hydroxy-2-oxo-2H-chromen-3-yl)-propyl]-phenylcarbamoyl}-methyl)-carbamic acid tert-butyl ester,C0019693,HIV Infections,TARGET_Gag-Pol_polyprotein,0.7441860465116279,16.578658604859477
-DB08665,"6,11-DIHYDRO-11-ETHYL-6-METHYL-9-NITRO-5H-PYRIDO[2,3-B][1,5]BENZODIAZEPIN-5-ONE",C0019693,HIV Infections,TARGET_Gag-Pol_polyprotein,0.7441860465116279,16.578658604859477
-DB08680,N-{3-[(E)-(tert-butoxyimino)methyl]-4-chlorophenyl}-2-methylfuran-3-carbimidothioic acid,C0019693,HIV Infections,TARGET_Gag-Pol_polyprotein,0.7441860465116279,16.578658604859477
-DB08681,1-METHYL ETHYL 2-CHLORO-5-[[[(1-METHYLETHOXY)THIOOXO]METHYL]AMINO]-BENZOATE,C0019693,HIV Infections,TARGET_Gag-Pol_polyprotein,0.7441860465116279,16.578658604859477
-DB08682,"1-METHYL ETHYL 1-CHLORO-5-[[(5,6DIHYDRO-2-METHYL-1,4-OXATHIIN-3-YL)CARBONYL]AMINO]BENZOATE",C0019693,HIV Infections,TARGET_Gag-Pol_polyprotein,0.7441860465116279,16.578658604859477
-DB08331,"N-1H-imidazol-2-yl-N'-[4-(1H-imidazol-2-ylamino)phenyl]benzene-1,4-diamine",C0019693,HIV Infections,TARGET_Gag-Pol_polyprotein,0.7441860465116279,16.578658604859477
-DB08286,1-Naphthoxyacetic acid,C0019693,HIV Infections,TARGET_Gag-Pol_polyprotein,0.7441860465116279,16.578658604859477
-DB08281,"O-[2-(1,3-dioxo-1,3-dihydro-2H-isoindol-2-yl)ethyl] (4-bromophenyl)thiocarbamate",C0019693,HIV Infections,TARGET_Gag-Pol_polyprotein,0.7441860465116279,16.578658604859477
-DB08274,"6,7,8,9-TETRAHYDRO-4-HYDROXY-3-(1-PHENYLPROPYL)CYCLOHEPTA[B]PYRAN-2-ONE",C0019693,HIV Infections,TARGET_Gag-Pol_polyprotein,0.7441860465116279,16.578658604859477
-DB08284,"O-[2-(1,3-dioxo-1,3-dihydro-2H-isoindol-2-yl)ethyl] (4-iodophenyl)thiocarbamate",C0019693,HIV Infections,TARGET_Gag-Pol_polyprotein,0.7441860465116279,16.578658604859477
-DB08282,"O-[2-(1,3-dioxo-1,3-dihydro-2H-isoindol-2-yl)ethyl] (4-chlorophenyl)thiocarbamate",C0019693,HIV Infections,TARGET_Gag-Pol_polyprotein,0.7441860465116279,16.578658604859477
-DB07581,5-AMINO-6-CYCLOHEXYL-4-HYDROXY-2-ISOPROPYL-HEXANOIC ACID,C0019693,HIV Infections,TARGET_Gag-Pol_polyprotein,0.7441860465116279,16.578658604859477
-DB07578,CP-94707,C0019693,HIV Infections,TARGET_Gag-Pol_polyprotein,0.7441860465116279,16.578658604859477
-DB07575,"2,4-DIAMINO-1,5-DIPHENYL-3-HYDROXYPENTANE",C0019693,HIV Infections,TARGET_Gag-Pol_polyprotein,0.7441860465116279,16.578658604859477
-DB07505,"N-({(3R,4R)-4-[(benzyloxy)methyl]pyrrolidin-3-yl}methyl)-N-(2-methylpropyl)benzenesulfonamide",C0019693,HIV Infections,TARGET_Gag-Pol_polyprotein,0.7441860465116279,16.578658604859477
-DB07499,"N-(4-{[amino(imino)methyl]amino}butyl)-2,4'-bi-1,3-thiazole-4-carboxamide",C0019693,HIV Infections,TARGET_Gag-Pol_polyprotein,0.7441860465116279,16.578658604859477
-DB07473,"(R)-(+) 5(9BH)-OXO-9B-PHENYL-2,3-DIHYDROTHIAZOLO[2,3-A]ISOINDOL-3-CARBOXYLIC ACID METHYL ESTER",C0019693,HIV Infections,TARGET_Gag-Pol_polyprotein,0.7441860465116279,16.578658604859477
-DB08231,Myristic acid,C0019693,HIV Infections,TARGET_Gag-Pol_polyprotein,0.7441860465116279,16.578658604859477
-DB08212,1-[2-(3-ACETYL-2-HYDROXY-6-METHOXY-PHENYL)-CYCLOPROPYL]-3-(5-CYANO-PYRIDIN-2-YL)-THIOUREA,C0019693,HIV Infections,TARGET_Gag-Pol_polyprotein,0.7441860465116279,16.578658604859477
-DB08211,5-bromo-3-(pyrrolidin-1-ylsulfonyl)-1H-indole-2-carboxamide,C0019693,HIV Infections,TARGET_Gag-Pol_polyprotein,0.7441860465116279,16.578658604859477
-DB08188,Emivirine,C0019693,HIV Infections,TARGET_Gag-Pol_polyprotein,0.7441860465116279,16.578658604859477
-DB08154,3-chloro-5-[2-chloro-5-(1H-indazol-3-ylmethoxy)phenoxy]benzonitrile,C0019693,HIV Infections,TARGET_Gag-Pol_polyprotein,0.7441860465116279,16.578658604859477
-DB08115,2-aminoethyl naphthalen-1-ylacetate,C0019693,HIV Infections,TARGET_Gag-Pol_polyprotein,0.7441860465116279,16.578658604859477
-DB08041,3-BENZYLOXYCARBONYLAMINO-2-HYDROXY-4-PHENYL-BUTYRIC ACID,C0019693,HIV Infections,TARGET_Gag-Pol_polyprotein,0.7441860465116279,16.578658604859477
-DB08034,"(E)-3,4-DIHYDROXY-N'-[(2-METHOXYNAPHTHALEN-1-YL)METHYLENE]BENZOHYDRAZIDE",C0019693,HIV Infections,TARGET_Gag-Pol_polyprotein,0.7441860465116279,16.578658604859477
-DB08027,CAP-1,C0019693,HIV Infections,TARGET_Gag-Pol_polyprotein,0.7441860465116279,16.578658604859477
-DB07961,"1-(4-Cyano-phenyl)-3-[2-(2,6-dichloro-phenyl)-1-imino-ethyl]-thiourea",C0019693,HIV Infections,TARGET_Gag-Pol_polyprotein,0.7441860465116279,16.578658604859477
-DB07910,"(2S)-2-amino-3-phenylpropane-1,1-diol",C0019693,HIV Infections,TARGET_Gag-Pol_polyprotein,0.7441860465116279,16.578658604859477
-DB07892,1-(2-HYDROXYETHYLOXYMETHYL)-6-PHENYL THIOTHYMINE,C0019693,HIV Infections,TARGET_Gag-Pol_polyprotein,0.7441860465116279,16.578658604859477
-DB07885,Talviraline,C0019693,HIV Infections,TARGET_Gag-Pol_polyprotein,0.7441860465116279,16.578658604859477
-DB07884,Opaviraline,C0019693,HIV Infections,TARGET_Gag-Pol_polyprotein,0.7441860465116279,16.578658604859477
-DB07871,6-CHLORO-4-(CYCLOHEXYLOXY)-3-ISOPROPYLQUINOLIN-2(1H)-ONE,C0019693,HIV Infections,TARGET_Gag-Pol_polyprotein,0.7441860465116279,16.578658604859477
-DB07869,6-Chloro-4-[(R)-cyclohexylsulfinyl]-3-propyl-2(1H)-quinolinone,C0019693,HIV Infections,TARGET_Gag-Pol_polyprotein,0.7441860465116279,16.578658604859477
-DB07868,6-CHLORO-4-(CYCLOHEXYLSULFANYL)-3-PROPYLQUINOLIN-2(1H)-ONE,C0019693,HIV Infections,TARGET_Gag-Pol_polyprotein,0.7441860465116279,16.578658604859477
-DB07867,6-CHLORO-4-(CYCLOHEXYLOXY)-3-PROPYLQUINOLIN-2(1H)-ONE,C0019693,HIV Infections,TARGET_Gag-Pol_polyprotein,0.7441860465116279,16.578658604859477
-DB07864,4-[(CYCLOPROPYLETHYNYL)OXY]-6-FLUORO-3-ISOPROPYLQUINOLIN-2(1H)-ONE,C0019693,HIV Infections,TARGET_Gag-Pol_polyprotein,0.7441860465116279,16.578658604859477
-DB07826,2-[4-chloro-2-(phenylcarbonyl)phenoxy]-N-phenylacetamide,C0019693,HIV Infections,TARGET_Gag-Pol_polyprotein,0.7441860465116279,16.578658604859477
-DB07820,"6-(3',5'-DIMETHYLBENZYL)-1-ETHOXYMETHYL-5-ISOPROPYLURACIL",C0019693,HIV Infections,TARGET_Gag-Pol_polyprotein,0.7441860465116279,16.578658604859477
-DB07806,"(2R,4S)-2-[(R)-BENZYLCARBAMOYL-PHENYLACETYL-METHYL]-5,5-DIMETHYL-THIAZOLIDINE-4-CARBOXYLIC ACID",C0019693,HIV Infections,TARGET_Gag-Pol_polyprotein,0.7441860465116279,16.578658604859477
-DB07797,N-[[3-FLUORO-4-ETHOXY-PYRID-2-YL]ETHYL]-N'-[5-CHLORO-PYRIDYL]-THIOUREA,C0019693,HIV Infections,TARGET_Gag-Pol_polyprotein,0.7441860465116279,16.578658604859477
-DB07781,N-[[3-FLUORO-4-ETHOXY-PYRID-2-YL]ETHYL]-N'-[5-NITRILOMETHYL-PYRIDYL]-THIOUREA,C0019693,HIV Infections,TARGET_Gag-Pol_polyprotein,0.7441860465116279,16.578658604859477
-DB07679,"(9S,12S)-9-(1-methylethyl)-7,10-dioxo-2-oxa-8,11-diazabicyclo[12.2.2]octadeca-1(16),14,17-triene-12-carboxylic acid",C0019693,HIV Infections,TARGET_Gag-Pol_polyprotein,0.7441860465116279,16.578658604859477
-DB07634,"(2,6-Dimethylphenoxy)acetic acid",C0019693,HIV Infections,TARGET_Gag-Pol_polyprotein,0.7441860465116279,16.578658604859477
-DB04490,3-(Mercaptomethylene)Pyridine,C0019693,HIV Infections,TARGET_Gag-Pol_polyprotein,0.7441860465116279,16.578658604859477
-DB04547,Inhibitor BEA409,C0019693,HIV Infections,TARGET_Gag-Pol_polyprotein,0.7441860465116279,16.578658604859477
-DB04609,INHIBITOR Q8467 OF DUPONT MERCK,C0019693,HIV Infections,TARGET_Gag-Pol_polyprotein,0.7441860465116279,16.578658604859477
-DB04886,Calanolide A,C0019693,HIV Infections,TARGET_Gag-Pol_polyprotein,0.7441860465116279,16.578658604859477
-DB05228,RDEA806,C0019693,HIV Infections,TARGET_Gag-Pol_polyprotein,0.7441860465116279,16.578658604859477
-DB05328,VGV-1,C0019693,HIV Infections,TARGET_Gag-Pol_polyprotein,0.7441860465116279,16.578658604859477
-DB05398,C31G,C0019693,HIV Infections,TARGET_Gag-Pol_polyprotein,0.7441860465116279,16.578658604859477
-DB05644,KP-1461,C0019693,HIV Infections,TARGET_Gag-Pol_polyprotein,0.7441860465116279,16.578658604859477
-DB05871,UC-781,C0019693,HIV Infections,TARGET_Gag-Pol_polyprotein,0.7441860465116279,16.578658604859477
-DB05961,PPL-100,C0019693,HIV Infections,TARGET_Gag-Pol_polyprotein,0.7441860465116279,16.578658604859477
-DB06166,Fosdevirine,C0019693,HIV Infections,TARGET_Gag-Pol_polyprotein,0.7441860465116279,16.578658604859477
-DB06198,Alovudine,C0019693,HIV Infections,TARGET_Gag-Pol_polyprotein,0.7441860465116279,16.578658604859477
-DB06236,Elvucitabine,C0019693,HIV Infections,TARGET_Gag-Pol_polyprotein,0.7441860465116279,16.578658604859477
-DB06581,Bevirimat,C0019693,HIV Infections,TARGET_Gag-Pol_polyprotein,0.7441860465116279,16.578658604859477
-DB06619,Amdoxovir,C0019693,HIV Infections,TARGET_Gag-Pol_polyprotein,0.7441860465116279,16.578658604859477
-DB06874,"(6-[4-(AMINOMETHYL)-2,6-DIMETHYLPHENOXY]-2-{[4-(AMINOMETHYL)PHENYL]AMINO}-5-BROMOPYRIMIDIN-4-YL)METHANOL",C0019693,HIV Infections,TARGET_Gag-Pol_polyprotein,0.7441860465116279,16.578658604859477
-DB06910,"[4-R-(4-ALPHA,6-BETA,7-BETA]-HEXAHYDRO-5,6-DI(HYDROXY)-1,3-DI(ALLYL)-4,7-BISPHENYLMETHYL)-2H-1,3-DIAZEPINONE",C0019693,HIV Infections,TARGET_Gag-Pol_polyprotein,0.7441860465116279,16.578658604859477
-DB07018,5-ETHYL-3-[(2-METHOXYETHYL)METHYLAMINO]-6-METHYL-4-(3-METHYLBENZYL)PYRIDIN-2(1H)-ONE,C0019693,HIV Infections,TARGET_Gag-Pol_polyprotein,0.7441860465116279,16.578658604859477
-DB07035,"(2E)-3-{3-[(5-ETHYL-3-IODO-6-METHYL-2-OXO-1,2-DIHYDROPYRIDIN-4-YL)OXY]PHENYL}ACRYLONITRILE",C0019693,HIV Infections,TARGET_Gag-Pol_polyprotein,0.7441860465116279,16.578658604859477
-DB07184,"6-(cyclohexylsulfanyl)-1-(ethoxymethyl)-5-(1-methylethyl)pyrimidine-2,4(1H,3H)-dione",C0019693,HIV Infections,TARGET_Gag-Pol_polyprotein,0.7441860465116279,16.578658604859477
-DB07327,R-95845,C0019693,HIV Infections,TARGET_Gag-Pol_polyprotein,0.7441860465116279,16.578658604859477
-DB07332,"ALPHA-(2,6-DICHLOROPHENYL)-ALPHA-(2-ACETYL-5-METHYLANILINO)ACETAMIDE",C0019693,HIV Infections,TARGET_Gag-Pol_polyprotein,0.7441860465116279,16.578658604859477
-DB07337,"4-[4-AMINO-6-(5-CHLORO-1H-INDOL-4-YLMETHYL)-[1,3,5]TRIAZIN-2-YLAMINO]-BENZONITRILE",C0019693,HIV Infections,TARGET_Gag-Pol_polyprotein,0.7441860465116279,16.578658604859477
-DB07343,"4-[4-AMINO-6-(2,6-DICHLORO-PHENOXY)-[1,3,5]TRIAZIN-2-YLAMINO]-BENZONITRILE",C0019693,HIV Infections,TARGET_Gag-Pol_polyprotein,0.7441860465116279,16.578658604859477
-DB07451,1-(5-BROMO-PYRIDIN-2-YL)-3-[2-(6-FLUORO-2-HYDROXY-3-PROPIONYL-PHENYL)-CYCLOPROPYL]-UREA,C0019693,HIV Infections,TARGET_Gag-Pol_polyprotein,0.7441860465116279,16.578658604859477
-DB07472,"(R)-(+)9B-(3-METHYL)PHENYL-2,3-DIHYDROTHIAZOLO[2,3-A]ISOINDOL-5(9BH)-ONE",C0019693,HIV Infections,TARGET_Gag-Pol_polyprotein,0.7441860465116279,16.578658604859477
-DB04454,Alpha-Aminobutyric Acid,C0019693,HIV Infections,TARGET_Gag-Pol_polyprotein,0.7441860465116279,16.578658604859477
-DB02009,L-756423,C0019693,HIV Infections,TARGET_Gag-Pol_polyprotein,0.7441860465116279,16.578658604859477
-DB01732,"(4R,5S,6S,7R)-1,3-dibenzyl-4,7-bis(phenoxymethyl)-5,6-dihydroxy-1,3 diazepan-2-one",C0019693,HIV Infections,TARGET_Gag-Pol_polyprotein,0.7441860465116279,16.578658604859477
-DB01721,"N-[2-hydroxy-1-indanyl]-5-[(2-tertiarybutylaminocarbonyl)-4(benzo[1,3]dioxol-5-ylmethyl)-piperazino]-4-hydroxy-2-(1-phenylethyl)-pentanamide",C0019693,HIV Infections,TARGET_Gag-Pol_polyprotein,0.7441860465116279,16.578658604859477
-DB01887,"N,N-[2,5-O-Dibenzyl-glucaryl]-DI-[1-amino-indan-2-OL]",C0019693,HIV Infections,TARGET_Gag-Pol_polyprotein,0.7441860465116279,16.578658604859477
-DB01824,"(3S)-Tetrahydro-3-furanyl {(2S,3S)-4-[(2S,4R)-4-{(1S,2R)-2-[(S)-amino(hydroxy)methoxy]-2,3-dihydro-1H-inden-1-yl}-2-benzyl-3-oxo-2-pyrrolidinyl]-3-hydroxy-1-phenyl-2-butanyl}carbamate",C0019693,HIV Infections,TARGET_Gag-Pol_polyprotein,0.7441860465116279,16.578658604859477
-DB03676,Cystein-S-Yl Cacodylate,C0019693,HIV Infections,TARGET_Gag-Pol_polyprotein,0.7441860465116279,16.578658604859477
-DB03768,"N-[2-Hydroxy-2-(8-Isopropyl-6,9-Dioxo-2-Oxa-7,10-Diaza-Bicyclo[11.2.2]Heptadeca-1(16),13(17),14-Trien-11-Yl)-Ethyl]-N-(3-Methyl-Butyl)-Benzenesulfonamide,Inhibitor 3",C0019693,HIV Infections,TARGET_Gag-Pol_polyprotein,0.7441860465116279,16.578658604859477
-DB03803,"N,N-[2,5-O-dibenzyl-glucaryl]-DI-[valinyl-aminomethanyl-pyridine]",C0019693,HIV Infections,TARGET_Gag-Pol_polyprotein,0.7441860465116279,16.578658604859477
-DB03908,"N,N-[2,5-O-[Dibenzyl]-glucaryl]-DI-[isoleucyl-amido-methane]",C0019693,HIV Infections,TARGET_Gag-Pol_polyprotein,0.7441860465116279,16.578658604859477
-DB03963,S-(Dimethylarsenic)Cysteine,C0019693,HIV Infections,TARGET_Gag-Pol_polyprotein,0.7441860465116279,16.578658604859477
-DB04042,"2-[4-(Hydroxy-Methoxy-Methyl)-Benzyl]-7-(4-Hydroxymethyl-Benzyl)-1,1-Dioxo-3,6-Bis-Phenoxymethyl-1lambda6-[1,2,7]Thiadiazepane-4,5-Diol",C0019693,HIV Infections,TARGET_Gag-Pol_polyprotein,0.7441860465116279,16.578658604859477
-DB04190,"2,5-dibenzyloxy-3-hydroxy-hexanedioic acid bis-[(2-hydroxy-indan-1-yl)-amide]",C0019693,HIV Infections,TARGET_Gag-Pol_polyprotein,0.7441860465116279,16.578658604859477
-DB04191,Skf 107457,C0019693,HIV Infections,TARGET_Gag-Pol_polyprotein,0.7441860465116279,16.578658604859477
-DB04255,Inhibitor BEA388,C0019693,HIV Infections,TARGET_Gag-Pol_polyprotein,0.7441860465116279,16.578658604859477
-DB04353,"Tert-butyl N-[(2S,5R)-6-[[(2S)-5-amino-1-[[(2S)-1-amino-1-oxo-3-phenylpropan-2-yl]amino]-1,5-dioxopentan-2-yl]amino]-5-benzyl-3,6-dioxo-1-phenylhexan-2-yl]carbamate",C0019693,HIV Infections,TARGET_Gag-Pol_polyprotein,0.7441860465116279,16.578658604859477
-DB02033,"N-(3-Cyclopropyl(5,6,7,8,9,10-Hexahydro-2-Oxo-2h-Cycloocta[B]Pyran-3-Yl)Methyl)Phenylbenzensulfonamide",C0019693,HIV Infections,TARGET_Gag-Pol_polyprotein,0.7441860465116279,16.578658604859477
-DB02086,"(3,4-Dihydroxy-Phenyl)-Triphenyl-Arsonium",C0019693,HIV Infections,TARGET_Gag-Pol_polyprotein,0.7441860465116279,16.578658604859477
-DB02102,Mozenavir,C0019693,HIV Infections,TARGET_Gag-Pol_polyprotein,0.7441860465116279,16.578658604859477
-DB02189,"2',3'-Dideoxyadenosine triphosphate",C0019693,HIV Infections,TARGET_Gag-Pol_polyprotein,0.7441860465116279,16.578658604859477
-DB02411,"2-(11-{2-[Benzenesulfonyl-(3-Methyl-Butyl)-Amino]-1-Hydroxy-Ethyl}-6,9-Dioxo-2-Oxa-7,10-Diaza-Bicyclo[11.2.2]Heptadeca-1(16),13(17),14-Trien-8-Yl)-Acetamide, Inhibitor 2",C0019693,HIV Infections,TARGET_Gag-Pol_polyprotein,0.7441860465116279,16.578658604859477
-DB02413,Hydroxyethylcysteine,C0019693,HIV Infections,TARGET_Gag-Pol_polyprotein,0.7441860465116279,16.578658604859477
-DB02428,Quinaldic Acid,C0019693,HIV Infections,TARGET_Gag-Pol_polyprotein,0.7441860465116279,16.578658604859477
-DB02452,Thymidine 5'-triphosphate,C0019693,HIV Infections,TARGET_Gag-Pol_polyprotein,0.7441860465116279,16.578658604859477
-DB02629,"N,N-[2,5-O-di-2-fluoro-benzyl-glucaryl]-di-[1-amino-indan-2-ol]",C0019693,HIV Infections,TARGET_Gag-Pol_polyprotein,0.7441860465116279,16.578658604859477
-DB02668,JE-2147,C0019693,HIV Infections,TARGET_Gag-Pol_polyprotein,0.7441860465116279,16.578658604859477
-DB02683,Inhibitor Bea428,C0019693,HIV Infections,TARGET_Gag-Pol_polyprotein,0.7441860465116279,16.578658604859477
-DB02702,XV638,C0019693,HIV Infections,TARGET_Gag-Pol_polyprotein,0.7441860465116279,16.578658604859477
-DB02704,"(2R,3R,4R,5R)-3,4-Dihydroxy-N,N'-bis[(1S,2R)-2-hydroxy-2,3-dihydro-1H-inden-1-yl]-2,5-bis(2-phenylethyl)hexanediamide",C0019693,HIV Infections,TARGET_Gag-Pol_polyprotein,0.7441860465116279,16.578658604859477
-DB02729,SD146,C0019693,HIV Infections,TARGET_Gag-Pol_polyprotein,0.7441860465116279,16.578658604859477
-DB02768,Tert-Butyloxycarbonyl Group,C0019693,HIV Infections,TARGET_Gag-Pol_polyprotein,0.7441860465116279,16.578658604859477
-DB02785,"(2S)-1-[(2S,4R)-4-Benzyl-2-hydroxy-5-{[(1S,2R,5S)-2-hydroxy-5-methylcyclopentyl]amino}-5-oxopentyl]-4-{[6-chloro-5-(4-methyl-1-piperazinyl)-2-pyrazinyl]carbonyl}-N-(2-methyl-2-propanyl)-2-piperazineca rboxamide",C0019693,HIV Infections,TARGET_Gag-Pol_polyprotein,0.7441860465116279,16.578658604859477
-DB02994,Cacodylic acid,C0019693,HIV Infections,TARGET_Gag-Pol_polyprotein,0.7441860465116279,16.578658604859477
-DB03076,"3-[[(3R,4S,5S,6R)-7-Benzyl-4,5-dihydroxy-1,1-dioxo-3,6-bis(phenoxymethyl)-1,2,7-thiadiazepan-2-yl]methyl]-N-methylbenzamide",C0019693,HIV Infections,TARGET_Gag-Pol_polyprotein,0.7441860465116279,16.578658604859477
-DB02804,A-98881,C0019693,HIV Infections,TARGET_Gag-Pol_polyprotein,0.7441860465116279,16.578658604859477
-DB02972,1-Benzyl-(R)-Propylamine,C0019693,HIV Infections,TARGET_Gag-Pol_polyprotein,0.7441860465116279,16.578658604859477
-DB03141,"3-{[(5R,6R)-5-Benzyl-6-hydroxy-2,4-bis(4-hydroxybenzyl)-3-oxo-1,2,4-triazepan-1-yl]sulfonyl}benzonitril",C0019693,HIV Infections,TARGET_Gag-Pol_polyprotein,0.7441860465116279,16.578658604859477
-DB03118,(2Z)-1-(5-Chloro-1H-indol-3-yl)-3-hydroxy-3-(1H-tetrazol-5-yl)-2-propen-1-one,C0019693,HIV Infections,TARGET_Gag-Pol_polyprotein,0.7441860465116279,16.578658604859477
-DB05202,Egaptivon pegol,C0019069,Hemophilia A,TARGET_von_Willebrand_factor,0.6666666666666666,inf
-DB06081,Caplacizumab,C0019069,Hemophilia A,TARGET_von_Willebrand_factor,0.6666666666666666,inf
-DB09329,"Antihemophilic factor (recombinant), PEGylated",C0019069,Hemophilia A,TARGET_von_Willebrand_factor,0.6666666666666666,inf
-DB21360,Mitoflaxone,C0019069,Hemophilia A,TARGET_von_Willebrand_factor,0.6666666666666666,inf
-DB16007,Rurioctocog alfa pegol,C0019069,Hemophilia A,TARGET_von_Willebrand_factor,0.6666666666666666,inf
-DB15164,Apadamtase alfa,C0019069,Hemophilia A,TARGET_von_Willebrand_factor,0.6666666666666666,inf
-DB11606,Susoctocog alfa,C0019069,Hemophilia A,TARGET_von_Willebrand_factor,0.6666666666666666,inf
-DB01325,Quinethazone,C0020538,Hypertensive disease,"TARGET_Solute_carrier_family_12_member_1, TARGET_Carbonic_anhydrase_1",0.625,inf
-DB20140,Zolasartan,C0020538,Hypertensive disease,TARGET_Type-1_angiotensin_II_receptor,0.5789473684210527,inf
-DB20355,Milfasartan,C0020538,Hypertensive disease,TARGET_Type-1_angiotensin_II_receptor,0.5789473684210527,inf
-DB20100,Pratosartan,C0020538,Hypertensive disease,TARGET_Type-1_angiotensin_II_receptor,0.5789473684210527,inf
-DB01347,Saprisartan,C0020538,Hypertensive disease,TARGET_Type-1_angiotensin_II_receptor,0.5789473684210527,inf
-DB05739,CYT006-AngQb,C0020538,Hypertensive disease,TARGET_Type-1_angiotensin_II_receptor,0.5789473684210527,inf
-DB06763,Saralasin,C0020538,Hypertensive disease,TARGET_Type-1_angiotensin_II_receptor,0.5789473684210527,inf
-DB11842,Angiotensin II,C0020538,Hypertensive disease,TARGET_Type-1_angiotensin_II_receptor,0.5789473684210527,inf
-DB12199,TRV-120027,C0020538,Hypertensive disease,TARGET_Type-1_angiotensin_II_receptor,0.5789473684210527,inf
-DB12548,Sparsentan,C0020538,Hypertensive disease,TARGET_Type-1_angiotensin_II_receptor,0.5789473684210527,inf
-DB01342,Forasartan,C0020538,Hypertensive disease,TARGET_Type-1_angiotensin_II_receptor,0.5789473684210527,inf
-DB20229,Ripisartan,C0020538,Hypertensive disease,TARGET_Type-1_angiotensin_II_receptor,0.5789473684210527,inf
-DB13520,Metergoline,C0149931,Migraine Disorders,TARGET_5-hydroxytryptamine_receptor_1F,0.5714285714285714,4.144664651214869
-DB06148,Mianserin,C0149931,Migraine Disorders,TARGET_5-hydroxytryptamine_receptor_1F,0.5714285714285714,4.144664651214869
-DB00247,Methysergide,C0149931,Migraine Disorders,TARGET_5-hydroxytryptamine_receptor_1F,0.5714285714285714,4.144664651214869
-DB08382,Gosogliptin,C0011860,"Diabetes Mellitus, Non-Insulin-Dependent",TARGET_Dipeptidyl_peptidase_4,0.5238095238095238,inf
-DB08044,ABT-341,C0011860,"Diabetes Mellitus, Non-Insulin-Dependent",TARGET_Dipeptidyl_peptidase_4,0.5238095238095238,inf
-DB08051,"(2R)-4-(2-BENZOYL-1,2-DIAZEPAN-1-YL)-4-OXO-1-(2,4,5-TRIFLUOROPHENYL)BUTAN-2-AMINE",C0011860,"Diabetes Mellitus, Non-Insulin-Dependent",TARGET_Dipeptidyl_peptidase_4,0.5238095238095238,inf
-DB08164,"(3R,4R)-1-{6-[3-(METHYLSULFONYL)PHENYL]PYRIMIDIN-4-YL}-4-(2,4,5-TRIFLUOROPHENYL)PIPERIDIN-3-AMINE",C0011860,"Diabetes Mellitus, Non-Insulin-Dependent",TARGET_Dipeptidyl_peptidase_4,0.5238095238095238,inf
-DB07851,"(3R,4S)-1-(3,4-DIMETHOXYPHENYL)-3-(3-METHYLPHENYL)PIPERIDIN-4-AMINE",C0011860,"Diabetes Mellitus, Non-Insulin-Dependent",TARGET_Dipeptidyl_peptidase_4,0.5238095238095238,inf
-DB16134,Denagliptin,C0011860,"Diabetes Mellitus, Non-Insulin-Dependent",TARGET_Dipeptidyl_peptidase_4,0.5238095238095238,inf
-DB08504,"6-(4-{(1S,2S)-2-AMINO-1-[(DIMETHYLAMINO)CARBONYL]-3-[(3S)-3-FLUOROPYRROLIDIN-1-YL]-3-OXOPROPYL}PHENYL)-1H-[1,2,4]TRIAZOLO[1,5-A]PYRIDIN-4-IUM",C0011860,"Diabetes Mellitus, Non-Insulin-Dependent",TARGET_Dipeptidyl_peptidase_4,0.5238095238095238,inf
-DB15236,Fucose,C0011860,"Diabetes Mellitus, Non-Insulin-Dependent",TARGET_Dipeptidyl_peptidase_4,0.5238095238095238,inf
-DB14898,Retagliptin,C0011860,"Diabetes Mellitus, Non-Insulin-Dependent",TARGET_Dipeptidyl_peptidase_4,0.5238095238095238,inf
-DB08429,N-({(2S)-1-[(3R)-3-amino-4-(3-chlorophenyl)butanoyl]pyrrolidin-2-yl}methyl)-3-(methylsulfonyl)benzamide,C0011860,"Diabetes Mellitus, Non-Insulin-Dependent",TARGET_Dipeptidyl_peptidase_4,0.5238095238095238,inf
-DB08445,"(3R,4S)-1-[6-(6-METHOXYPYRIDIN-3-YL)PYRIMIDIN-4-YL]-4-(2,4,5-TRIFLUOROPHENYL)PYRROLIDIN-3-AMINE",C0011860,"Diabetes Mellitus, Non-Insulin-Dependent",TARGET_Dipeptidyl_peptidase_4,0.5238095238095238,inf
-DB08024,(2S)-2-cyano-1-(4-phenyl-L-phenylalanyl)pyrrolidine,C0011860,"Diabetes Mellitus, Non-Insulin-Dependent",TARGET_Dipeptidyl_peptidase_4,0.5238095238095238,inf
-DB20789,Melogliptin,C0011860,"Diabetes Mellitus, Non-Insulin-Dependent",TARGET_Dipeptidyl_peptidase_4,0.5238095238095238,inf
-DB07081,"(2R)-4-[(8R)-8-METHYL-2-(TRIFLUOROMETHYL)-5,6-DIHYDRO[1,2,4]TRIAZOLO[1,5-A]PYRAZIN-7(8H)-YL]-4-OXO-1-(2,4,5-TRIFLUOROPHENYL)BUTAN-2-AMINE",C0011860,"Diabetes Mellitus, Non-Insulin-Dependent",TARGET_Dipeptidyl_peptidase_4,0.5238095238095238,inf
-DB07092,"(2S,3S)-3-AMINO-4-(3,3-DIFLUOROPYRROLIDIN-1-YL)-N,N-DIMETHYL-4-OXO-2-(TRANS-4-[1,2,4]TRIAZOLO[1,5-A]PYRIDIN-6-YLCYCLOHEXYL)BUTANAMIDE",C0011860,"Diabetes Mellitus, Non-Insulin-Dependent",TARGET_Dipeptidyl_peptidase_4,0.5238095238095238,inf
-DB08530,"7-BENZYL-1,3-DIMETHYL-8-PIPERAZIN-1-YL-3,7-DIHYDRO-PURINE-2,6-DIONE",C0011860,"Diabetes Mellitus, Non-Insulin-Dependent",TARGET_Dipeptidyl_peptidase_4,0.5238095238095238,inf
-DB07779,N-({(2S)-1-[(3R)-3-AMINO-4-(2-FLUOROPHENYL)BUTANOYL]PYRROLIDIN-2-YL}METHYL)BENZAMIDE,C0011860,"Diabetes Mellitus, Non-Insulin-Dependent",TARGET_Dipeptidyl_peptidase_4,0.5238095238095238,inf
-DB07021,"(7R,8R)-8-(2,4,5-trifluorophenyl)-6,7,8,9-tetrahydroimidazo[1,2-a:4,5-c']dipyridin-7-amine",C0011860,"Diabetes Mellitus, Non-Insulin-Dependent",TARGET_Dipeptidyl_peptidase_4,0.5238095238095238,inf
-DB07015,"(3R,4R)-4-(pyrrolidin-1-ylcarbonyl)-1-(quinoxalin-2-ylcarbonyl)pyrrolidin-3-amine",C0011860,"Diabetes Mellitus, Non-Insulin-Dependent",TARGET_Dipeptidyl_peptidase_4,0.5238095238095238,inf
-DB06994,"(2S,3S)-3-{3-[2-chloro-4-(methylsulfonyl)phenyl]-1,2,4-oxadiazol-5-yl}-1-cyclopentylidene-4-cyclopropyl-1-fluorobutan-2-amine",C0011860,"Diabetes Mellitus, Non-Insulin-Dependent",TARGET_Dipeptidyl_peptidase_4,0.5238095238095238,inf
-DB06993,"(2S,3S)-4-cyclopropyl-3-{(3R,5R)-3-[2-fluoro-4-(methylsulfonyl)phenyl]-1,2,4-oxadiazolidin-5-yl}-1-[(3S)-3-fluoropyrrolidin-1-yl]-1-oxobutan-2-amine",C0011860,"Diabetes Mellitus, Non-Insulin-Dependent",TARGET_Dipeptidyl_peptidase_4,0.5238095238095238,inf
-DB06939,"N-(TRANS-4-{(1S,2S)-2-AMINO-3-[(3S)-3-FLUOROPYRROLIDIN-1-YL]-1-METHYL-3-OXOPROPYL}CYCLOHEXYL)-N-METHYLACETAMIDE",C0011860,"Diabetes Mellitus, Non-Insulin-Dependent",TARGET_Dipeptidyl_peptidase_4,0.5238095238095238,inf
-DB06880,"(1S)-2-[(2S,5R)-2-(AMINOMETHYL)-5-PROP-1-YN-1-YLPYRROLIDIN-1-YL]-1-CYCLOPENTYL-2-OXOETHANAMINE",C0011860,"Diabetes Mellitus, Non-Insulin-Dependent",TARGET_Dipeptidyl_peptidase_4,0.5238095238095238,inf
-DB06127,Bisegliptin,C0011860,"Diabetes Mellitus, Non-Insulin-Dependent",TARGET_Dipeptidyl_peptidase_4,0.5238095238095238,inf
-DB06011,AMG-222,C0011860,"Diabetes Mellitus, Non-Insulin-Dependent",TARGET_Dipeptidyl_peptidase_4,0.5238095238095238,inf
-DB05001,PSN9301,C0011860,"Diabetes Mellitus, Non-Insulin-Dependent",TARGET_Dipeptidyl_peptidase_4,0.5238095238095238,inf
-DB04578,"(S)-2-[(R)-3-amino-4-(2-fluorophenyl)butyryl]-1,2,3,4-tetrahydroisoquinoline-3-carboxamide",C0011860,"Diabetes Mellitus, Non-Insulin-Dependent",TARGET_Dipeptidyl_peptidase_4,0.5238095238095238,inf
-DB04577,1-(1-phenylcyclopentyl)methylamine,C0011860,"Diabetes Mellitus, Non-Insulin-Dependent",TARGET_Dipeptidyl_peptidase_4,0.5238095238095238,inf
-DB04491,Diisopropylphosphono Group,C0011860,"Diabetes Mellitus, Non-Insulin-Dependent",TARGET_Dipeptidyl_peptidase_4,0.5238095238095238,inf
-DB07356,"(1S)-2-[(2S,5R)-2-(AMINOMETHYL)-5-ETHYNYLPYRROLIDIN-1-YL]-1-CYCLOPENTYL-2-OXOETHANAMINE",C0011860,"Diabetes Mellitus, Non-Insulin-Dependent",TARGET_Dipeptidyl_peptidase_4,0.5238095238095238,inf
-DB07328,"METHYL 4-{[({[(2R,5S)-5-{[(2S)-2-(AMINOMETHYL)PYRROLIDIN-1-YL]CARBONYL}PYRROLIDIN-2-YL]METHYL}AMINO)CARBONYL]AMINO}BENZOATE",C0011860,"Diabetes Mellitus, Non-Insulin-Dependent",TARGET_Dipeptidyl_peptidase_4,0.5238095238095238,inf
-DB07271,"4-[(3R)-3-Amino-4-(2,4,5-trifluorophenyl)butanoyl]-3-(2,2,2-trifluoroethyl)-1,4-diazepan-2-one",C0011860,"Diabetes Mellitus, Non-Insulin-Dependent",TARGET_Dipeptidyl_peptidase_4,0.5238095238095238,inf
-DB07239,7-(aminomethyl)-6-(2-chlorophenyl)-1-methyl-1H-benzimidazole-5-carbonitrile,C0011860,"Diabetes Mellitus, Non-Insulin-Dependent",TARGET_Dipeptidyl_peptidase_4,0.5238095238095238,inf
-DB07666,"(3R,4S)-1-{6-[3-(METHYLSULFONYL)PHENYL]PYRIMIDIN-4-YL}-4-(2,4,5-TRIFLUOROPHENYL)PYRROLIDIN-3-AMINE",C0011860,"Diabetes Mellitus, Non-Insulin-Dependent",TARGET_Dipeptidyl_peptidase_4,0.5238095238095238,inf
-DB07482,(2R)-N-[(2R)-2-(DIHYDROXYBORYL)-1-L-PROLYLPYRROLIDIN-2-YL]-N-[(5R)-5-(DIHYDROXYBORYL)-1-L-PROLYLPYRROLIDIN-2-YL]-L-PROLINAMIDE,C0011860,"Diabetes Mellitus, Non-Insulin-Dependent",TARGET_Dipeptidyl_peptidase_4,0.5238095238095238,inf
-DB07465,"(1S,3S,5S)-2-{(2S)-2-amino-2-[(1R,3S,5R,7S)-3-hydroxytricyclo[3.3.1.1~3,7~]dec-1-yl]acetyl}-2-azabicyclo[3.1.0]hexane-3-carbonitrile",C0011860,"Diabetes Mellitus, Non-Insulin-Dependent",TARGET_Dipeptidyl_peptidase_4,0.5238095238095238,inf
-DB07412,1-biphenyl-2-ylmethanamine,C0011860,"Diabetes Mellitus, Non-Insulin-Dependent",TARGET_Dipeptidyl_peptidase_4,0.5238095238095238,inf
-DB07193,"(2R,3R)-7-(methylsulfonyl)-3-(2,4,5-trifluorophenyl)-1,2,3,4-tetrahydropyrido[1,2-a]benzimidazol-2-amine",C0011860,"Diabetes Mellitus, Non-Insulin-Dependent",TARGET_Dipeptidyl_peptidase_4,0.5238095238095238,inf
-DB07181,"4'-[(1R)-1-amino-2-(2,5-difluorophenyl)ethyl]biphenyl-3-carboxamide",C0011860,"Diabetes Mellitus, Non-Insulin-Dependent",TARGET_Dipeptidyl_peptidase_4,0.5238095238095238,inf
-DB07154,"(3R)-4-[(3R)-3-AMINO-4-(2,4,5-TRIFLUOROPHENYL)BUTANOYL]-3-METHYL-1,4-DIAZEPAN-2-ONE",C0011860,"Diabetes Mellitus, Non-Insulin-Dependent",TARGET_Dipeptidyl_peptidase_4,0.5238095238095238,inf
-DB07135,"(2S,3S)-3-AMINO-4-[(3S)-3-FLUOROPYRROLIDIN-1-YL]-N,N-DIMETHYL-4-OXO-2-(TRANS-4-[1,2,4]TRIAZOLO[1,5-A]PYRIDIN-5-YLCYCLOHEXYL)BUTANAMIDE",C0011860,"Diabetes Mellitus, Non-Insulin-Dependent",TARGET_Dipeptidyl_peptidase_4,0.5238095238095238,inf
-DB11723,Dutogliptin,C0011860,"Diabetes Mellitus, Non-Insulin-Dependent",TARGET_Dipeptidyl_peptidase_4,0.5238095238095238,inf
-DB08743,"2-({8-[(3R)-3-AMINOPIPERIDIN-1-YL]-1,3-DIMETHYL-2,6-DIOXO-1,2,3,6-TETRAHYDRO-7H-PURIN-7-YL}METHYL)BENZONITRILE",C0011860,"Diabetes Mellitus, Non-Insulin-Dependent",TARGET_Dipeptidyl_peptidase_4,0.5238095238095238,inf
-DB08672,4-[(3R)-3-{[2-(4-FLUOROPHENYL)-2-OXOETHYL]AMINO}BUTYL]BENZAMIDE,C0011860,"Diabetes Mellitus, Non-Insulin-Dependent",TARGET_Dipeptidyl_peptidase_4,0.5238095238095238,inf
-DB08588,2-({2-[(3R)-3-AMINOPIPERIDIN-1-YL]-4-OXOQUINAZOLIN-3(4H)-YL}METHYL)BENZONITRILE,C0011860,"Diabetes Mellitus, Non-Insulin-Dependent",TARGET_Dipeptidyl_peptidase_4,0.5238095238095238,inf
-DB01076,Atorvastatin,C0011860,"Diabetes Mellitus, Non-Insulin-Dependent",TARGET_Dipeptidyl_peptidase_4,0.5238095238095238,inf
-DB01884,2-Amino-3-Methyl-1-Pyrrolidin-1-Yl-Butan-1-One,C0011860,"Diabetes Mellitus, Non-Insulin-Dependent",TARGET_Dipeptidyl_peptidase_4,0.5238095238095238,inf
-DB07072,"(1S,2R,5S)-5-[3-(TRIFLUOROMETHYL)-5,6-DIHYDRO[1,2,4]TRIAZOLO[4,3-A]PYRAZIN-7(8H)-YL]-2-(2,4,5-TRIFLUOROPHENYL)CYCLOHEXANAMINE",C0011860,"Diabetes Mellitus, Non-Insulin-Dependent",TARGET_Dipeptidyl_peptidase_4,0.5238095238095238,inf
-DB07067,"(2S,3S)-3-{3-[4-(METHYLSULFONYL)PHENYL]-1,2,4-OXADIAZOL-5-YL}-1-OXO-1-PYRROLIDIN-1-YLBUTAN-2-AMINE",C0011860,"Diabetes Mellitus, Non-Insulin-Dependent",TARGET_Dipeptidyl_peptidase_4,0.5238095238095238,inf
-DB02004,"5-(Aminomethyl)-6-(2,4-Dichlorophenyl)-2-(3,5-Dimethoxyphenyl)Pyrimidin-4-Amine",C0011860,"Diabetes Mellitus, Non-Insulin-Dependent",TARGET_Dipeptidyl_peptidase_4,0.5238095238095238,inf
-DB07830,"(4R,5R)-5-AMINO-1-[2-(1,3-BENZODIOXOL-5-YL)ETHYL]-4-(2,4,5-TRIFLUOROPHENYL)PIPERIDIN-2-ONE",C0011860,"Diabetes Mellitus, Non-Insulin-Dependent",TARGET_Dipeptidyl_peptidase_4,0.5238095238095238,inf
-DB03253,(2s)-Pyrrolidin-2-Ylmethylamine,C0011860,"Diabetes Mellitus, Non-Insulin-Dependent",TARGET_Dipeptidyl_peptidase_4,0.5238095238095238,inf
-DB03660,4-Iodo-L-phenylalanine,C0011860,"Diabetes Mellitus, Non-Insulin-Dependent",TARGET_Dipeptidyl_peptidase_4,0.5238095238095238,inf
-DB00562,Benzthiazide,C0020538,Hypertensive disease,TARGET_Solute_carrier_family_12_member_3,0.5,inf
-DB21364,Alacepril,C0020538,Hypertensive disease,TARGET_Angiotensin-converting_enzyme,0.48837209302325585,inf
-DB01089,Deserpidine,C0020538,Hypertensive disease,TARGET_Angiotensin-converting_enzyme,0.48837209302325585,inf
-DB00886,Omapatrilat,C0020538,Hypertensive disease,TARGET_Angiotensin-converting_enzyme,0.48837209302325585,inf
-DB00616,Candoxatril,C0020538,Hypertensive disease,TARGET_Angiotensin-converting_enzyme,0.48837209302325585,inf
-DB06604,Ilepatril,C0020538,Hypertensive disease,TARGET_Angiotensin-converting_enzyme,0.48837209302325585,inf
-DB20306,Utibapril,C0020538,Hypertensive disease,TARGET_Angiotensin-converting_enzyme,0.48837209302325585,inf
-DB19598,Idrapril,C0020538,Hypertensive disease,TARGET_Angiotensin-converting_enzyme,0.48837209302325585,inf
-DB02032,Epicaptopril,C0020538,Hypertensive disease,TARGET_Angiotensin-converting_enzyme,0.48837209302325585,inf
-DB01180,Rescinnamine,C0020538,Hypertensive disease,TARGET_Angiotensin-converting_enzyme,0.48837209302325585,inf
-DB03740,N-acetyl-alpha-D-glucosamine,C0020538,Hypertensive disease,TARGET_Angiotensin-converting_enzyme,0.48837209302325585,inf
-DB04286,beta-D-Ribopyranose,C0020538,Hypertensive disease,TARGET_Angiotensin-converting_enzyme,0.48837209302325585,inf
-DB12665,Isoquercetin,C0020538,Hypertensive disease,TARGET_Angiotensin-converting_enzyme,0.48837209302325585,inf
-DB12923,Gallopamil,C0020538,Hypertensive disease,TARGET_Angiotensin-converting_enzyme,0.48837209302325585,inf
-DB14511,Acetate,C0020538,Hypertensive disease,TARGET_Angiotensin-converting_enzyme,0.48837209302325585,inf
-DB04855,Dronedarone,C0020538,Hypertensive disease,TARGET_Voltage-dependent_L-type_calcium_channel_subunit_beta-2,0.4615384615384615,inf
-DB01054,Nitrendipine,C0020538,Hypertensive disease,TARGET_Voltage-dependent_L-type_calcium_channel_subunit_beta-2,0.4615384615384615,inf
-DB00393,Nimodipine,C0020538,Hypertensive disease,TARGET_Voltage-dependent_L-type_calcium_channel_subunit_beta-2,0.4615384615384615,inf
-DB06712,Nilvadipine,C0020538,Hypertensive disease,TARGET_Voltage-dependent_L-type_calcium_channel_subunit_beta-2,0.4615384615384615,inf
-DB09090,Pinaverium,C0020538,Hypertensive disease,TARGET_Voltage-dependent_L-type_calcium_channel_subunit_alpha-1S,0.4375,inf
-DB00308,Ibutilide,C0020538,Hypertensive disease,"TARGET_Voltage-dependent_L-type_calcium_channel_subunit_alpha-1C, TARGET_Voltage-dependent_calcium_channel_subunit_alpha-2/delta-1",0.42857142857142855,inf
-DB15048,Licogliflozin,C0011860,"Diabetes Mellitus, Non-Insulin-Dependent",TARGET_Sodium/glucose_cotransporter_2,0.41666666666666663,inf
-DB15335,Formononetin,C0011860,"Diabetes Mellitus, Non-Insulin-Dependent",TARGET_Sodium/glucose_cotransporter_2,0.41666666666666663,inf
-DB19942,Sergliflozin etabonate,C0011860,"Diabetes Mellitus, Non-Insulin-Dependent",TARGET_Sodium/glucose_cotransporter_2,0.41666666666666663,inf
-DB12935,Remogliflozin etabonate,C0011860,"Diabetes Mellitus, Non-Insulin-Dependent",TARGET_Sodium/glucose_cotransporter_2,0.41666666666666663,inf
-DB12236,Bexagliflozin,C0011860,"Diabetes Mellitus, Non-Insulin-Dependent",TARGET_Sodium/glucose_cotransporter_2,0.41666666666666663,inf
-DB12713,Sotagliflozin,C0011860,"Diabetes Mellitus, Non-Insulin-Dependent",TARGET_Sodium/glucose_cotransporter_2,0.41666666666666663,inf
-DB09227,Barnidipine,C0020538,Hypertensive disease,"TARGET_Voltage-dependent_L-type_calcium_channel_subunit_alpha-1C, TARGET_Voltage-dependent_T-type_calcium_channel_subunit_alpha-1H",0.411764705882353,inf
-DB00898,Ethanol,C0020538,Hypertensive disease,TARGET_Voltage-dependent_L-type_calcium_channel_subunit_alpha-1D,0.3888888888888889,inf
-DB09238,Manidipine,C0020538,Hypertensive disease,TARGET_Voltage-dependent_L-type_calcium_channel_subunit_alpha-1D,0.3888888888888889,inf
-DB21032,Sipatrigine,C0020538,Hypertensive disease,TARGET_Voltage-dependent_L-type_calcium_channel_subunit_alpha-1D,0.3888888888888889,inf
-DB09237,Levamlodipine,C0020538,Hypertensive disease,TARGET_Voltage-dependent_L-type_calcium_channel_subunit_alpha-1D,0.3888888888888889,inf
-DB00568,Cinnarizine,C0020538,Hypertensive disease,TARGET_Voltage-dependent_L-type_calcium_channel_subunit_alpha-1D,0.3888888888888889,inf
-DB00171,ATP,C0011860,"Diabetes Mellitus, Non-Insulin-Dependent",TARGET_ATP-binding_cassette_sub-family_C_member_8,0.3846153846153846,inf
-DB21402,Tifenazoxide,C0011860,"Diabetes Mellitus, Non-Insulin-Dependent",TARGET_ATP-binding_cassette_sub-family_C_member_8,0.3846153846153846,inf
-DB00534,Chlormerodrin,C0020538,Hypertensive disease,TARGET_Solute_carrier_family_12_member_1,0.36363636363636365,inf
-DB00887,Bumetanide,C0020538,Hypertensive disease,TARGET_Solute_carrier_family_12_member_1,0.36363636363636365,inf
-DB00903,Etacrynic acid,C0020538,Hypertensive disease,TARGET_Solute_carrier_family_12_member_1,0.36363636363636365,inf
-DB02860,Calyculin A,C0020538,Hypertensive disease,TARGET_Solute_carrier_family_12_member_1,0.36363636363636365,inf
-DB04630,Aldosterone,C0020538,Hypertensive disease,TARGET_Solute_carrier_family_12_member_1,0.36363636363636365,inf
-DB00761,Potassium chloride,C0020538,Hypertensive disease,TARGET_Solute_carrier_family_12_member_1,0.36363636363636365,inf
-DB00436,Bendroflumethiazide,C0013604,Edema,TARGET_Solute_carrier_family_12_member_1,0.36363636363636365,inf
-DB00534,Chlormerodrin,C0013604,Edema,TARGET_Solute_carrier_family_12_member_1,0.36363636363636365,inf
-DB01021,Trichlormethiazide,C0013604,Edema,TARGET_Solute_carrier_family_12_member_1,0.36363636363636365,inf
-DB00761,Potassium chloride,C0013604,Edema,TARGET_Solute_carrier_family_12_member_1,0.36363636363636365,inf
-DB01325,Quinethazone,C0013604,Edema,TARGET_Solute_carrier_family_12_member_1,0.36363636363636365,inf
-DB04630,Aldosterone,C0013604,Edema,TARGET_Solute_carrier_family_12_member_1,0.36363636363636365,inf
-DB02860,Calyculin A,C0013604,Edema,TARGET_Solute_carrier_family_12_member_1,0.36363636363636365,inf
-DB00012,Darbepoetin alfa,C1561828,Anemia in chronic kidney disease,TARGET_Erythropoietin_receptor,0.35714285714285715,inf
-DB00678,Losartan,C1561828,Anemia in chronic kidney disease,TARGET_Erythropoietin_receptor,0.35714285714285715,inf
-DB13006,Cibinetide,C1561828,Anemia in chronic kidney disease,TARGET_Erythropoietin_receptor,0.35714285714285715,inf
-DB07637,Dibromotyrosine,C1561828,Anemia in chronic kidney disease,TARGET_Erythropoietin_receptor,0.35714285714285715,inf
-DB00777,Propiomazine,C0011581,Depressive disorder,"TARGET_Muscarinic_acetylcholine_receptor, TARGET_5-hydroxytryptamine_receptor_2A",0.35714285714285715,inf
-DB09194,Etoperidone,C0011581,Depressive disorder,"TARGET_Muscarinic_acetylcholine_receptor, TARGET_5-hydroxytryptamine_receptor_2A",0.35714285714285715,inf
-DB00710,Ibandronate,C0029401,Osteitis Deformans,TARGET_Hydroxylapatite,0.35294117647058826,inf
-DB00720,Clodronic acid,C0029401,Osteitis Deformans,TARGET_Hydroxylapatite,0.35294117647058826,inf
+﻿DrugBank_ID,Drug_Name,Predicted_Disease_ID,Predicted_Disease_Name,Matched_Targets,Bridging_Genes,Rule_Confidence,Rule_Growth_Rate
+DB12470,Dexelvucitabine,C0019693,HIV Infections,TARGET_Reverse_transcriptase/RNaseH,无直接重合(间接机制),0.7916666666666666,9.843578546635314
+DB12753,Racivir,C0019693,HIV Infections,TARGET_Reverse_transcriptase/RNaseH,无直接重合(间接机制),0.7916666666666666,9.843578546635314
+DB07935,"5-[(5-fluoro-3-methyl-1H-indazol-4-yl)oxy]benzene-1,3-dicarbonitrile",C0019693,HIV Infections,TARGET_Reverse_transcriptase/RNaseH,无直接重合(间接机制),0.7916666666666666,9.843578546635314
+DB11365,Sennosides,C0019693,HIV Infections,TARGET_Reverse_transcriptase/RNaseH,AQP3,0.7916666666666666,9.843578546635314
+DB01824,"(3S)-Tetrahydro-3-furanyl {(2S,3S)-4-[(2S,4R)-4-{(1S,2R)-2-[(S)-amino(hydroxy)methoxy]-2,3-dihydro-1H-inden-1-yl}-2-benzyl-3-oxo-2-pyrrolidinyl]-3-hydroxy-1-phenyl-2-butanyl}carbamate",C0019693,HIV Infections,TARGET_Gag-Pol_polyprotein,无直接重合(间接机制),0.7441860465116279,16.578658604859477
+DB01887,"N,N-[2,5-O-Dibenzyl-glucaryl]-DI-[1-amino-indan-2-OL]",C0019693,HIV Infections,TARGET_Gag-Pol_polyprotein,无直接重合(间接机制),0.7441860465116279,16.578658604859477
+DB01732,"(4R,5S,6S,7R)-1,3-dibenzyl-4,7-bis(phenoxymethyl)-5,6-dihydroxy-1,3 diazepan-2-one",C0019693,HIV Infections,TARGET_Gag-Pol_polyprotein,无直接重合(间接机制),0.7441860465116279,16.578658604859477
+DB01721,"N-[2-hydroxy-1-indanyl]-5-[(2-tertiarybutylaminocarbonyl)-4(benzo[1,3]dioxol-5-ylmethyl)-piperazino]-4-hydroxy-2-(1-phenylethyl)-pentanamide",C0019693,HIV Infections,TARGET_Gag-Pol_polyprotein,无直接重合(间接机制),0.7441860465116279,16.578658604859477
+DB02785,"(2S)-1-[(2S,4R)-4-Benzyl-2-hydroxy-5-{[(1S,2R,5S)-2-hydroxy-5-methylcyclopentyl]amino}-5-oxopentyl]-4-{[6-chloro-5-(4-methyl-1-piperazinyl)-2-pyrazinyl]carbonyl}-N-(2-methyl-2-propanyl)-2-piperazineca rboxamide",C0019693,HIV Infections,TARGET_Gag-Pol_polyprotein,无直接重合(间接机制),0.7441860465116279,16.578658604859477
+DB02768,Tert-Butyloxycarbonyl Group,C0019693,HIV Infections,TARGET_Gag-Pol_polyprotein,无直接重合(间接机制),0.7441860465116279,16.578658604859477
+DB02729,SD146,C0019693,HIV Infections,TARGET_Gag-Pol_polyprotein,无直接重合(间接机制),0.7441860465116279,16.578658604859477
+DB02704,"(2R,3R,4R,5R)-3,4-Dihydroxy-N,N'-bis[(1S,2R)-2-hydroxy-2,3-dihydro-1H-inden-1-yl]-2,5-bis(2-phenylethyl)hexanediamide",C0019693,HIV Infections,TARGET_Gag-Pol_polyprotein,无直接重合(间接机制),0.7441860465116279,16.578658604859477
+DB02702,XV638,C0019693,HIV Infections,TARGET_Gag-Pol_polyprotein,无直接重合(间接机制),0.7441860465116279,16.578658604859477
+DB02683,Inhibitor Bea428,C0019693,HIV Infections,TARGET_Gag-Pol_polyprotein,无直接重合(间接机制),0.7441860465116279,16.578658604859477
+DB02668,JE-2147,C0019693,HIV Infections,TARGET_Gag-Pol_polyprotein,无直接重合(间接机制),0.7441860465116279,16.578658604859477
+DB02629,"N,N-[2,5-O-di-2-fluoro-benzyl-glucaryl]-di-[1-amino-indan-2-ol]",C0019693,HIV Infections,TARGET_Gag-Pol_polyprotein,无直接重合(间接机制),0.7441860465116279,16.578658604859477
+DB02452,Thymidine 5'-triphosphate,C0019693,HIV Infections,TARGET_Gag-Pol_polyprotein,"TK1, TK2",0.7441860465116279,16.578658604859477
+DB02428,Quinaldic Acid,C0019693,HIV Infections,TARGET_Gag-Pol_polyprotein,无直接重合(间接机制),0.7441860465116279,16.578658604859477
+DB01891,Tl-3-093,C0019693,HIV Infections,TARGET_Gag-Pol_polyprotein,无直接重合(间接机制),0.7441860465116279,16.578658604859477
+DB02009,L-756423,C0019693,HIV Infections,TARGET_Gag-Pol_polyprotein,无直接重合(间接机制),0.7441860465116279,16.578658604859477
+DB02033,"N-(3-Cyclopropyl(5,6,7,8,9,10-Hexahydro-2-Oxo-2h-Cycloocta[B]Pyran-3-Yl)Methyl)Phenylbenzensulfonamide",C0019693,HIV Infections,TARGET_Gag-Pol_polyprotein,无直接重合(间接机制),0.7441860465116279,16.578658604859477
+DB02086,"(3,4-Dihydroxy-Phenyl)-Triphenyl-Arsonium",C0019693,HIV Infections,TARGET_Gag-Pol_polyprotein,无直接重合(间接机制),0.7441860465116279,16.578658604859477
+DB02994,Cacodylic acid,C0019693,HIV Infections,TARGET_Gag-Pol_polyprotein,"GNAT1, AKR1B1, NOS3",0.7441860465116279,16.578658604859477
+DB03076,"3-[[(3R,4S,5S,6R)-7-Benzyl-4,5-dihydroxy-1,1-dioxo-3,6-bis(phenoxymethyl)-1,2,7-thiadiazepan-2-yl]methyl]-N-methylbenzamide",C0019693,HIV Infections,TARGET_Gag-Pol_polyprotein,无直接重合(间接机制),0.7441860465116279,16.578658604859477
+DB03118,(2Z)-1-(5-Chloro-1H-indol-3-yl)-3-hydroxy-3-(1H-tetrazol-5-yl)-2-propen-1-one,C0019693,HIV Infections,TARGET_Gag-Pol_polyprotein,无直接重合(间接机制),0.7441860465116279,16.578658604859477
+DB03141,"3-{[(5R,6R)-5-Benzyl-6-hydroxy-2,4-bis(4-hydroxybenzyl)-3-oxo-1,2,4-triazepan-1-yl]sulfonyl}benzonitril",C0019693,HIV Infections,TARGET_Gag-Pol_polyprotein,无直接重合(间接机制),0.7441860465116279,16.578658604859477
+DB03676,Cystein-S-Yl Cacodylate,C0019693,HIV Infections,TARGET_Gag-Pol_polyprotein,无直接重合(间接机制),0.7441860465116279,16.578658604859477
+DB03768,"N-[2-Hydroxy-2-(8-Isopropyl-6,9-Dioxo-2-Oxa-7,10-Diaza-Bicyclo[11.2.2]Heptadeca-1(16),13(17),14-Trien-11-Yl)-Ethyl]-N-(3-Methyl-Butyl)-Benzenesulfonamide,Inhibitor 3",C0019693,HIV Infections,TARGET_Gag-Pol_polyprotein,无直接重合(间接机制),0.7441860465116279,16.578658604859477
+DB03803,"N,N-[2,5-O-dibenzyl-glucaryl]-DI-[valinyl-aminomethanyl-pyridine]",C0019693,HIV Infections,TARGET_Gag-Pol_polyprotein,无直接重合(间接机制),0.7441860465116279,16.578658604859477
+DB03908,"N,N-[2,5-O-[Dibenzyl]-glucaryl]-DI-[isoleucyl-amido-methane]",C0019693,HIV Infections,TARGET_Gag-Pol_polyprotein,无直接重合(间接机制),0.7441860465116279,16.578658604859477
+DB03963,S-(Dimethylarsenic)Cysteine,C0019693,HIV Infections,TARGET_Gag-Pol_polyprotein,"MSRA, COPG1, NOS3, TLR2, XRCC4",0.7441860465116279,16.578658604859477
+DB04042,"2-[4-(Hydroxy-Methoxy-Methyl)-Benzyl]-7-(4-Hydroxymethyl-Benzyl)-1,1-Dioxo-3,6-Bis-Phenoxymethyl-1lambda6-[1,2,7]Thiadiazepane-4,5-Diol",C0019693,HIV Infections,TARGET_Gag-Pol_polyprotein,无直接重合(间接机制),0.7441860465116279,16.578658604859477
+DB04190,"2,5-dibenzyloxy-3-hydroxy-hexanedioic acid bis-[(2-hydroxy-indan-1-yl)-amide]",C0019693,HIV Infections,TARGET_Gag-Pol_polyprotein,无直接重合(间接机制),0.7441860465116279,16.578658604859477
+DB04191,Skf 107457,C0019693,HIV Infections,TARGET_Gag-Pol_polyprotein,无直接重合(间接机制),0.7441860465116279,16.578658604859477
+DB04255,Inhibitor BEA388,C0019693,HIV Infections,TARGET_Gag-Pol_polyprotein,无直接重合(间接机制),0.7441860465116279,16.578658604859477
+DB04353,"Tert-butyl N-[(2S,5R)-6-[[(2S)-5-amino-1-[[(2S)-1-amino-1-oxo-3-phenylpropan-2-yl]amino]-1,5-dioxopentan-2-yl]amino]-5-benzyl-3,6-dioxo-1-phenylhexan-2-yl]carbamate",C0019693,HIV Infections,TARGET_Gag-Pol_polyprotein,无直接重合(间接机制),0.7441860465116279,16.578658604859477
+DB02804,A-98881,C0019693,HIV Infections,TARGET_Gag-Pol_polyprotein,无直接重合(间接机制),0.7441860465116279,16.578658604859477
+DB02972,1-Benzyl-(R)-Propylamine,C0019693,HIV Infections,TARGET_Gag-Pol_polyprotein,无直接重合(间接机制),0.7441860465116279,16.578658604859477
+DB04454,Alpha-Aminobutyric Acid,C0019693,HIV Infections,TARGET_Gag-Pol_polyprotein,"GATM, EGF",0.7441860465116279,16.578658604859477
+DB04490,3-(Mercaptomethylene)Pyridine,C0019693,HIV Infections,TARGET_Gag-Pol_polyprotein,无直接重合(间接机制),0.7441860465116279,16.578658604859477
+DB05328,VGV-1,C0019693,HIV Infections,TARGET_Gag-Pol_polyprotein,无直接重合(间接机制),0.7441860465116279,16.578658604859477
+DB05228,RDEA806,C0019693,HIV Infections,TARGET_Gag-Pol_polyprotein,无直接重合(间接机制),0.7441860465116279,16.578658604859477
+DB06198,Alovudine,C0019693,HIV Infections,TARGET_Gag-Pol_polyprotein,无直接重合(间接机制),0.7441860465116279,16.578658604859477
+DB06166,Fosdevirine,C0019693,HIV Infections,TARGET_Gag-Pol_polyprotein,无直接重合(间接机制),0.7441860465116279,16.578658604859477
+DB05961,PPL-100,C0019693,HIV Infections,TARGET_Gag-Pol_polyprotein,"SERPINA1, SERPINA5, SERPING1",0.7441860465116279,16.578658604859477
+DB05871,UC-781,C0019693,HIV Infections,TARGET_Gag-Pol_polyprotein,无直接重合(间接机制),0.7441860465116279,16.578658604859477
+DB04887,Brecanavir,C0019693,HIV Infections,TARGET_Gag-Pol_polyprotein,无直接重合(间接机制),0.7441860465116279,16.578658604859477
+DB04886,Calanolide A,C0019693,HIV Infections,TARGET_Gag-Pol_polyprotein,无直接重合(间接机制),0.7441860465116279,16.578658604859477
+DB04609,INHIBITOR Q8467 OF DUPONT MERCK,C0019693,HIV Infections,TARGET_Gag-Pol_polyprotein,无直接重合(间接机制),0.7441860465116279,16.578658604859477
+DB04547,Inhibitor BEA409,C0019693,HIV Infections,TARGET_Gag-Pol_polyprotein,无直接重合(间接机制),0.7441860465116279,16.578658604859477
+DB02413,Hydroxyethylcysteine,C0019693,HIV Infections,TARGET_Gag-Pol_polyprotein,无直接重合(间接机制),0.7441860465116279,16.578658604859477
+DB02411,"2-(11-{2-[Benzenesulfonyl-(3-Methyl-Butyl)-Amino]-1-Hydroxy-Ethyl}-6,9-Dioxo-2-Oxa-7,10-Diaza-Bicyclo[11.2.2]Heptadeca-1(16),13(17),14-Trien-8-Yl)-Acetamide, Inhibitor 2",C0019693,HIV Infections,TARGET_Gag-Pol_polyprotein,无直接重合(间接机制),0.7441860465116279,16.578658604859477
+DB02189,"2',3'-Dideoxyadenosine triphosphate",C0019693,HIV Infections,TARGET_Gag-Pol_polyprotein,无直接重合(间接机制),0.7441860465116279,16.578658604859477
+DB02102,Mozenavir,C0019693,HIV Infections,TARGET_Gag-Pol_polyprotein,无直接重合(间接机制),0.7441860465116279,16.578658604859477
+DB08331,"N-1H-imidazol-2-yl-N'-[4-(1H-imidazol-2-ylamino)phenyl]benzene-1,4-diamine",C0019693,HIV Infections,TARGET_Gag-Pol_polyprotein,无直接重合(间接机制),0.7441860465116279,16.578658604859477
+DB08286,1-Naphthoxyacetic acid,C0019693,HIV Infections,TARGET_Gag-Pol_polyprotein,无直接重合(间接机制),0.7441860465116279,16.578658604859477
+DB08284,"O-[2-(1,3-dioxo-1,3-dihydro-2H-isoindol-2-yl)ethyl] (4-iodophenyl)thiocarbamate",C0019693,HIV Infections,TARGET_Gag-Pol_polyprotein,无直接重合(间接机制),0.7441860465116279,16.578658604859477
+DB08282,"O-[2-(1,3-dioxo-1,3-dihydro-2H-isoindol-2-yl)ethyl] (4-chlorophenyl)thiocarbamate",C0019693,HIV Infections,TARGET_Gag-Pol_polyprotein,无直接重合(间接机制),0.7441860465116279,16.578658604859477
+DB08372,1-[2-(4-ETHOXY-3-FLUOROPYRIDIN-2-YL)ETHYL]-3-(5-METHYLPYRIDIN-2-YL)THIOUREA,C0019693,HIV Infections,TARGET_Gag-Pol_polyprotein,无直接重合(间接机制),0.7441860465116279,16.578658604859477
+DB08379,6-(4-chloro-2-fluoro-3-phenoxybenzyl)pyridazin-3(2H)-one,C0019693,HIV Infections,TARGET_Gag-Pol_polyprotein,无直接重合(间接机制),0.7441860465116279,16.578658604859477
+DB08414,PNU-142721,C0019693,HIV Infections,TARGET_Gag-Pol_polyprotein,无直接重合(间接机制),0.7441860465116279,16.578658604859477
+DB08421,PIPERIDINE-2-CARBOXYLIC ACID TERT-BUTYLAMIDE,C0019693,HIV Infections,TARGET_Gag-Pol_polyprotein,无直接重合(间接机制),0.7441860465116279,16.578658604859477
+DB08459,"3-chloro-5-[2-chloro-5-(1H-pyrazolo[3,4-b]pyridin-3-ylmethoxy)phenoxy]benzonitrile",C0019693,HIV Infections,TARGET_Gag-Pol_polyprotein,无直接重合(间接机制),0.7441860465116279,16.578658604859477
+DB08460,MK-4965,C0019693,HIV Infections,TARGET_Gag-Pol_polyprotein,无直接重合(间接机制),0.7441860465116279,16.578658604859477
+DB08474,3-(CARBOXYAMIDE(2-CARBOXYAMIDE-2-TERTBUTYLETHYL))PENTAN,C0019693,HIV Infections,TARGET_Gag-Pol_polyprotein,无直接重合(间接机制),0.7441860465116279,16.578658604859477
+DB08494,"S-{2-[(2-chloro-4-sulfamoylphenyl)amino]-2-oxoethyl} 6-methyl-3,4-dihydroquinoline-1(2H)-carbothioate",C0019693,HIV Infections,TARGET_Gag-Pol_polyprotein,无直接重合(间接机制),0.7441860465116279,16.578658604859477
+DB08428,3(S)-AMINO-4-PHENYL-BUTAN-2(S)-OL,C0019693,HIV Infections,TARGET_Gag-Pol_polyprotein,无直接重合(间接机制),0.7441860465116279,16.578658604859477
+DB08444,"3-[2-bromo-4-(1H-pyrazolo[3,4-c]pyridazin-3-ylmethyl)phenoxy]-5-methylbenzonitrile",C0019693,HIV Infections,TARGET_Gag-Pol_polyprotein,无直接重合(间接机制),0.7441860465116279,16.578658604859477
+DB05398,C31G,C0019693,HIV Infections,TARGET_Gag-Pol_polyprotein,CD9,0.7441860465116279,16.578658604859477
+DB05644,KP-1461,C0019693,HIV Infections,TARGET_Gag-Pol_polyprotein,无直接重合(间接机制),0.7441860465116279,16.578658604859477
+DB06910,"[4-R-(4-ALPHA,6-BETA,7-BETA]-HEXAHYDRO-5,6-DI(HYDROXY)-1,3-DI(ALLYL)-4,7-BISPHENYLMETHYL)-2H-1,3-DIAZEPINONE",C0019693,HIV Infections,TARGET_Gag-Pol_polyprotein,无直接重合(间接机制),0.7441860465116279,16.578658604859477
+DB07018,5-ETHYL-3-[(2-METHOXYETHYL)METHYLAMINO]-6-METHYL-4-(3-METHYLBENZYL)PYRIDIN-2(1H)-ONE,C0019693,HIV Infections,TARGET_Gag-Pol_polyprotein,无直接重合(间接机制),0.7441860465116279,16.578658604859477
+DB07035,"(2E)-3-{3-[(5-ETHYL-3-IODO-6-METHYL-2-OXO-1,2-DIHYDROPYRIDIN-4-YL)OXY]PHENYL}ACRYLONITRILE",C0019693,HIV Infections,TARGET_Gag-Pol_polyprotein,无直接重合(间接机制),0.7441860465116279,16.578658604859477
+DB07184,"6-(cyclohexylsulfanyl)-1-(ethoxymethyl)-5-(1-methylethyl)pyrimidine-2,4(1H,3H)-dione",C0019693,HIV Infections,TARGET_Gag-Pol_polyprotein,无直接重合(间接机制),0.7441860465116279,16.578658604859477
+DB07327,R-95845,C0019693,HIV Infections,TARGET_Gag-Pol_polyprotein,无直接重合(间接机制),0.7441860465116279,16.578658604859477
+DB07332,"ALPHA-(2,6-DICHLOROPHENYL)-ALPHA-(2-ACETYL-5-METHYLANILINO)ACETAMIDE",C0019693,HIV Infections,TARGET_Gag-Pol_polyprotein,无直接重合(间接机制),0.7441860465116279,16.578658604859477
+DB07337,"4-[4-AMINO-6-(5-CHLORO-1H-INDOL-4-YLMETHYL)-[1,3,5]TRIAZIN-2-YLAMINO]-BENZONITRILE",C0019693,HIV Infections,TARGET_Gag-Pol_polyprotein,无直接重合(间接机制),0.7441860465116279,16.578658604859477
+DB07343,"4-[4-AMINO-6-(2,6-DICHLORO-PHENOXY)-[1,3,5]TRIAZIN-2-YLAMINO]-BENZONITRILE",C0019693,HIV Infections,TARGET_Gag-Pol_polyprotein,无直接重合(间接机制),0.7441860465116279,16.578658604859477
+DB07451,1-(5-BROMO-PYRIDIN-2-YL)-3-[2-(6-FLUORO-2-HYDROXY-3-PROPIONYL-PHENYL)-CYCLOPROPYL]-UREA,C0019693,HIV Infections,TARGET_Gag-Pol_polyprotein,无直接重合(间接机制),0.7441860465116279,16.578658604859477
+DB07472,"(R)-(+)9B-(3-METHYL)PHENYL-2,3-DIHYDROTHIAZOLO[2,3-A]ISOINDOL-5(9BH)-ONE",C0019693,HIV Infections,TARGET_Gag-Pol_polyprotein,无直接重合(间接机制),0.7441860465116279,16.578658604859477
+DB07473,"(R)-(+) 5(9BH)-OXO-9B-PHENYL-2,3-DIHYDROTHIAZOLO[2,3-A]ISOINDOL-3-CARBOXYLIC ACID METHYL ESTER",C0019693,HIV Infections,TARGET_Gag-Pol_polyprotein,无直接重合(间接机制),0.7441860465116279,16.578658604859477
+DB07499,"N-(4-{[amino(imino)methyl]amino}butyl)-2,4'-bi-1,3-thiazole-4-carboxamide",C0019693,HIV Infections,TARGET_Gag-Pol_polyprotein,无直接重合(间接机制),0.7441860465116279,16.578658604859477
+DB06236,Elvucitabine,C0019693,HIV Infections,TARGET_Gag-Pol_polyprotein,无直接重合(间接机制),0.7441860465116279,16.578658604859477
+DB06581,Bevirimat,C0019693,HIV Infections,TARGET_Gag-Pol_polyprotein,无直接重合(间接机制),0.7441860465116279,16.578658604859477
+DB06619,Amdoxovir,C0019693,HIV Infections,TARGET_Gag-Pol_polyprotein,无直接重合(间接机制),0.7441860465116279,16.578658604859477
+DB06874,"(6-[4-(AMINOMETHYL)-2,6-DIMETHYLPHENOXY]-2-{[4-(AMINOMETHYL)PHENYL]AMINO}-5-BROMOPYRIMIDIN-4-YL)METHANOL",C0019693,HIV Infections,TARGET_Gag-Pol_polyprotein,无直接重合(间接机制),0.7441860465116279,16.578658604859477
+DB07634,"(2,6-Dimethylphenoxy)acetic acid",C0019693,HIV Infections,TARGET_Gag-Pol_polyprotein,无直接重合(间接机制),0.7441860465116279,16.578658604859477
+DB07679,"(9S,12S)-9-(1-methylethyl)-7,10-dioxo-2-oxa-8,11-diazabicyclo[12.2.2]octadeca-1(16),14,17-triene-12-carboxylic acid",C0019693,HIV Infections,TARGET_Gag-Pol_polyprotein,无直接重合(间接机制),0.7441860465116279,16.578658604859477
+DB07781,N-[[3-FLUORO-4-ETHOXY-PYRID-2-YL]ETHYL]-N'-[5-NITRILOMETHYL-PYRIDYL]-THIOUREA,C0019693,HIV Infections,TARGET_Gag-Pol_polyprotein,无直接重合(间接机制),0.7441860465116279,16.578658604859477
+DB07797,N-[[3-FLUORO-4-ETHOXY-PYRID-2-YL]ETHYL]-N'-[5-CHLORO-PYRIDYL]-THIOUREA,C0019693,HIV Infections,TARGET_Gag-Pol_polyprotein,无直接重合(间接机制),0.7441860465116279,16.578658604859477
+DB07806,"(2R,4S)-2-[(R)-BENZYLCARBAMOYL-PHENYLACETYL-METHYL]-5,5-DIMETHYL-THIAZOLIDINE-4-CARBOXYLIC ACID",C0019693,HIV Infections,TARGET_Gag-Pol_polyprotein,无直接重合(间接机制),0.7441860465116279,16.578658604859477
+DB07820,"6-(3',5'-DIMETHYLBENZYL)-1-ETHOXYMETHYL-5-ISOPROPYLURACIL",C0019693,HIV Infections,TARGET_Gag-Pol_polyprotein,无直接重合(间接机制),0.7441860465116279,16.578658604859477
+DB07826,2-[4-chloro-2-(phenylcarbonyl)phenoxy]-N-phenylacetamide,C0019693,HIV Infections,TARGET_Gag-Pol_polyprotein,无直接重合(间接机制),0.7441860465116279,16.578658604859477
+DB07864,4-[(CYCLOPROPYLETHYNYL)OXY]-6-FLUORO-3-ISOPROPYLQUINOLIN-2(1H)-ONE,C0019693,HIV Infections,TARGET_Gag-Pol_polyprotein,无直接重合(间接机制),0.7441860465116279,16.578658604859477
+DB07867,6-CHLORO-4-(CYCLOHEXYLOXY)-3-PROPYLQUINOLIN-2(1H)-ONE,C0019693,HIV Infections,TARGET_Gag-Pol_polyprotein,无直接重合(间接机制),0.7441860465116279,16.578658604859477
+DB07868,6-CHLORO-4-(CYCLOHEXYLSULFANYL)-3-PROPYLQUINOLIN-2(1H)-ONE,C0019693,HIV Infections,TARGET_Gag-Pol_polyprotein,无直接重合(间接机制),0.7441860465116279,16.578658604859477
+DB07869,6-Chloro-4-[(R)-cyclohexylsulfinyl]-3-propyl-2(1H)-quinolinone,C0019693,HIV Infections,TARGET_Gag-Pol_polyprotein,无直接重合(间接机制),0.7441860465116279,16.578658604859477
+DB07871,6-CHLORO-4-(CYCLOHEXYLOXY)-3-ISOPROPYLQUINOLIN-2(1H)-ONE,C0019693,HIV Infections,TARGET_Gag-Pol_polyprotein,无直接重合(间接机制),0.7441860465116279,16.578658604859477
+DB07884,Opaviraline,C0019693,HIV Infections,TARGET_Gag-Pol_polyprotein,无直接重合(间接机制),0.7441860465116279,16.578658604859477
+DB07885,Talviraline,C0019693,HIV Infections,TARGET_Gag-Pol_polyprotein,无直接重合(间接机制),0.7441860465116279,16.578658604859477
+DB07892,1-(2-HYDROXYETHYLOXYMETHYL)-6-PHENYL THIOTHYMINE,C0019693,HIV Infections,TARGET_Gag-Pol_polyprotein,无直接重合(间接机制),0.7441860465116279,16.578658604859477
+DB07910,"(2S)-2-amino-3-phenylpropane-1,1-diol",C0019693,HIV Infections,TARGET_Gag-Pol_polyprotein,无直接重合(间接机制),0.7441860465116279,16.578658604859477
+DB07961,"1-(4-Cyano-phenyl)-3-[2-(2,6-dichloro-phenyl)-1-imino-ethyl]-thiourea",C0019693,HIV Infections,TARGET_Gag-Pol_polyprotein,无直接重合(间接机制),0.7441860465116279,16.578658604859477
+DB08027,CAP-1,C0019693,HIV Infections,TARGET_Gag-Pol_polyprotein,无直接重合(间接机制),0.7441860465116279,16.578658604859477
+DB08034,"(E)-3,4-DIHYDROXY-N'-[(2-METHOXYNAPHTHALEN-1-YL)METHYLENE]BENZOHYDRAZIDE",C0019693,HIV Infections,TARGET_Gag-Pol_polyprotein,无直接重合(间接机制),0.7441860465116279,16.578658604859477
+DB08041,3-BENZYLOXYCARBONYLAMINO-2-HYDROXY-4-PHENYL-BUTYRIC ACID,C0019693,HIV Infections,TARGET_Gag-Pol_polyprotein,无直接重合(间接机制),0.7441860465116279,16.578658604859477
+DB08115,2-aminoethyl naphthalen-1-ylacetate,C0019693,HIV Infections,TARGET_Gag-Pol_polyprotein,无直接重合(间接机制),0.7441860465116279,16.578658604859477
+DB08154,3-chloro-5-[2-chloro-5-(1H-indazol-3-ylmethoxy)phenoxy]benzonitrile,C0019693,HIV Infections,TARGET_Gag-Pol_polyprotein,无直接重合(间接机制),0.7441860465116279,16.578658604859477
+DB08188,Emivirine,C0019693,HIV Infections,TARGET_Gag-Pol_polyprotein,无直接重合(间接机制),0.7441860465116279,16.578658604859477
+DB08211,5-bromo-3-(pyrrolidin-1-ylsulfonyl)-1H-indole-2-carboxamide,C0019693,HIV Infections,TARGET_Gag-Pol_polyprotein,无直接重合(间接机制),0.7441860465116279,16.578658604859477
+DB08212,1-[2-(3-ACETYL-2-HYDROXY-6-METHOXY-PHENYL)-CYCLOPROPYL]-3-(5-CYANO-PYRIDIN-2-YL)-THIOUREA,C0019693,HIV Infections,TARGET_Gag-Pol_polyprotein,无直接重合(间接机制),0.7441860465116279,16.578658604859477
+DB08231,Myristic acid,C0019693,HIV Infections,TARGET_Gag-Pol_polyprotein,"RCVRN, NCOA1, GUCA1A, ECI2, PPP3CA, PKIA, ARF1, TLR4, CALM1, HNF4A, CALM2, PPP3R1, CALM3, ARF6, INS, PRKACA, PPARA, GM2A, FKBP1A, LY96, PVR, TRAPPC3, ABL1",0.7441860465116279,16.578658604859477
+DB08274,"6,7,8,9-TETRAHYDRO-4-HYDROXY-3-(1-PHENYLPROPYL)CYCLOHEPTA[B]PYRAN-2-ONE",C0019693,HIV Infections,TARGET_Gag-Pol_polyprotein,无直接重合(间接机制),0.7441860465116279,16.578658604859477
+DB08281,"O-[2-(1,3-dioxo-1,3-dihydro-2H-isoindol-2-yl)ethyl] (4-bromophenyl)thiocarbamate",C0019693,HIV Infections,TARGET_Gag-Pol_polyprotein,无直接重合(间接机制),0.7441860465116279,16.578658604859477
+DB07505,"N-({(3R,4R)-4-[(benzyloxy)methyl]pyrrolidin-3-yl}methyl)-N-(2-methylpropyl)benzenesulfonamide",C0019693,HIV Infections,TARGET_Gag-Pol_polyprotein,无直接重合(间接机制),0.7441860465116279,16.578658604859477
+DB07575,"2,4-DIAMINO-1,5-DIPHENYL-3-HYDROXYPENTANE",C0019693,HIV Infections,TARGET_Gag-Pol_polyprotein,无直接重合(间接机制),0.7441860465116279,16.578658604859477
+DB07578,CP-94707,C0019693,HIV Infections,TARGET_Gag-Pol_polyprotein,无直接重合(间接机制),0.7441860465116279,16.578658604859477
+DB07581,5-AMINO-6-CYCLOHEXYL-4-HYDROXY-2-ISOPROPYL-HEXANOIC ACID,C0019693,HIV Infections,TARGET_Gag-Pol_polyprotein,无直接重合(间接机制),0.7441860465116279,16.578658604859477
+DB11751,Cabotegravir,C0019693,HIV Infections,TARGET_Gag-Pol_polyprotein,无直接重合(间接机制),0.7441860465116279,16.578658604859477
+DB11649,Lersivirine,C0019693,HIV Infections,TARGET_Gag-Pol_polyprotein,无直接重合(间接机制),0.7441860465116279,16.578658604859477
+DB11586,Asunaprevir,C0019693,HIV Infections,TARGET_Gag-Pol_polyprotein,无直接重合(间接机制),0.7441860465116279,16.578658604859477
+DB11575,Grazoprevir,C0019693,HIV Infections,TARGET_Gag-Pol_polyprotein,无直接重合(间接机制),0.7441860465116279,16.578658604859477
+DB11779,Danoprevir,C0019693,HIV Infections,TARGET_Gag-Pol_polyprotein,无直接重合(间接机制),0.7441860465116279,16.578658604859477
+DB11808,Faldaprevir,C0019693,HIV Infections,TARGET_Gag-Pol_polyprotein,无直接重合(间接机制),0.7441860465116279,16.578658604859477
+DB11929,Vaniprevir,C0019693,HIV Infections,TARGET_Gag-Pol_polyprotein,无直接重合(间接机制),0.7441860465116279,16.578658604859477
+DB11998,Sorivudine,C0019693,HIV Infections,TARGET_Gag-Pol_polyprotein,无直接重合(间接机制),0.7441860465116279,16.578658604859477
+DB12264,Atevirdine,C0019693,HIV Infections,TARGET_Gag-Pol_polyprotein,无直接重合(间接机制),0.7441860465116279,16.578658604859477
+DB12405,Triciribine,C0019693,HIV Infections,TARGET_Gag-Pol_polyprotein,无直接重合(间接机制),0.7441860465116279,16.578658604859477
+DB12423,Fozivudine Tidoxil,C0019693,HIV Infections,TARGET_Gag-Pol_polyprotein,无直接重合(间接机制),0.7441860465116279,16.578658604859477
+DB12531,Lobucavir,C0019693,HIV Infections,TARGET_Gag-Pol_polyprotein,无直接重合(间接机制),0.7441860465116279,16.578658604859477
+DB12069,Sovaprevir,C0019693,HIV Infections,TARGET_Gag-Pol_polyprotein,无直接重合(间接机制),0.7441860465116279,16.578658604859477
+DB12074,Censavudine,C0019693,HIV Infections,TARGET_Gag-Pol_polyprotein,无直接重合(间接机制),0.7441860465116279,16.578658604859477
+DB08446,"3-[6-bromo-2-fluoro-3-(1H-pyrazolo[3,4-c]pyridazin-3-ylmethyl)phenoxy]-5-chlorobenzonitrile",C0019693,HIV Infections,TARGET_Gag-Pol_polyprotein,无直接重合(间接机制),0.7441860465116279,16.578658604859477
+DB08457,"4-(3,5-DIMETHYLPHENOXY)-5-(FURAN-2-YLMETHYLSULFANYLMETHYL)-3-IODO-6-METHYLPYRIDIN-2(1H)-ONE",C0019693,HIV Infections,TARGET_Gag-Pol_polyprotein,无直接重合(间接机制),0.7441860465116279,16.578658604859477
+DB08622,"4-(4-CHLORO-PHENYL)-1-{3-[2-(4-FLUORO-PHENYL)-[1,3]DITHIOLAN-2-YL]-PROPYL}-PIPERIDIN-4-OL",C0019693,HIV Infections,TARGET_Gag-Pol_polyprotein,无直接重合(间接机制),0.7441860465116279,16.578658604859477
+DB08634,6-BENZYL-1-BENZYLOXYMETHYL-5-ISOPROPYL URACIL,C0019693,HIV Infections,TARGET_Gag-Pol_polyprotein,无直接重合(间接机制),0.7441860465116279,16.578658604859477
+DB08639,Dapivirine,C0019693,HIV Infections,TARGET_Gag-Pol_polyprotein,无直接重合(间接机制),0.7441860465116279,16.578658604859477
+DB08662,3-[1-(4-BROMO-PHENYL)-2-METHYL-PROPYL]-4-HYDROXY-CHROMEN-2-ONE,C0019693,HIV Infections,TARGET_Gag-Pol_polyprotein,无直接重合(间接机制),0.7441860465116279,16.578658604859477
+DB08663,4-HYDROXY-7-METHOXY-3-(1-PHENYL-PROPYL)-CHROMEN-2-ONE,C0019693,HIV Infections,TARGET_Gag-Pol_polyprotein,无直接重合(间接机制),0.7441860465116279,16.578658604859477
+DB08664,({3-[1-(4-Hydroxy-2-oxo-2H-chromen-3-yl)-propyl]-phenylcarbamoyl}-methyl)-carbamic acid tert-butyl ester,C0019693,HIV Infections,TARGET_Gag-Pol_polyprotein,无直接重合(间接机制),0.7441860465116279,16.578658604859477
+DB08665,"6,11-DIHYDRO-11-ETHYL-6-METHYL-9-NITRO-5H-PYRIDO[2,3-B][1,5]BENZODIAZEPIN-5-ONE",C0019693,HIV Infections,TARGET_Gag-Pol_polyprotein,无直接重合(间接机制),0.7441860465116279,16.578658604859477
+DB08680,N-{3-[(E)-(tert-butoxyimino)methyl]-4-chlorophenyl}-2-methylfuran-3-carbimidothioic acid,C0019693,HIV Infections,TARGET_Gag-Pol_polyprotein,无直接重合(间接机制),0.7441860465116279,16.578658604859477
+DB08681,1-METHYL ETHYL 2-CHLORO-5-[[[(1-METHYLETHOXY)THIOOXO]METHYL]AMINO]-BENZOATE,C0019693,HIV Infections,TARGET_Gag-Pol_polyprotein,无直接重合(间接机制),0.7441860465116279,16.578658604859477
+DB08682,"1-METHYL ETHYL 1-CHLORO-5-[[(5,6DIHYDRO-2-METHYL-1,4-OXATHIIN-3-YL)CARBONYL]AMINO]BENZOATE",C0019693,HIV Infections,TARGET_Gag-Pol_polyprotein,无直接重合(间接机制),0.7441860465116279,16.578658604859477
+DB08686,"5,6,7,8,9,10-HEXAHYDRO-4-HYDROXY-3-(1-PHENYLPROPYL)CYCLOOCTA[B]PYRAN-2-ONE",C0019693,HIV Infections,TARGET_Gag-Pol_polyprotein,无直接重合(间接机制),0.7441860465116279,16.578658604859477
+DB09297,Paritaprevir,C0019693,HIV Infections,TARGET_Gag-Pol_polyprotein,无直接重合(间接机制),0.7441860465116279,16.578658604859477
+DB08502,Capravirine,C0019693,HIV Infections,TARGET_Gag-Pol_polyprotein,无直接重合(间接机制),0.7441860465116279,16.578658604859477
+DB08528,"2-AMINO-6-(3,5-DIMETHYLPHENYL)SULFONYLBENZONITRILE",C0019693,HIV Infections,TARGET_Gag-Pol_polyprotein,无直接重合(间接机制),0.7441860465116279,16.578658604859477
+DB08598,R-82913,C0019693,HIV Infections,TARGET_Gag-Pol_polyprotein,无直接重合(间接机制),0.7441860465116279,16.578658604859477
+DB08600,Tivirapine,C0019693,HIV Infections,TARGET_Gag-Pol_polyprotein,无直接重合(间接机制),0.7441860465116279,16.578658604859477
+DB12999,MK-6186,C0019693,HIV Infections,TARGET_Gag-Pol_polyprotein,无直接重合(间接机制),0.7441860465116279,16.578658604859477
+DB12894,Raluridine,C0019693,HIV Infections,TARGET_Gag-Pol_polyprotein,无直接重合(间接机制),0.7441860465116279,16.578658604859477
+DB12876,GS-9256,C0019693,HIV Infections,TARGET_Gag-Pol_polyprotein,无直接重合(间接机制),0.7441860465116279,16.578658604859477
+DB12855,Apricitabine,C0019693,HIV Infections,TARGET_Gag-Pol_polyprotein,无直接重合(间接机制),0.7441860465116279,16.578658604859477
+DB13119,GSK-364735,C0019693,HIV Infections,TARGET_Gag-Pol_polyprotein,"CNR1, CNR2",0.7441860465116279,16.578658604859477
+DB13373,Acriflavine,C0019693,HIV Infections,TARGET_Gag-Pol_polyprotein,无直接重合(间接机制),0.7441860465116279,16.578658604859477
+DB14925,Tenofovir exalidex,C0019693,HIV Infections,TARGET_Gag-Pol_polyprotein,无直接重合(间接机制),0.7441860465116279,16.578658604859477
+DB15623,TMC-310911,C0019693,HIV Infections,TARGET_Gag-Pol_polyprotein,无直接重合(间接机制),0.7441860465116279,16.578658604859477
+DB17759,Navuridine,C0019693,HIV Infections,TARGET_Gag-Pol_polyprotein,无直接重合(间接机制),0.7441860465116279,16.578658604859477
+DB17120,Imifoplatin,C0019693,HIV Infections,TARGET_Gag-Pol_polyprotein,无直接重合(间接机制),0.7441860465116279,16.578658604859477
+DB16032,GW810781,C0019693,HIV Infections,TARGET_Gag-Pol_polyprotein,无直接重合(间接机制),0.7441860465116279,16.578658604859477
+DB15673,Lenacapavir,C0019693,HIV Infections,TARGET_Gag-Pol_polyprotein,无直接重合(间接机制),0.7441860465116279,16.578658604859477
+DB20750,Lexipafant,C0019693,HIV Infections,TARGET_Gag-Pol_polyprotein,PTAFR,0.7441860465116279,16.578658604859477
+DB20083,Palinavir,C0019693,HIV Infections,TARGET_Gag-Pol_polyprotein,无直接重合(间接机制),0.7441860465116279,16.578658604859477
+DB12116,Epigallocatechin gallate,C0019693,HIV Infections,TARGET_Gag-Pol_polyprotein,"TGM2, MMP2, FASN, DHFR2, SQLE, MMP14, ELANE, AHR, DNMT1, STAT3",0.7441860465116279,16.578658604859477
+DB12178,Telinavir,C0019693,HIV Infections,TARGET_Gag-Pol_polyprotein,无直接重合(间接机制),0.7441860465116279,16.578658604859477
+DB19860,Lodenosine,C0019693,HIV Infections,TARGET_Gag-Pol_polyprotein,无直接重合(间接机制),0.7441860465116279,16.578658604859477
+DB19546,Lasinavir,C0019693,HIV Infections,TARGET_Gag-Pol_polyprotein,无直接重合(间接机制),0.7441860465116279,16.578658604859477
+DB21364,Alacepril,C0020538,Hypertensive disease,TARGET_Angiotensin-converting_enzyme,无直接重合(间接机制),0.48837209302325585,inf
+DB20306,Utibapril,C0020538,Hypertensive disease,TARGET_Angiotensin-converting_enzyme,无直接重合(间接机制),0.48837209302325585,inf
+DB00886,Omapatrilat,C0020538,Hypertensive disease,TARGET_Angiotensin-converting_enzyme,无直接重合(间接机制),0.48837209302325585,inf
+DB00616,Candoxatril,C0020538,Hypertensive disease,TARGET_Angiotensin-converting_enzyme,无直接重合(间接机制),0.48837209302325585,inf
+DB03740,N-acetyl-alpha-D-glucosamine,C0020538,Hypertensive disease,TARGET_Angiotensin-converting_enzyme,无直接重合(间接机制),0.48837209302325585,inf
+DB02032,Epicaptopril,C0020538,Hypertensive disease,TARGET_Angiotensin-converting_enzyme,无直接重合(间接机制),0.48837209302325585,inf
+DB12923,Gallopamil,C0020538,Hypertensive disease,TARGET_Angiotensin-converting_enzyme,无直接重合(间接机制),0.48837209302325585,inf
+DB12665,Isoquercetin,C0020538,Hypertensive disease,TARGET_Angiotensin-converting_enzyme,无直接重合(间接机制),0.48837209302325585,inf
+DB19598,Idrapril,C0020538,Hypertensive disease,TARGET_Angiotensin-converting_enzyme,无直接重合(间接机制),0.48837209302325585,inf
+DB14511,Acetate,C0020538,Hypertensive disease,TARGET_Angiotensin-converting_enzyme,无直接重合(间接机制),0.48837209302325585,inf
+DB06604,Ilepatril,C0020538,Hypertensive disease,TARGET_Angiotensin-converting_enzyme,无直接重合(间接机制),0.48837209302325585,inf
+DB04286,beta-D-Ribopyranose,C0020538,Hypertensive disease,TARGET_Angiotensin-converting_enzyme,无直接重合(间接机制),0.48837209302325585,inf
+DB01180,Rescinnamine,C0020538,Hypertensive disease,TARGET_Angiotensin-converting_enzyme,无直接重合(间接机制),0.48837209302325585,inf
+DB01089,Deserpidine,C0020538,Hypertensive disease,TARGET_Angiotensin-converting_enzyme,无直接重合(间接机制),0.48837209302325585,inf

@@ -4,8 +4,6 @@ import sys
 import pandas as pd
 
 project_root = os.path.dirname(os.path.dirname(os.path.abspath(__file__)))
-os.chdir(project_root)
-
 sys.path.append(os.path.dirname(os.path.abspath(__file__)))
 
 from data_parser import DataParser
@@ -23,14 +21,12 @@ def main():
 
     print("\n--- [Phase 1: 异构数据流式加载] ---")
     drug_metadata = parser.parse_drugbank_metadata()
-    # 【改动】接收双返回值
     disease_to_genes, ctd_disease_names = parser.parse_ctd_genes_diseases()
 
     print("\n--- [Phase 2: 加载全量临床数据 & 构建对比集] ---")
     repodb_path = os.path.join(project_root, "data", "repoDB_full.csv")
     repodb_df = pd.read_csv(repodb_path)
 
-    # 利用 repoDB 建立备用的名称映射，防止有些疾病/药物在 CTD 或 DrugBank 中名字解析失败
     repodb_drug_names = dict(zip(repodb_df['drugbank_id'], repodb_df['drug_name']))
     repodb_disease_names = dict(zip(repodb_df['ind_id'], repodb_df['ind_name']))
 
@@ -39,7 +35,6 @@ def main():
     print(f"[数据] 成功(Approved)记录: {len(df_approved)} 条")
     print(f"[数据] 失败(Terminated/Withdrawn等)记录: {len(df_failed)} 条")
 
-    # === 定义名称转化辅助函数 ===
     def get_drug_name(db_id):
         clean_id = str(db_id).replace("DRUG_", "")
         if clean_id in drug_metadata:
@@ -59,10 +54,10 @@ def main():
             return f"【{get_disease_name(item_str)}】"
         elif item_str.startswith("DRUG_"):
             return f"【{get_drug_name(item_str)}】"
-        return item_str  # 靶点基因等保留原样
+        return item_str
 
     print("\n--- [Phase 3: 对比事务映射构建] ---")
-    builder = TransactionBuilder(drug_metadata, disease_to_genes)
+    builder = TransactionBuilder(drug_metadata)
     print("[构建 Approved 事务集]")
     trans_approved = builder.build_transactions(df_approved)
     print("[构建 Failed 事务集]")
@@ -71,10 +66,13 @@ def main():
     trans_failed_sets = [set(t) for t in trans_failed]
 
     print("\n--- [Phase 4: 对比模式挖掘] ---")
+
+    # min_support=0.0014: 完美平衡点。既能挖出高阶多靶点组合，又把项集总数卡在物理内存安全线内。
+    # min_confidence=0.25: 允许部分具有潜力的弱广义关联进入筛选池。
     rules_df = miner.mine_rules(
         transactions=trans_approved,
-        min_support=0.0005,
-        min_confidence=0.35
+        min_support=0.0016,
+        min_confidence=0.25
     )
 
     if rules_df is not None:
@@ -84,7 +82,7 @@ def main():
         failed_count = len(trans_failed_sets)
 
         for _, row in rules_df.iterrows():
-            rule_items = set(row['antecedents']).union(set(row['consequents']))
+            rule_items = row['antecedents'] | row['consequents']
             match_count = sum(1 for t in trans_failed_sets if rule_items.issubset(t))
             supp_failed = match_count / failed_count if failed_count > 0 else 0
             support_failed_list.append(supp_failed)
@@ -103,7 +101,6 @@ def main():
 
         print("\n🏆 Top 10 高特异性关联规则 (Emerging Patterns):")
         for idx, row in high_value_rules.head(10).iterrows():
-            # 使用格式化函数将 ID 替换为名称
             antecedents = ", ".join([format_item(x) for x in row['antecedents']])
             consequents = ", ".join([format_item(x) for x in row['consequents']])
             gr_display = "∞ (纯正向)" if row['growth_rate'] == float('inf') else f"{row['growth_rate']:.2f}"
@@ -117,34 +114,40 @@ def main():
         discovery_results = []
 
         for _, rule in high_value_rules.iterrows():
-            # 1. 拆分提取不同维度的特征
-            rule_items = set(rule['antecedents']).union(set(rule['consequents']))
-
             antecedents_targets = set([x for x in rule['antecedents'] if str(x).startswith('TARGET_')])
             consequents_diseases = set([x for x in rule['consequents'] if str(x).startswith('DISEASE_')])
-
-            # 新增：把规则中涉及到的基因桥梁提取出来
-            involved_genes = set([x for x in rule_items if str(x).startswith('GENE_')])
 
             if not antecedents_targets or not consequents_diseases:
                 continue
 
             target_disease_id = list(consequents_diseases)[0].replace("DISEASE_", "")
+            disease_name = get_disease_name(target_disease_id)
+
+            ctd_query_id = target_disease_id if str(target_disease_id).startswith(
+                "MESH:") else f"MESH:{target_disease_id}"
+            disease_genes_raw = disease_to_genes.get(ctd_query_id, [])
+
+            if not disease_genes_raw:
+                disease_genes_raw = disease_to_genes.get(str(disease_name).lower(), [])
+
+            disease_gene_bases = {str(g).replace("GENE_", "").upper() for g in disease_genes_raw}
 
             for db_id, info in drug_metadata.items():
                 drug_features = set(info.get("features", []))
+                drug_genes = info.get("genes", [])
 
-                # 2. 药物依然只需要满足 Target 匹配即可
                 if antecedents_targets.issubset(drug_features):
                     if (db_id, target_disease_id) not in known_pairs:
+                        bridge_genes = drug_genes.intersection(disease_gene_bases)
+                        bridge_display = ", ".join(bridge_genes) if bridge_genes else "无直接重合(间接机制)"
+
                         discovery_results.append({
                             "DrugBank_ID": db_id,
                             "Drug_Name": info.get("name", db_id),
                             "Predicted_Disease_ID": target_disease_id,
-                            "Predicted_Disease_Name": get_disease_name(target_disease_id),
+                            "Predicted_Disease_Name": disease_name,
                             "Matched_Targets": ", ".join(antecedents_targets),
-                            # 新增：将基因存入结果中
-                            "Bridging_Genes": ", ".join(involved_genes) if involved_genes else "无",
+                            "Bridging_Genes": bridge_display,
                             "Rule_Confidence": rule['confidence'],
                             "Rule_Growth_Rate": rule['growth_rate']
                         })
@@ -157,46 +160,36 @@ def main():
 
             print(f"🚀 系统成功挖掘出 {len(discovery_df)} 条全新潜在重定位关联！")
 
-            # === 常规输出 Top 15（可能会出现扎堆现象） ===
             print("🌟 Top 15 新药重定位候选推荐 (按置信度排序):")
             top_15_df = discovery_df.head(15)
-            # ... 找到打印输出的代码段并修改 ...
             for idx, row in top_15_df.iterrows():
                 gr_str = "∞" if row['Rule_Growth_Rate'] == float('inf') else f"{row['Rule_Growth_Rate']:.2f}"
                 print(f"   💊 药物: {row['Drug_Name']} -> 🎯 预测主治: {row['Predicted_Disease_Name']}")
-                # 新增显示关联基因
                 print(
-                    f"      (靶向机制: {row['Matched_Targets']} | 关联基因: {row['Bridging_Genes']} | 置信度: {row['Rule_Confidence']:.4f} | 特异性: {gr_str})")
+                    f"      (靶向机制: {row['Matched_Targets']}\n       关联基因: {row['Bridging_Genes']} | 置信度: {row['Rule_Confidence']:.4f} | 特异性: {gr_str})")
 
-            # === 输出多样性、不重复的长尾候选 ===
             print("\n🌈 更多长尾/多样的重定位候选 (消除头部霸屏，展示不同病种):")
-
-            # 记录在头部 15 名里已经展示过的疾病，防止它们再次霸榜
             displayed_diseases = set(top_15_df['Predicted_Disease_ID'])
             seen_diverse_diseases = set()
             diverse_count = 0
 
-            # 从第 16 名之后的数据中开始过滤
             for idx, row in discovery_df.iloc[15:].iterrows():
                 dis_id = row['Predicted_Disease_ID']
 
-                # 如果这个病既没有出现在 Top 15，也没有出现在刚才的 Diverse 列表里，我们就展示它！
                 if dis_id not in displayed_diseases and dis_id not in seen_diverse_diseases:
                     gr_str = "∞" if row['Rule_Growth_Rate'] == float('inf') else f"{row['Rule_Growth_Rate']:.2f}"
                     print(f"   💊 药物: {row['Drug_Name']} -> 🎯 预测主治: {row['Predicted_Disease_Name']}")
                     print(
-                        f"      (命中靶向机制: {row['Matched_Targets']} | 规则置信度: {row['Rule_Confidence']:.4f} | 特异性: {gr_str})")
+                        f"      (靶向机制: {row['Matched_Targets']}\n       关联基因: {row['Bridging_Genes']} | 置信度: {row['Rule_Confidence']:.4f} | 特异性: {gr_str})")
 
-                    seen_diverse_diseases.add(dis_id)  # 标记为已展示，确保下一条是另一种疾病
+                    seen_diverse_diseases.add(dis_id)
                     diverse_count += 1
-
-                    # 额外展示 15 条不同的全新组合即可
                     if diverse_count >= 15:
                         break
 
-            # 最终统一保存，以备未来之用。
+            # 添加 encoding='utf-8-sig'，彻底解决 Excel 打开新药发现清单乱码的问题
             discovery_path = os.path.join(project_root, "output", "new_drug_discoveries.csv")
-            discovery_df.to_csv(discovery_path, index=False)
+            discovery_df.to_csv(discovery_path, index=False, encoding='utf-8-sig')
             print(f"\n✅ 完整的新药重定位候选清单已保存至: {discovery_path}")
         else:
             print("目前高特异性规则暂未在现有数据库中匹配到全新未知的组合。")
