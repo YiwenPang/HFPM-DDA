@@ -96,75 +96,69 @@ python main.py
 
 ```text
 🏆 Top 10 高特异性关联规则 (Emerging Patterns):
-   前件: TARGET_Coagulation_factor_IX -> 后件: TARGET_Coagulation_factor_X, 【Hemophilia A】
-       (Support: 0.0007, Confidence: 0.7500, Lift: 956.89, GrowthRate: ∞ (纯正向))
-   前件: TARGET_Spike_glycoprotein -> 后件: 【COVID19 (disease)】
-       (Support: 0.0009, Confidence: 1.0000, Lift: 744.25, GrowthRate: ∞ (纯正向))
-   前件: TARGET_Coagulation_factor_X, TARGET_Coagulation_factor_IX -> 后件: 【Hemophilia A】
-       (Support: 0.0007, Confidence: 0.7500, Lift: 608.93, GrowthRate: ∞ (纯正向))
-   前件: TARGET_Coagulation_factor_IX -> 后件: 【Hemophilia A】
-       (Support: 0.0007, Confidence: 0.7500, Lift: 608.93, GrowthRate: ∞ (纯正向))
-   前件: TARGET_Protein_P -> 后件: 【Hepatitis B, Chronic】
-       (Support: 0.0007, Confidence: 0.7500, Lift: 558.19, GrowthRate: ∞ (纯正向))
-   前件: TARGET_von_Willebrand_factor -> 后件: 【Hemophilia A】
-       (Support: 0.0007, Confidence: 0.6667, Lift: 541.27, GrowthRate: ∞ (纯正向))
-   前件: TARGET_ATP-sensitive_inward_rectifier_potassium_channel_10 -> 后件: TARGET_ATP-binding_cassette_sub-family_C_member_8, 【Diabetes Mellitus, Non-Insulin-Dependent】
-       (Support: 0.0006, Confidence: 0.7143, Lift: 531.61, GrowthRate: ∞ (纯正向))
-   前件: TARGET_Voltage-dependent_L-type_calcium_channel_subunit_beta-2 -> 后件: 【Hypertensive disease】, TARGET_Voltage-dependent_L-type_calcium_channel_subunit_alpha-1D
-       (Support: 0.0007, Confidence: 0.4615, Lift: 515.25, GrowthRate: ∞ (纯正向))
-   前件: TARGET_Voltage-dependent_L-type_calcium_channel_subunit_alpha-1D -> 后件: 【Hypertensive disease】, TARGET_Voltage-dependent_L-type_calcium_channel_subunit_alpha-1S
-       (Support: 0.0008, Confidence: 0.3889, Lift: 496.17, GrowthRate: ∞ (纯正向))
-   前件: TARGET_Voltage-dependent_L-type_calcium_channel_subunit_beta-2 -> 后件: 【Hypertensive disease】, TARGET_Voltage-dependent_L-type_calcium_channel_subunit_alpha-1S
-       (Support: 0.0006, Confidence: 0.3846, Lift: 490.71, GrowthRate: ∞ (纯正向))
+   前件: TARGET_Angiotensin-converting_enzyme -> 后件: 【Hypertensive disease】
+       (Support: 0.0024, Confidence: 0.4884, Lift: 37.93, GrowthRate: ∞ (纯正向))
+   前件: TARGET_Gag-Pol_polyprotein -> 后件: 【HIV Infections】
+       (Support: 0.0036, Confidence: 0.7442, Lift: 184.62, GrowthRate: 16.58)
+   前件: TARGET_Reverse_transcriptase/RNaseH -> 后件: TARGET_Gag-Pol_polyprotein, 【HIV Infections】
+       (Support: 0.0021, Confidence: 0.7917, Lift: 220.95, GrowthRate: 9.84)
+   前件: TARGET_Gag-Pol_polyprotein -> 后件: TARGET_Reverse_transcriptase/RNaseH, 【HIV Infections】
+       (Support: 0.0021, Confidence: 0.4419, Lift: 207.70, GrowthRate: 9.84)
+   前件: TARGET_Reverse_transcriptase/RNaseH, TARGET_Gag-Pol_polyprotein -> 后件: 【HIV Infections】
+       (Support: 0.0021, Confidence: 0.8261, Lift: 204.94, GrowthRate: 9.84)
+   前件: TARGET_Reverse_transcriptase/RNaseH -> 后件: 【HIV Infections】
+       (Support: 0.0021, Confidence: 0.7917, Lift: 196.40, GrowthRate: 9.84)
 
-🚀 系统成功挖掘出 341 条全新潜在重定位关联！
+🚀 系统成功挖掘出 182 条全新潜在重定位关联！
 🌟 Top 15 新药重定位候选推荐 (按置信度排序):
-   💊 药物: Zavegepant -> 🎯 预测主治: Migraine Disorders
-      (命中靶向机制: TARGET_Calcitonin_gene-related_peptide_type_1_receptor | 规则置信度: 1.0000 | 特异性: ∞)
-   💊 药物: Olcegepant -> 🎯 预测主治: Migraine Disorders
-      (命中靶向机制: TARGET_Calcitonin_gene-related_peptide_type_1_receptor | 规则置信度: 1.0000 | 特异性: ∞)
-   💊 药物: Atogepant -> 🎯 预测主治: Migraine Disorders
-      (命中靶向机制: TARGET_Calcitonin_gene-related_peptide_type_1_receptor | 规则置信度: 1.0000 | 特异性: ∞)
-   💊 药物: MK-3207 -> 🎯 预测主治: Migraine Disorders
-      (命中靶向机制: TARGET_Calcitonin_gene-related_peptide_type_1_receptor | 规则置信度: 1.0000 | 特异性: ∞)
-   💊 药物: Telcagepant -> 🎯 预测主治: Migraine Disorders
-      (命中靶向机制: TARGET_Calcitonin_gene-related_peptide_type_1_receptor | 规则置信度: 1.0000 | 特异性: ∞)
-   💊 药物: Anti-SARS-CoV-2 REGN-COV2 -> 🎯 预测主治: COVID19 (disease)
-      (命中靶向机制: TARGET_Spike_glycoprotein | 规则置信度: 1.0000 | 特异性: ∞)
-   💊 药物: Pemivibart -> 🎯 预测主治: COVID19 (disease)
-      (命中靶向机制: TARGET_Spike_glycoprotein | 规则置信度: 1.0000 | 特异性: ∞)
-   💊 药物: Sipavibart -> 🎯 预测主治: COVID19 (disease)
-      (命中靶向机制: TARGET_Spike_glycoprotein | 规则置信度: 1.0000 | 特异性: ∞)
-   💊 药物: Bebtelovimab -> 🎯 预测主治: COVID19 (disease)
-      (命中靶向机制: TARGET_Spike_glycoprotein | 规则置信度: 1.0000 | 特异性: ∞)
-   💊 药物: Raxtozinameran -> 🎯 预测主治: COVID19 (disease)
-      (命中靶向机制: TARGET_Spike_glycoprotein | 规则置信度: 1.0000 | 特异性: ∞)
-   💊 药物: Bemcentinib -> 🎯 预测主治: COVID19 (disease)
-      (命中靶向机制: TARGET_Spike_glycoprotein | 规则置信度: 1.0000 | 特异性: ∞)
-   💊 药物: Racivir -> 🎯 预测主治: HIV Infections
-      (命中靶向机制: TARGET_Reverse_transcriptase/RNaseH | 规则置信度: 0.7917 | 特异性: 9.84)
-   💊 药物: 5-[(5-fluoro-3-methyl-1H-indazol-4-yl)oxy]benzene-1,3-dicarbonitrile -> 🎯 预测主治: HIV Infections
-      (命中靶向机制: TARGET_Reverse_transcriptase/RNaseH | 规则置信度: 0.7917 | 特异性: 9.84)
-   💊 药物: Sennosides -> 🎯 预测主治: HIV Infections
-      (命中靶向机制: TARGET_Reverse_transcriptase/RNaseH | 规则置信度: 0.7917 | 特异性: 9.84)
    💊 药物: Dexelvucitabine -> 🎯 预测主治: HIV Infections
-      (命中靶向机制: TARGET_Reverse_transcriptase/RNaseH | 规则置信度: 0.7917 | 特异性: 9.84)
+      (靶向机制: TARGET_Reverse_transcriptase/RNaseH
+       关联基因: 无直接重合(间接机制) | 置信度: 0.7917 | 特异性: 9.84)
+   💊 药物: Racivir -> 🎯 预测主治: HIV Infections
+      (靶向机制: TARGET_Reverse_transcriptase/RNaseH
+       关联基因: 无直接重合(间接机制) | 置信度: 0.7917 | 特异性: 9.84)
+   💊 药物: 5-[(5-fluoro-3-methyl-1H-indazol-4-yl)oxy]benzene-1,3-dicarbonitrile -> 🎯 预测主治: HIV Infections
+      (靶向机制: TARGET_Reverse_transcriptase/RNaseH
+       关联基因: 无直接重合(间接机制) | 置信度: 0.7917 | 特异性: 9.84)
+   💊 药物: Sennosides -> 🎯 预测主治: HIV Infections
+      (靶向机制: TARGET_Reverse_transcriptase/RNaseH
+       关联基因: AQP3 | 置信度: 0.7917 | 特异性: 9.84)
+   💊 药物: (3S)-Tetrahydro-3-furanyl {(2S,3S)-4-[(2S,4R)-4-{(1S,2R)-2-[(S)-amino(hydroxy)methoxy]-2,3-dihydro-1H-inden-1-yl}-2-benzyl-3-oxo-2-pyrrolidinyl]-3-hydroxy-1-phenyl-2-butanyl}carbamate -> 🎯 预测主治: HIV Infections
+      (靶向机制: TARGET_Gag-Pol_polyprotein
+       关联基因: 无直接重合(间接机制) | 置信度: 0.7442 | 特异性: 16.58)
+   💊 药物: N,N-[2,5-O-Dibenzyl-glucaryl]-DI-[1-amino-indan-2-OL] -> 🎯 预测主治: HIV Infections
+      (靶向机制: TARGET_Gag-Pol_polyprotein
+       关联基因: 无直接重合(间接机制) | 置信度: 0.7442 | 特异性: 16.58)
+   💊 药物: (4R,5S,6S,7R)-1,3-dibenzyl-4,7-bis(phenoxymethyl)-5,6-dihydroxy-1,3 diazepan-2-one -> 🎯 预测主治: HIV Infections
+      (靶向机制: TARGET_Gag-Pol_polyprotein
+       关联基因: 无直接重合(间接机制) | 置信度: 0.7442 | 特异性: 16.58)
+   💊 药物: N-[2-hydroxy-1-indanyl]-5-[(2-tertiarybutylaminocarbonyl)-4(benzo[1,3]dioxol-5-ylmethyl)-piperazino]-4-hydroxy-2-(1-phenylethyl)-pentanamide -> 🎯 预测主治: HIV Infections
+      (靶向机制: TARGET_Gag-Pol_polyprotein
+       关联基因: 无直接重合(间接机制) | 置信度: 0.7442 | 特异性: 16.58)
+   💊 药物: (2S)-1-[(2S,4R)-4-Benzyl-2-hydroxy-5-{[(1S,2R,5S)-2-hydroxy-5-methylcyclopentyl]amino}-5-oxopentyl]-4-{[6-chloro-5-(4-methyl-1-piperazinyl)-2-pyrazinyl]carbonyl}-N-(2-methyl-2-propanyl)-2-piperazineca rboxamide -> 🎯 预测主治: HIV Infections
+      (靶向机制: TARGET_Gag-Pol_polyprotein
+       关联基因: 无直接重合(间接机制) | 置信度: 0.7442 | 特异性: 16.58)
+   💊 药物: Tert-Butyloxycarbonyl Group -> 🎯 预测主治: HIV Infections
+      (靶向机制: TARGET_Gag-Pol_polyprotein
+       关联基因: 无直接重合(间接机制) | 置信度: 0.7442 | 特异性: 16.58)
+   💊 药物: SD146 -> 🎯 预测主治: HIV Infections
+      (靶向机制: TARGET_Gag-Pol_polyprotein
+       关联基因: 无直接重合(间接机制) | 置信度: 0.7442 | 特异性: 16.58)
+   💊 药物: (2R,3R,4R,5R)-3,4-Dihydroxy-N,N'-bis[(1S,2R)-2-hydroxy-2,3-dihydro-1H-inden-1-yl]-2,5-bis(2-phenylethyl)hexanediamide -> 🎯 预测主治: HIV Infections
+      (靶向机制: TARGET_Gag-Pol_polyprotein
+       关联基因: 无直接重合(间接机制) | 置信度: 0.7442 | 特异性: 16.58)
+   💊 药物: XV638 -> 🎯 预测主治: HIV Infections
+      (靶向机制: TARGET_Gag-Pol_polyprotein
+       关联基因: 无直接重合(间接机制) | 置信度: 0.7442 | 特异性: 16.58)
+   💊 药物: Inhibitor Bea428 -> 🎯 预测主治: HIV Infections
+      (靶向机制: TARGET_Gag-Pol_polyprotein
+       关联基因: 无直接重合(间接机制) | 置信度: 0.7442 | 特异性: 16.58)
+   💊 药物: JE-2147 -> 🎯 预测主治: HIV Infections
+      (靶向机制: TARGET_Gag-Pol_polyprotein
+       关联基因: 无直接重合(间接机制) | 置信度: 0.7442 | 特异性: 16.58)
 
 🌈 更多长尾/多样的重定位候选 (消除头部霸屏，展示不同病种):
-   💊 药物: Menadione -> 🎯 预测主治: Hemophilia A
-      (命中靶向机制: TARGET_Coagulation_factor_IX | 规则置信度: 0.7500 | 特异性: ∞)
-   💊 药物: Lotiglipron -> 🎯 预测主治: Diabetes Mellitus, Non-Insulin-Dependent
-      (命中靶向机制: TARGET_Glucagon-like_peptide_1_receptor | 规则置信度: 0.7500 | 特异性: 3.11)
-   💊 药物: Besifovir dipivoxil -> 🎯 预测主治: Hepatitis B, Chronic
-      (命中靶向机制: TARGET_Protein_P | 规则置信度: 0.7500 | 特异性: ∞)
-   💊 药物: Quinethazone -> 🎯 预测主治: Hypertensive disease
-      (命中靶向机制: TARGET_Solute_carrier_family_12_member_1, TARGET_Carbonic_anhydrase_1 | 规则置信度: 0.6250 | 特异性: ∞)
-   💊 药物: Bendroflumethiazide -> 🎯 预测主治: Edema
-      (命中靶向机制: TARGET_Solute_carrier_family_12_member_1 | 规则置信度: 0.3636 | 特异性: ∞)
-   💊 药物: Darbepoetin alfa -> 🎯 预测主治: Anemia in chronic kidney disease
-      (命中靶向机制: TARGET_Erythropoietin_receptor | 规则置信度: 0.3571 | 特异性: ∞)
-   💊 药物: Propiomazine -> 🎯 预测主治: Depressive disorder
-      (命中靶向机制: TARGET_Muscarinic_acetylcholine_receptor, TARGET_5-hydroxytryptamine_receptor_2A | 规则置信度: 0.3571 | 特异性: ∞)
-   💊 药物: Ibandronate -> 🎯 预测主治: Osteitis Deformans
-      (命中靶向机制: TARGET_Hydroxylapatite | 规则置信度: 0.3529 | 特异性: ∞)
+   💊 药物: Alacepril -> 🎯 预测主治: Hypertensive disease
+      (靶向机制: TARGET_Angiotensin-converting_enzyme
+       关联基因: 无直接重合(间接机制) | 置信度: 0.4884 | 特异性: ∞)
 ```
