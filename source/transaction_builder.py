@@ -18,12 +18,15 @@ class TransactionBuilder:
             db_id = row['drugbank_id']
             disease_id = row['ind_id']
 
+            # 仅提取靶点/基因特征
             drug_features = self.drug_metadata.get(db_id, {}).get("features", [])
 
-            transaction = [f"DRUG_{db_id}"] + drug_features + [f"DISEASE_{disease_id}"]
-            transactions.append(transaction)
+            if drug_features:
+                transaction = drug_features + [f"DISEASE_{disease_id}"]
+                transactions.append(transaction)
+
             pbar.update(1)
 
         pbar.close()
-        print(f"[构建器] 构建完成！共生成 {len(transactions)} 条极其干净的事务记录。")
+        print(f"[构建器] 构建完成！共生成 {len(transactions)} 条纯净事务记录。")
         return transactions

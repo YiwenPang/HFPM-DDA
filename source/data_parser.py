@@ -81,31 +81,55 @@ class DataParser:
     def parse_ctd_genes_diseases(self):
         # 解析 CTD 数据库寻找 DiseaseID 和 Gene 的映射
         tsv_path = os.path.join(self.data_dir, "CTD_genes_diseases.tsv")
-        print("[解析器] 正在加载 CTD 基因-疾病数据...（较长时间无输出，但内存在工作）")
-        ctd_df = pd.read_csv(tsv_path, sep='\t', comment='#', header=None, low_memory=False)
+        print("[解析器] 正在加载 CTD 基因-疾病数据...(这会花点时间)")
 
-        ctd_df.columns = ["GeneSymbol", "GeneID", "DiseaseName", "DiseaseID",
-                          "DirectEvidence", "InferenceChemicalName", "InferenceScore",
-                          "OmimIDs", "PubMedIDs"]
+        cols_to_use = [0, 2, 3]
+        col_names = ["GeneSymbol", "DiseaseName", "DiseaseID"]
 
-        print("[解析器] 正在将 CTD 数据双重映射为 {DiseaseID/Name: [Genes]} 字典...")
+        from collections import defaultdict
 
-        # 1. ID映射
-        disease_to_genes = ctd_df.groupby("DiseaseID")["GeneSymbol"].apply(
-            lambda x: [f"GENE_{g}" for g in x.dropna().unique()]
-        ).to_dict()
+        # 内存优化
+        disease_to_genes_dd = defaultdict(set)
+        name_to_genes_dd = defaultdict(set)
+        disease_names = {}
+        chunk_size = 5000000
+        total_chunks = 0
 
-        # 2. 名字映射 (兜底机制)
-        name_to_genes = ctd_df.groupby("DiseaseName")["GeneSymbol"].apply(
-            lambda x: [f"GENE_{g}" for g in x.dropna().unique()]
-        ).to_dict()
+        print(f"[解析器] 开始分块流式吞吐 CTD 数据(这会花点时间)，每块吞吐量: {chunk_size} 行...")
+
+        for chunk in pd.read_csv(tsv_path, sep='\t', comment='#', header=None, usecols=cols_to_use, names=col_names,
+                                 chunksize=chunk_size):
+            total_chunks += 1
+
+            # 1. 块内清洗：只丢弃当前这 500 万行里的空值
+            chunk.dropna(subset=['GeneSymbol', 'DiseaseID'], inplace=True)
+
+            # 2. 块内向量化：因为每次只有 500 万行，此时加前缀的内存波动微乎其微
+            chunk['GeneSymbol'] = "GENE_" + chunk['GeneSymbol'].astype(str)
+
+            # 3. 底层拉链法：将当前块提取的精华，汇入全局大字典 (set 会自动吃掉重复的基因)
+            for gene, dis_name, dis_id in zip(chunk["GeneSymbol"], chunk["DiseaseName"], chunk["DiseaseID"]):
+                disease_to_genes_dd[dis_id].add(gene)
+                name_to_genes_dd[dis_name].add(gene)
+
+                # 记录疾病 ID 到真实名称的映射
+                disease_names[dis_id] = dis_name
+
+            print(f"  -> 已处理完第 {total_chunks} 个数据块...")
+            # 每一轮 for 循环结束，Python 垃圾回收器会自动清理 chunk 释放内存
+
+        print("[解析器] 正在合并映射...")
 
         # 将小写的名称映射合并进去
-        for name, genes in name_to_genes.items():
-            disease_to_genes[str(name).lower()] = genes
+        for name, genes in name_to_genes_dd.items():
+            disease_to_genes_dd[str(name).lower()].update(genes)
 
-        # 提取疾病ID到真实名称的映射字典
-        disease_names = ctd_df.drop_duplicates(subset=["DiseaseID"]).set_index("DiseaseID")["DiseaseName"].to_dict()
+        # 将 defaultdict(set) 转回普通的 dict(list)，保证下游的所有代码无缝对接
+        disease_to_genes = {k: list(v) for k, v in disease_to_genes_dd.items()}
 
-        print(f"[解析器] CTD 映射完成，涉及疾病库规模: {len(disease_to_genes)}")
+        print(f"[解析器] CTD 映射完成，最终浓缩疾病库规模: {len(disease_to_genes)}")
+
+        import gc
+        gc.collect()
+
         return disease_to_genes, disease_names
