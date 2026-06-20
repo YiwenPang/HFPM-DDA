@@ -66,7 +66,7 @@ class DataParser:
             if db_id:
                 drug_info[db_id] = {
                     "name": drug_name,
-                    "features": targets,
+                    "features": list(dict.fromkeys(targets)),  # 在源头对靶点特征进行去重并保持顺序
                     "genes": set(target_genes)  # 去重后的药物作用基因集
                 }
 
@@ -107,7 +107,7 @@ class DataParser:
             # 2. 块内向量化：因为每次只有 500 万行，此时加前缀的内存波动微乎其微
             chunk['GeneSymbol'] = "GENE_" + chunk['GeneSymbol'].astype(str)
 
-            # 3. 底层拉链法：将当前块提取的精华，汇入全局大字典 (set 会自动吃掉重复的基因)
+            # 3. 底层拉链法：将当前块提取的精华，汇入全局大字典
             for gene, dis_name, dis_id in zip(chunk["GeneSymbol"], chunk["DiseaseName"], chunk["DiseaseID"]):
                 disease_to_genes_dd[dis_id].add(gene)
                 name_to_genes_dd[dis_name].add(gene)
@@ -124,7 +124,7 @@ class DataParser:
         for name, genes in name_to_genes_dd.items():
             disease_to_genes_dd[str(name).lower()].update(genes)
 
-        # 将 defaultdict(set) 转回普通的 dict(list)，保证下游的所有代码无缝对接
+        # 将 defaultdict(set) 转回普通的 dict(list)
         disease_to_genes = {k: list(v) for k, v in disease_to_genes_dd.items()}
 
         print(f"[解析器] CTD 映射完成，最终浓缩疾病库规模: {len(disease_to_genes)}")

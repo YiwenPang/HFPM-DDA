@@ -1,0 +1,7 @@
+﻿antecedents,consequents,confidence,lift,support
+frozenset({'TARGET_Gag-Pol_polyprotein'}),frozenset({'DISEASE_C0019693'}),0.7368421052631579,162.20350877192982,0.004239854633555421
+"frozenset({'TARGET_D(2)_dopamine_receptor', 'TARGET_5-hydroxytryptamine_receptor_2A'})",frozenset({'DISEASE_C0036341'}),0.24271844660194175,51.706858753523335,0.0037855844942459114
+frozenset({'TARGET_5-hydroxytryptamine_receptor_2A'}),frozenset({'DISEASE_C0036341'}),0.18796992481203006,40.04365753092409,0.0037855844942459114
+frozenset({'TARGET_Prostaglandin_G/H_synthase_2'}),frozenset({'DISEASE_C0029408'}),0.15819209039548024,32.64689265536723,0.004239854633555421
+"frozenset({'TARGET_Prostaglandin_G/H_synthase_2', 'TARGET_Prostaglandin_G/H_synthase_1'})",frozenset({'DISEASE_C0029408'}),0.15723270440251572,32.44889937106918,0.0037855844942459114
+"frozenset({'TARGET_Prostaglandin_G/H_synthase_2', 'TARGET_Prostaglandin_G/H_synthase_1'})",frozenset({'DISEASE_C0003873'}),0.1509433962264151,17.186727391021467,0.0036341611144760752

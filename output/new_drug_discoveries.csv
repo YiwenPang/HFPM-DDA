@@ -1,176 +1,176 @@
 ﻿DrugBank_ID,Drug_Name,Predicted_Disease_ID,Predicted_Disease_Name,Matched_Targets,Bridging_Genes,Rule_Confidence,Rule_Growth_Rate,Validation_Status
-DB12753,Racivir,C0019693,HIV Infections,TARGET_Reverse_transcriptase/RNaseH,间接机制,0.8,13.568811648661343,🌟 零样本全新发现
-DB07935,"5-[(5-fluoro-3-methyl-1H-indazol-4-yl)oxy]benzene-1,3-dicarbonitrile",C0019693,HIV Infections,TARGET_Reverse_transcriptase/RNaseH,间接机制,0.8,13.568811648661343,🌟 零样本全新发现
-DB11365,Sennosides,C0019693,HIV Infections,TARGET_Reverse_transcriptase/RNaseH,AQP3,0.8,13.568811648661343,🌟 零样本全新发现
-DB12470,Dexelvucitabine,C0019693,HIV Infections,TARGET_Reverse_transcriptase/RNaseH,间接机制,0.8,13.568811648661343,🌟 零样本全新发现
-DB01891,Tl-3-093,C0019693,HIV Infections,TARGET_Gag-Pol_polyprotein,间接机制,0.717948717948718,23.745420385157352,🌟 零样本全新发现
-DB01887,"N,N-[2,5-O-Dibenzyl-glucaryl]-DI-[1-amino-indan-2-OL]",C0019693,HIV Infections,TARGET_Gag-Pol_polyprotein,间接机制,0.717948717948718,23.745420385157352,🌟 零样本全新发现
-DB01824,"(3S)-Tetrahydro-3-furanyl {(2S,3S)-4-[(2S,4R)-4-{(1S,2R)-2-[(S)-amino(hydroxy)methoxy]-2,3-dihydro-1H-inden-1-yl}-2-benzyl-3-oxo-2-pyrrolidinyl]-3-hydroxy-1-phenyl-2-butanyl}carbamate",C0019693,HIV Infections,TARGET_Gag-Pol_polyprotein,间接机制,0.717948717948718,23.745420385157352,🌟 零样本全新发现
-DB01732,"(4R,5S,6S,7R)-1,3-dibenzyl-4,7-bis(phenoxymethyl)-5,6-dihydroxy-1,3 diazepan-2-one",C0019693,HIV Infections,TARGET_Gag-Pol_polyprotein,间接机制,0.717948717948718,23.745420385157352,🌟 零样本全新发现
-DB01721,"N-[2-hydroxy-1-indanyl]-5-[(2-tertiarybutylaminocarbonyl)-4(benzo[1,3]dioxol-5-ylmethyl)-piperazino]-4-hydroxy-2-(1-phenylethyl)-pentanamide",C0019693,HIV Infections,TARGET_Gag-Pol_polyprotein,间接机制,0.717948717948718,23.745420385157352,🌟 零样本全新发现
-DB02086,"(3,4-Dihydroxy-Phenyl)-Triphenyl-Arsonium",C0019693,HIV Infections,TARGET_Gag-Pol_polyprotein,间接机制,0.717948717948718,23.745420385157352,🌟 零样本全新发现
-DB02033,"N-(3-Cyclopropyl(5,6,7,8,9,10-Hexahydro-2-Oxo-2h-Cycloocta[B]Pyran-3-Yl)Methyl)Phenylbenzensulfonamide",C0019693,HIV Infections,TARGET_Gag-Pol_polyprotein,间接机制,0.717948717948718,23.745420385157352,🌟 零样本全新发现
-DB02009,L-756423,C0019693,HIV Infections,TARGET_Gag-Pol_polyprotein,间接机制,0.717948717948718,23.745420385157352,🌟 零样本全新发现
-DB00495,Zidovudine,C0019693,HIV Infections,TARGET_Gag-Pol_polyprotein,"FLT3, TERT",0.717948717948718,23.745420385157352,✅ 验证集完美命中
-DB00900,Didanosine,C0019693,HIV Infections,TARGET_Gag-Pol_polyprotein,PNP,0.717948717948718,23.745420385157352,✅ 验证集完美命中
-DB01319,Fosamprenavir,C0019693,HIV Infections,TARGET_Gag-Pol_polyprotein,间接机制,0.717948717948718,23.745420385157352,✅ 验证集完美命中
-DB20750,Lexipafant,C0019693,HIV Infections,TARGET_Gag-Pol_polyprotein,PTAFR,0.717948717948718,23.745420385157352,🌟 零样本全新发现
-DB20083,Palinavir,C0019693,HIV Infections,TARGET_Gag-Pol_polyprotein,间接机制,0.717948717948718,23.745420385157352,🌟 零样本全新发现
-DB19860,Lodenosine,C0019693,HIV Infections,TARGET_Gag-Pol_polyprotein,间接机制,0.717948717948718,23.745420385157352,🌟 零样本全新发现
-DB19546,Lasinavir,C0019693,HIV Infections,TARGET_Gag-Pol_polyprotein,间接机制,0.717948717948718,23.745420385157352,🌟 零样本全新发现
-DB17759,Navuridine,C0019693,HIV Infections,TARGET_Gag-Pol_polyprotein,间接机制,0.717948717948718,23.745420385157352,🌟 零样本全新发现
-DB17120,Imifoplatin,C0019693,HIV Infections,TARGET_Gag-Pol_polyprotein,间接机制,0.717948717948718,23.745420385157352,🌟 零样本全新发现
-DB16032,GW810781,C0019693,HIV Infections,TARGET_Gag-Pol_polyprotein,间接机制,0.717948717948718,23.745420385157352,🌟 零样本全新发现
-DB15673,Lenacapavir,C0019693,HIV Infections,TARGET_Gag-Pol_polyprotein,间接机制,0.717948717948718,23.745420385157352,🌟 零样本全新发现
-DB15623,TMC-310911,C0019693,HIV Infections,TARGET_Gag-Pol_polyprotein,间接机制,0.717948717948718,23.745420385157352,🌟 零样本全新发现
-DB14925,Tenofovir exalidex,C0019693,HIV Infections,TARGET_Gag-Pol_polyprotein,间接机制,0.717948717948718,23.745420385157352,🌟 零样本全新发现
-DB13373,Acriflavine,C0019693,HIV Infections,TARGET_Gag-Pol_polyprotein,间接机制,0.717948717948718,23.745420385157352,🌟 零样本全新发现
-DB13119,GSK-364735,C0019693,HIV Infections,TARGET_Gag-Pol_polyprotein,"CNR1, CNR2",0.717948717948718,23.745420385157352,🌟 零样本全新发现
-DB12999,MK-6186,C0019693,HIV Infections,TARGET_Gag-Pol_polyprotein,间接机制,0.717948717948718,23.745420385157352,🌟 零样本全新发现
-DB02972,1-Benzyl-(R)-Propylamine,C0019693,HIV Infections,TARGET_Gag-Pol_polyprotein,间接机制,0.717948717948718,23.745420385157352,🌟 零样本全新发现
-DB02804,A-98881,C0019693,HIV Infections,TARGET_Gag-Pol_polyprotein,间接机制,0.717948717948718,23.745420385157352,🌟 零样本全新发现
-DB02785,"(2S)-1-[(2S,4R)-4-Benzyl-2-hydroxy-5-{[(1S,2R,5S)-2-hydroxy-5-methylcyclopentyl]amino}-5-oxopentyl]-4-{[6-chloro-5-(4-methyl-1-piperazinyl)-2-pyrazinyl]carbonyl}-N-(2-methyl-2-propanyl)-2-piperazineca rboxamide",C0019693,HIV Infections,TARGET_Gag-Pol_polyprotein,间接机制,0.717948717948718,23.745420385157352,🌟 零样本全新发现
-DB02768,Tert-Butyloxycarbonyl Group,C0019693,HIV Infections,TARGET_Gag-Pol_polyprotein,间接机制,0.717948717948718,23.745420385157352,🌟 零样本全新发现
-DB02729,SD146,C0019693,HIV Infections,TARGET_Gag-Pol_polyprotein,间接机制,0.717948717948718,23.745420385157352,🌟 零样本全新发现
-DB02704,"(2R,3R,4R,5R)-3,4-Dihydroxy-N,N'-bis[(1S,2R)-2-hydroxy-2,3-dihydro-1H-inden-1-yl]-2,5-bis(2-phenylethyl)hexanediamide",C0019693,HIV Infections,TARGET_Gag-Pol_polyprotein,间接机制,0.717948717948718,23.745420385157352,🌟 零样本全新发现
-DB02702,XV638,C0019693,HIV Infections,TARGET_Gag-Pol_polyprotein,间接机制,0.717948717948718,23.745420385157352,🌟 零样本全新发现
-DB02683,Inhibitor Bea428,C0019693,HIV Infections,TARGET_Gag-Pol_polyprotein,间接机制,0.717948717948718,23.745420385157352,🌟 零样本全新发现
-DB02668,JE-2147,C0019693,HIV Infections,TARGET_Gag-Pol_polyprotein,间接机制,0.717948717948718,23.745420385157352,🌟 零样本全新发现
-DB02629,"N,N-[2,5-O-di-2-fluoro-benzyl-glucaryl]-di-[1-amino-indan-2-ol]",C0019693,HIV Infections,TARGET_Gag-Pol_polyprotein,间接机制,0.717948717948718,23.745420385157352,🌟 零样本全新发现
-DB02452,Thymidine 5'-triphosphate,C0019693,HIV Infections,TARGET_Gag-Pol_polyprotein,"TK2, TK1",0.717948717948718,23.745420385157352,🌟 零样本全新发现
-DB02428,Quinaldic Acid,C0019693,HIV Infections,TARGET_Gag-Pol_polyprotein,间接机制,0.717948717948718,23.745420385157352,🌟 零样本全新发现
-DB02413,Hydroxyethylcysteine,C0019693,HIV Infections,TARGET_Gag-Pol_polyprotein,间接机制,0.717948717948718,23.745420385157352,🌟 零样本全新发现
-DB02411,"2-(11-{2-[Benzenesulfonyl-(3-Methyl-Butyl)-Amino]-1-Hydroxy-Ethyl}-6,9-Dioxo-2-Oxa-7,10-Diaza-Bicyclo[11.2.2]Heptadeca-1(16),13(17),14-Trien-8-Yl)-Acetamide, Inhibitor 2",C0019693,HIV Infections,TARGET_Gag-Pol_polyprotein,间接机制,0.717948717948718,23.745420385157352,🌟 零样本全新发现
-DB02189,"2',3'-Dideoxyadenosine triphosphate",C0019693,HIV Infections,TARGET_Gag-Pol_polyprotein,间接机制,0.717948717948718,23.745420385157352,🌟 零样本全新发现
-DB02102,Mozenavir,C0019693,HIV Infections,TARGET_Gag-Pol_polyprotein,间接机制,0.717948717948718,23.745420385157352,🌟 零样本全新发现
-DB04490,3-(Mercaptomethylene)Pyridine,C0019693,HIV Infections,TARGET_Gag-Pol_polyprotein,间接机制,0.717948717948718,23.745420385157352,🌟 零样本全新发现
-DB04454,Alpha-Aminobutyric Acid,C0019693,HIV Infections,TARGET_Gag-Pol_polyprotein,"EGF, GATM",0.717948717948718,23.745420385157352,🌟 零样本全新发现
-DB04353,"Tert-butyl N-[(2S,5R)-6-[[(2S)-5-amino-1-[[(2S)-1-amino-1-oxo-3-phenylpropan-2-yl]amino]-1,5-dioxopentan-2-yl]amino]-5-benzyl-3,6-dioxo-1-phenylhexan-2-yl]carbamate",C0019693,HIV Infections,TARGET_Gag-Pol_polyprotein,间接机制,0.717948717948718,23.745420385157352,🌟 零样本全新发现
-DB04255,Inhibitor BEA388,C0019693,HIV Infections,TARGET_Gag-Pol_polyprotein,间接机制,0.717948717948718,23.745420385157352,🌟 零样本全新发现
-DB04191,Skf 107457,C0019693,HIV Infections,TARGET_Gag-Pol_polyprotein,间接机制,0.717948717948718,23.745420385157352,🌟 零样本全新发现
-DB04190,"2,5-dibenzyloxy-3-hydroxy-hexanedioic acid bis-[(2-hydroxy-indan-1-yl)-amide]",C0019693,HIV Infections,TARGET_Gag-Pol_polyprotein,间接机制,0.717948717948718,23.745420385157352,🌟 零样本全新发现
-DB04042,"2-[4-(Hydroxy-Methoxy-Methyl)-Benzyl]-7-(4-Hydroxymethyl-Benzyl)-1,1-Dioxo-3,6-Bis-Phenoxymethyl-1lambda6-[1,2,7]Thiadiazepane-4,5-Diol",C0019693,HIV Infections,TARGET_Gag-Pol_polyprotein,间接机制,0.717948717948718,23.745420385157352,🌟 零样本全新发现
-DB03963,S-(Dimethylarsenic)Cysteine,C0019693,HIV Infections,TARGET_Gag-Pol_polyprotein,"MSRA, TLR2, XRCC4, NOS3, COPG1",0.717948717948718,23.745420385157352,🌟 零样本全新发现
-DB03908,"N,N-[2,5-O-[Dibenzyl]-glucaryl]-DI-[isoleucyl-amido-methane]",C0019693,HIV Infections,TARGET_Gag-Pol_polyprotein,间接机制,0.717948717948718,23.745420385157352,🌟 零样本全新发现
-DB03803,"N,N-[2,5-O-dibenzyl-glucaryl]-DI-[valinyl-aminomethanyl-pyridine]",C0019693,HIV Infections,TARGET_Gag-Pol_polyprotein,间接机制,0.717948717948718,23.745420385157352,🌟 零样本全新发现
-DB03768,"N-[2-Hydroxy-2-(8-Isopropyl-6,9-Dioxo-2-Oxa-7,10-Diaza-Bicyclo[11.2.2]Heptadeca-1(16),13(17),14-Trien-11-Yl)-Ethyl]-N-(3-Methyl-Butyl)-Benzenesulfonamide,Inhibitor 3",C0019693,HIV Infections,TARGET_Gag-Pol_polyprotein,间接机制,0.717948717948718,23.745420385157352,🌟 零样本全新发现
-DB03676,Cystein-S-Yl Cacodylate,C0019693,HIV Infections,TARGET_Gag-Pol_polyprotein,间接机制,0.717948717948718,23.745420385157352,🌟 零样本全新发现
-DB03141,"3-{[(5R,6R)-5-Benzyl-6-hydroxy-2,4-bis(4-hydroxybenzyl)-3-oxo-1,2,4-triazepan-1-yl]sulfonyl}benzonitril",C0019693,HIV Infections,TARGET_Gag-Pol_polyprotein,间接机制,0.717948717948718,23.745420385157352,🌟 零样本全新发现
-DB03118,(2Z)-1-(5-Chloro-1H-indol-3-yl)-3-hydroxy-3-(1H-tetrazol-5-yl)-2-propen-1-one,C0019693,HIV Infections,TARGET_Gag-Pol_polyprotein,间接机制,0.717948717948718,23.745420385157352,🌟 零样本全新发现
-DB03076,"3-[[(3R,4S,5S,6R)-7-Benzyl-4,5-dihydroxy-1,1-dioxo-3,6-bis(phenoxymethyl)-1,2,7-thiadiazepan-2-yl]methyl]-N-methylbenzamide",C0019693,HIV Infections,TARGET_Gag-Pol_polyprotein,间接机制,0.717948717948718,23.745420385157352,🌟 零样本全新发现
-DB02994,Cacodylic acid,C0019693,HIV Infections,TARGET_Gag-Pol_polyprotein,"AKR1B1, NOS3, GNAT1",0.717948717948718,23.745420385157352,🌟 零样本全新发现
-DB06619,Amdoxovir,C0019693,HIV Infections,TARGET_Gag-Pol_polyprotein,间接机制,0.717948717948718,23.745420385157352,🌟 零样本全新发现
-DB06581,Bevirimat,C0019693,HIV Infections,TARGET_Gag-Pol_polyprotein,间接机制,0.717948717948718,23.745420385157352,🌟 零样本全新发现
-DB06414,Etravirine,C0019693,HIV Infections,TARGET_Gag-Pol_polyprotein,间接机制,0.717948717948718,23.745420385157352,✅ 验证集完美命中
-DB06236,Elvucitabine,C0019693,HIV Infections,TARGET_Gag-Pol_polyprotein,间接机制,0.717948717948718,23.745420385157352,🌟 零样本全新发现
-DB06198,Alovudine,C0019693,HIV Infections,TARGET_Gag-Pol_polyprotein,间接机制,0.717948717948718,23.745420385157352,🌟 零样本全新发现
-DB06166,Fosdevirine,C0019693,HIV Infections,TARGET_Gag-Pol_polyprotein,间接机制,0.717948717948718,23.745420385157352,🌟 零样本全新发现
-DB05961,PPL-100,C0019693,HIV Infections,TARGET_Gag-Pol_polyprotein,"SERPINA5, SERPINA1, SERPING1",0.717948717948718,23.745420385157352,🌟 零样本全新发现
-DB05871,UC-781,C0019693,HIV Infections,TARGET_Gag-Pol_polyprotein,间接机制,0.717948717948718,23.745420385157352,🌟 零样本全新发现
-DB05644,KP-1461,C0019693,HIV Infections,TARGET_Gag-Pol_polyprotein,间接机制,0.717948717948718,23.745420385157352,🌟 零样本全新发现
-DB05398,C31G,C0019693,HIV Infections,TARGET_Gag-Pol_polyprotein,CD9,0.717948717948718,23.745420385157352,🌟 零样本全新发现
-DB05328,VGV-1,C0019693,HIV Infections,TARGET_Gag-Pol_polyprotein,间接机制,0.717948717948718,23.745420385157352,🌟 零样本全新发现
-DB05228,RDEA806,C0019693,HIV Infections,TARGET_Gag-Pol_polyprotein,间接机制,0.717948717948718,23.745420385157352,🌟 零样本全新发现
-DB04887,Brecanavir,C0019693,HIV Infections,TARGET_Gag-Pol_polyprotein,间接机制,0.717948717948718,23.745420385157352,🌟 零样本全新发现
-DB04886,Calanolide A,C0019693,HIV Infections,TARGET_Gag-Pol_polyprotein,间接机制,0.717948717948718,23.745420385157352,🌟 零样本全新发现
-DB04609,INHIBITOR Q8467 OF DUPONT MERCK,C0019693,HIV Infections,TARGET_Gag-Pol_polyprotein,间接机制,0.717948717948718,23.745420385157352,🌟 零样本全新发现
-DB04547,Inhibitor BEA409,C0019693,HIV Infections,TARGET_Gag-Pol_polyprotein,间接机制,0.717948717948718,23.745420385157352,🌟 零样本全新发现
-DB07578,CP-94707,C0019693,HIV Infections,TARGET_Gag-Pol_polyprotein,间接机制,0.717948717948718,23.745420385157352,🌟 零样本全新发现
-DB07575,"2,4-DIAMINO-1,5-DIPHENYL-3-HYDROXYPENTANE",C0019693,HIV Infections,TARGET_Gag-Pol_polyprotein,间接机制,0.717948717948718,23.745420385157352,🌟 零样本全新发现
-DB07505,"N-({(3R,4R)-4-[(benzyloxy)methyl]pyrrolidin-3-yl}methyl)-N-(2-methylpropyl)benzenesulfonamide",C0019693,HIV Infections,TARGET_Gag-Pol_polyprotein,间接机制,0.717948717948718,23.745420385157352,🌟 零样本全新发现
-DB07499,"N-(4-{[amino(imino)methyl]amino}butyl)-2,4'-bi-1,3-thiazole-4-carboxamide",C0019693,HIV Infections,TARGET_Gag-Pol_polyprotein,间接机制,0.717948717948718,23.745420385157352,🌟 零样本全新发现
-DB07473,"(R)-(+) 5(9BH)-OXO-9B-PHENYL-2,3-DIHYDROTHIAZOLO[2,3-A]ISOINDOL-3-CARBOXYLIC ACID METHYL ESTER",C0019693,HIV Infections,TARGET_Gag-Pol_polyprotein,间接机制,0.717948717948718,23.745420385157352,🌟 零样本全新发现
-DB07472,"(R)-(+)9B-(3-METHYL)PHENYL-2,3-DIHYDROTHIAZOLO[2,3-A]ISOINDOL-5(9BH)-ONE",C0019693,HIV Infections,TARGET_Gag-Pol_polyprotein,间接机制,0.717948717948718,23.745420385157352,🌟 零样本全新发现
-DB07451,1-(5-BROMO-PYRIDIN-2-YL)-3-[2-(6-FLUORO-2-HYDROXY-3-PROPIONYL-PHENYL)-CYCLOPROPYL]-UREA,C0019693,HIV Infections,TARGET_Gag-Pol_polyprotein,间接机制,0.717948717948718,23.745420385157352,🌟 零样本全新发现
-DB07343,"4-[4-AMINO-6-(2,6-DICHLORO-PHENOXY)-[1,3,5]TRIAZIN-2-YLAMINO]-BENZONITRILE",C0019693,HIV Infections,TARGET_Gag-Pol_polyprotein,间接机制,0.717948717948718,23.745420385157352,🌟 零样本全新发现
-DB07337,"4-[4-AMINO-6-(5-CHLORO-1H-INDOL-4-YLMETHYL)-[1,3,5]TRIAZIN-2-YLAMINO]-BENZONITRILE",C0019693,HIV Infections,TARGET_Gag-Pol_polyprotein,间接机制,0.717948717948718,23.745420385157352,🌟 零样本全新发现
-DB07332,"ALPHA-(2,6-DICHLOROPHENYL)-ALPHA-(2-ACETYL-5-METHYLANILINO)ACETAMIDE",C0019693,HIV Infections,TARGET_Gag-Pol_polyprotein,间接机制,0.717948717948718,23.745420385157352,🌟 零样本全新发现
-DB07327,R-95845,C0019693,HIV Infections,TARGET_Gag-Pol_polyprotein,间接机制,0.717948717948718,23.745420385157352,🌟 零样本全新发现
-DB07184,"6-(cyclohexylsulfanyl)-1-(ethoxymethyl)-5-(1-methylethyl)pyrimidine-2,4(1H,3H)-dione",C0019693,HIV Infections,TARGET_Gag-Pol_polyprotein,间接机制,0.717948717948718,23.745420385157352,🌟 零样本全新发现
-DB07035,"(2E)-3-{3-[(5-ETHYL-3-IODO-6-METHYL-2-OXO-1,2-DIHYDROPYRIDIN-4-YL)OXY]PHENYL}ACRYLONITRILE",C0019693,HIV Infections,TARGET_Gag-Pol_polyprotein,间接机制,0.717948717948718,23.745420385157352,🌟 零样本全新发现
-DB07018,5-ETHYL-3-[(2-METHOXYETHYL)METHYLAMINO]-6-METHYL-4-(3-METHYLBENZYL)PYRIDIN-2(1H)-ONE,C0019693,HIV Infections,TARGET_Gag-Pol_polyprotein,间接机制,0.717948717948718,23.745420385157352,🌟 零样本全新发现
-DB06910,"[4-R-(4-ALPHA,6-BETA,7-BETA]-HEXAHYDRO-5,6-DI(HYDROXY)-1,3-DI(ALLYL)-4,7-BISPHENYLMETHYL)-2H-1,3-DIAZEPINONE",C0019693,HIV Infections,TARGET_Gag-Pol_polyprotein,间接机制,0.717948717948718,23.745420385157352,🌟 零样本全新发现
-DB06874,"(6-[4-(AMINOMETHYL)-2,6-DIMETHYLPHENOXY]-2-{[4-(AMINOMETHYL)PHENYL]AMINO}-5-BROMOPYRIMIDIN-4-YL)METHANOL",C0019693,HIV Infections,TARGET_Gag-Pol_polyprotein,间接机制,0.717948717948718,23.745420385157352,🌟 零样本全新发现
-DB07892,1-(2-HYDROXYETHYLOXYMETHYL)-6-PHENYL THIOTHYMINE,C0019693,HIV Infections,TARGET_Gag-Pol_polyprotein,间接机制,0.717948717948718,23.745420385157352,🌟 零样本全新发现
-DB07885,Talviraline,C0019693,HIV Infections,TARGET_Gag-Pol_polyprotein,间接机制,0.717948717948718,23.745420385157352,🌟 零样本全新发现
-DB07884,Opaviraline,C0019693,HIV Infections,TARGET_Gag-Pol_polyprotein,间接机制,0.717948717948718,23.745420385157352,🌟 零样本全新发现
-DB07871,6-CHLORO-4-(CYCLOHEXYLOXY)-3-ISOPROPYLQUINOLIN-2(1H)-ONE,C0019693,HIV Infections,TARGET_Gag-Pol_polyprotein,间接机制,0.717948717948718,23.745420385157352,🌟 零样本全新发现
-DB07869,6-Chloro-4-[(R)-cyclohexylsulfinyl]-3-propyl-2(1H)-quinolinone,C0019693,HIV Infections,TARGET_Gag-Pol_polyprotein,间接机制,0.717948717948718,23.745420385157352,🌟 零样本全新发现
-DB07868,6-CHLORO-4-(CYCLOHEXYLSULFANYL)-3-PROPYLQUINOLIN-2(1H)-ONE,C0019693,HIV Infections,TARGET_Gag-Pol_polyprotein,间接机制,0.717948717948718,23.745420385157352,🌟 零样本全新发现
-DB07867,6-CHLORO-4-(CYCLOHEXYLOXY)-3-PROPYLQUINOLIN-2(1H)-ONE,C0019693,HIV Infections,TARGET_Gag-Pol_polyprotein,间接机制,0.717948717948718,23.745420385157352,🌟 零样本全新发现
-DB07864,4-[(CYCLOPROPYLETHYNYL)OXY]-6-FLUORO-3-ISOPROPYLQUINOLIN-2(1H)-ONE,C0019693,HIV Infections,TARGET_Gag-Pol_polyprotein,间接机制,0.717948717948718,23.745420385157352,🌟 零样本全新发现
-DB07826,2-[4-chloro-2-(phenylcarbonyl)phenoxy]-N-phenylacetamide,C0019693,HIV Infections,TARGET_Gag-Pol_polyprotein,间接机制,0.717948717948718,23.745420385157352,🌟 零样本全新发现
-DB07820,"6-(3',5'-DIMETHYLBENZYL)-1-ETHOXYMETHYL-5-ISOPROPYLURACIL",C0019693,HIV Infections,TARGET_Gag-Pol_polyprotein,间接机制,0.717948717948718,23.745420385157352,🌟 零样本全新发现
-DB07806,"(2R,4S)-2-[(R)-BENZYLCARBAMOYL-PHENYLACETYL-METHYL]-5,5-DIMETHYL-THIAZOLIDINE-4-CARBOXYLIC ACID",C0019693,HIV Infections,TARGET_Gag-Pol_polyprotein,间接机制,0.717948717948718,23.745420385157352,🌟 零样本全新发现
-DB07797,N-[[3-FLUORO-4-ETHOXY-PYRID-2-YL]ETHYL]-N'-[5-CHLORO-PYRIDYL]-THIOUREA,C0019693,HIV Infections,TARGET_Gag-Pol_polyprotein,间接机制,0.717948717948718,23.745420385157352,🌟 零样本全新发现
-DB07781,N-[[3-FLUORO-4-ETHOXY-PYRID-2-YL]ETHYL]-N'-[5-NITRILOMETHYL-PYRIDYL]-THIOUREA,C0019693,HIV Infections,TARGET_Gag-Pol_polyprotein,间接机制,0.717948717948718,23.745420385157352,🌟 零样本全新发现
-DB07679,"(9S,12S)-9-(1-methylethyl)-7,10-dioxo-2-oxa-8,11-diazabicyclo[12.2.2]octadeca-1(16),14,17-triene-12-carboxylic acid",C0019693,HIV Infections,TARGET_Gag-Pol_polyprotein,间接机制,0.717948717948718,23.745420385157352,🌟 零样本全新发现
-DB07634,"(2,6-Dimethylphenoxy)acetic acid",C0019693,HIV Infections,TARGET_Gag-Pol_polyprotein,间接机制,0.717948717948718,23.745420385157352,🌟 零样本全新发现
-DB07581,5-AMINO-6-CYCLOHEXYL-4-HYDROXY-2-ISOPROPYL-HEXANOIC ACID,C0019693,HIV Infections,TARGET_Gag-Pol_polyprotein,间接机制,0.717948717948718,23.745420385157352,🌟 零样本全新发现
-DB08286,1-Naphthoxyacetic acid,C0019693,HIV Infections,TARGET_Gag-Pol_polyprotein,间接机制,0.717948717948718,23.745420385157352,🌟 零样本全新发现
-DB08284,"O-[2-(1,3-dioxo-1,3-dihydro-2H-isoindol-2-yl)ethyl] (4-iodophenyl)thiocarbamate",C0019693,HIV Infections,TARGET_Gag-Pol_polyprotein,间接机制,0.717948717948718,23.745420385157352,🌟 零样本全新发现
-DB08282,"O-[2-(1,3-dioxo-1,3-dihydro-2H-isoindol-2-yl)ethyl] (4-chlorophenyl)thiocarbamate",C0019693,HIV Infections,TARGET_Gag-Pol_polyprotein,间接机制,0.717948717948718,23.745420385157352,🌟 零样本全新发现
-DB08281,"O-[2-(1,3-dioxo-1,3-dihydro-2H-isoindol-2-yl)ethyl] (4-bromophenyl)thiocarbamate",C0019693,HIV Infections,TARGET_Gag-Pol_polyprotein,间接机制,0.717948717948718,23.745420385157352,🌟 零样本全新发现
-DB08274,"6,7,8,9-TETRAHYDRO-4-HYDROXY-3-(1-PHENYLPROPYL)CYCLOHEPTA[B]PYRAN-2-ONE",C0019693,HIV Infections,TARGET_Gag-Pol_polyprotein,间接机制,0.717948717948718,23.745420385157352,🌟 零样本全新发现
-DB08231,Myristic acid,C0019693,HIV Infections,TARGET_Gag-Pol_polyprotein,"TRAPPC3, PPP3CA, NCOA1, CALM1, LY96, FKBP1A, GM2A, PKIA, INS, CALM2, RCVRN, HNF4A, ARF1, TLR4, PVR, GUCA1A, CALM3, PPP3R1, PPARA, ARF6, ABL1, ECI2, PRKACA",0.717948717948718,23.745420385157352,🌟 零样本全新发现
-DB08212,1-[2-(3-ACETYL-2-HYDROXY-6-METHOXY-PHENYL)-CYCLOPROPYL]-3-(5-CYANO-PYRIDIN-2-YL)-THIOUREA,C0019693,HIV Infections,TARGET_Gag-Pol_polyprotein,间接机制,0.717948717948718,23.745420385157352,🌟 零样本全新发现
-DB08211,5-bromo-3-(pyrrolidin-1-ylsulfonyl)-1H-indole-2-carboxamide,C0019693,HIV Infections,TARGET_Gag-Pol_polyprotein,间接机制,0.717948717948718,23.745420385157352,🌟 零样本全新发现
-DB08188,Emivirine,C0019693,HIV Infections,TARGET_Gag-Pol_polyprotein,间接机制,0.717948717948718,23.745420385157352,🌟 零样本全新发现
-DB08154,3-chloro-5-[2-chloro-5-(1H-indazol-3-ylmethoxy)phenoxy]benzonitrile,C0019693,HIV Infections,TARGET_Gag-Pol_polyprotein,间接机制,0.717948717948718,23.745420385157352,🌟 零样本全新发现
-DB08115,2-aminoethyl naphthalen-1-ylacetate,C0019693,HIV Infections,TARGET_Gag-Pol_polyprotein,间接机制,0.717948717948718,23.745420385157352,🌟 零样本全新发现
-DB08041,3-BENZYLOXYCARBONYLAMINO-2-HYDROXY-4-PHENYL-BUTYRIC ACID,C0019693,HIV Infections,TARGET_Gag-Pol_polyprotein,间接机制,0.717948717948718,23.745420385157352,🌟 零样本全新发现
-DB08034,"(E)-3,4-DIHYDROXY-N'-[(2-METHOXYNAPHTHALEN-1-YL)METHYLENE]BENZOHYDRAZIDE",C0019693,HIV Infections,TARGET_Gag-Pol_polyprotein,间接机制,0.717948717948718,23.745420385157352,🌟 零样本全新发现
-DB08027,CAP-1,C0019693,HIV Infections,TARGET_Gag-Pol_polyprotein,间接机制,0.717948717948718,23.745420385157352,🌟 零样本全新发现
-DB07961,"1-(4-Cyano-phenyl)-3-[2-(2,6-dichloro-phenyl)-1-imino-ethyl]-thiourea",C0019693,HIV Infections,TARGET_Gag-Pol_polyprotein,间接机制,0.717948717948718,23.745420385157352,🌟 零样本全新发现
-DB07910,"(2S)-2-amino-3-phenylpropane-1,1-diol",C0019693,HIV Infections,TARGET_Gag-Pol_polyprotein,间接机制,0.717948717948718,23.745420385157352,🌟 零样本全新发现
-DB08598,R-82913,C0019693,HIV Infections,TARGET_Gag-Pol_polyprotein,间接机制,0.717948717948718,23.745420385157352,🌟 零样本全新发现
-DB08528,"2-AMINO-6-(3,5-DIMETHYLPHENYL)SULFONYLBENZONITRILE",C0019693,HIV Infections,TARGET_Gag-Pol_polyprotein,间接机制,0.717948717948718,23.745420385157352,🌟 零样本全新发现
-DB08502,Capravirine,C0019693,HIV Infections,TARGET_Gag-Pol_polyprotein,间接机制,0.717948717948718,23.745420385157352,🌟 零样本全新发现
-DB08494,"S-{2-[(2-chloro-4-sulfamoylphenyl)amino]-2-oxoethyl} 6-methyl-3,4-dihydroquinoline-1(2H)-carbothioate",C0019693,HIV Infections,TARGET_Gag-Pol_polyprotein,间接机制,0.717948717948718,23.745420385157352,🌟 零样本全新发现
-DB08474,3-(CARBOXYAMIDE(2-CARBOXYAMIDE-2-TERTBUTYLETHYL))PENTAN,C0019693,HIV Infections,TARGET_Gag-Pol_polyprotein,间接机制,0.717948717948718,23.745420385157352,🌟 零样本全新发现
-DB08460,MK-4965,C0019693,HIV Infections,TARGET_Gag-Pol_polyprotein,间接机制,0.717948717948718,23.745420385157352,🌟 零样本全新发现
-DB08459,"3-chloro-5-[2-chloro-5-(1H-pyrazolo[3,4-b]pyridin-3-ylmethoxy)phenoxy]benzonitrile",C0019693,HIV Infections,TARGET_Gag-Pol_polyprotein,间接机制,0.717948717948718,23.745420385157352,🌟 零样本全新发现
-DB08457,"4-(3,5-DIMETHYLPHENOXY)-5-(FURAN-2-YLMETHYLSULFANYLMETHYL)-3-IODO-6-METHYLPYRIDIN-2(1H)-ONE",C0019693,HIV Infections,TARGET_Gag-Pol_polyprotein,间接机制,0.717948717948718,23.745420385157352,🌟 零样本全新发现
-DB08446,"3-[6-bromo-2-fluoro-3-(1H-pyrazolo[3,4-c]pyridazin-3-ylmethyl)phenoxy]-5-chlorobenzonitrile",C0019693,HIV Infections,TARGET_Gag-Pol_polyprotein,间接机制,0.717948717948718,23.745420385157352,🌟 零样本全新发现
-DB08444,"3-[2-bromo-4-(1H-pyrazolo[3,4-c]pyridazin-3-ylmethyl)phenoxy]-5-methylbenzonitrile",C0019693,HIV Infections,TARGET_Gag-Pol_polyprotein,间接机制,0.717948717948718,23.745420385157352,🌟 零样本全新发现
-DB08428,3(S)-AMINO-4-PHENYL-BUTAN-2(S)-OL,C0019693,HIV Infections,TARGET_Gag-Pol_polyprotein,间接机制,0.717948717948718,23.745420385157352,🌟 零样本全新发现
-DB08421,PIPERIDINE-2-CARBOXYLIC ACID TERT-BUTYLAMIDE,C0019693,HIV Infections,TARGET_Gag-Pol_polyprotein,间接机制,0.717948717948718,23.745420385157352,🌟 零样本全新发现
-DB08414,PNU-142721,C0019693,HIV Infections,TARGET_Gag-Pol_polyprotein,间接机制,0.717948717948718,23.745420385157352,🌟 零样本全新发现
-DB08379,6-(4-chloro-2-fluoro-3-phenoxybenzyl)pyridazin-3(2H)-one,C0019693,HIV Infections,TARGET_Gag-Pol_polyprotein,间接机制,0.717948717948718,23.745420385157352,🌟 零样本全新发现
-DB08372,1-[2-(4-ETHOXY-3-FLUOROPYRIDIN-2-YL)ETHYL]-3-(5-METHYLPYRIDIN-2-YL)THIOUREA,C0019693,HIV Infections,TARGET_Gag-Pol_polyprotein,间接机制,0.717948717948718,23.745420385157352,🌟 零样本全新发现
-DB08331,"N-1H-imidazol-2-yl-N'-[4-(1H-imidazol-2-ylamino)phenyl]benzene-1,4-diamine",C0019693,HIV Infections,TARGET_Gag-Pol_polyprotein,间接机制,0.717948717948718,23.745420385157352,🌟 零样本全新发现
-DB11649,Lersivirine,C0019693,HIV Infections,TARGET_Gag-Pol_polyprotein,间接机制,0.717948717948718,23.745420385157352,🌟 零样本全新发现
-DB11586,Asunaprevir,C0019693,HIV Infections,TARGET_Gag-Pol_polyprotein,间接机制,0.717948717948718,23.745420385157352,🌟 零样本全新发现
-DB11575,Grazoprevir,C0019693,HIV Infections,TARGET_Gag-Pol_polyprotein,间接机制,0.717948717948718,23.745420385157352,🌟 零样本全新发现
-DB09297,Paritaprevir,C0019693,HIV Infections,TARGET_Gag-Pol_polyprotein,间接机制,0.717948717948718,23.745420385157352,🌟 零样本全新发现
-DB08686,"5,6,7,8,9,10-HEXAHYDRO-4-HYDROXY-3-(1-PHENYLPROPYL)CYCLOOCTA[B]PYRAN-2-ONE",C0019693,HIV Infections,TARGET_Gag-Pol_polyprotein,间接机制,0.717948717948718,23.745420385157352,🌟 零样本全新发现
-DB08682,"1-METHYL ETHYL 1-CHLORO-5-[[(5,6DIHYDRO-2-METHYL-1,4-OXATHIIN-3-YL)CARBONYL]AMINO]BENZOATE",C0019693,HIV Infections,TARGET_Gag-Pol_polyprotein,间接机制,0.717948717948718,23.745420385157352,🌟 零样本全新发现
-DB08681,1-METHYL ETHYL 2-CHLORO-5-[[[(1-METHYLETHOXY)THIOOXO]METHYL]AMINO]-BENZOATE,C0019693,HIV Infections,TARGET_Gag-Pol_polyprotein,间接机制,0.717948717948718,23.745420385157352,🌟 零样本全新发现
-DB08680,N-{3-[(E)-(tert-butoxyimino)methyl]-4-chlorophenyl}-2-methylfuran-3-carbimidothioic acid,C0019693,HIV Infections,TARGET_Gag-Pol_polyprotein,间接机制,0.717948717948718,23.745420385157352,🌟 零样本全新发现
-DB08665,"6,11-DIHYDRO-11-ETHYL-6-METHYL-9-NITRO-5H-PYRIDO[2,3-B][1,5]BENZODIAZEPIN-5-ONE",C0019693,HIV Infections,TARGET_Gag-Pol_polyprotein,间接机制,0.717948717948718,23.745420385157352,🌟 零样本全新发现
-DB08664,({3-[1-(4-Hydroxy-2-oxo-2H-chromen-3-yl)-propyl]-phenylcarbamoyl}-methyl)-carbamic acid tert-butyl ester,C0019693,HIV Infections,TARGET_Gag-Pol_polyprotein,间接机制,0.717948717948718,23.745420385157352,🌟 零样本全新发现
-DB08663,4-HYDROXY-7-METHOXY-3-(1-PHENYL-PROPYL)-CHROMEN-2-ONE,C0019693,HIV Infections,TARGET_Gag-Pol_polyprotein,间接机制,0.717948717948718,23.745420385157352,🌟 零样本全新发现
-DB08662,3-[1-(4-BROMO-PHENYL)-2-METHYL-PROPYL]-4-HYDROXY-CHROMEN-2-ONE,C0019693,HIV Infections,TARGET_Gag-Pol_polyprotein,间接机制,0.717948717948718,23.745420385157352,🌟 零样本全新发现
-DB08639,Dapivirine,C0019693,HIV Infections,TARGET_Gag-Pol_polyprotein,间接机制,0.717948717948718,23.745420385157352,🌟 零样本全新发现
-DB08634,6-BENZYL-1-BENZYLOXYMETHYL-5-ISOPROPYL URACIL,C0019693,HIV Infections,TARGET_Gag-Pol_polyprotein,间接机制,0.717948717948718,23.745420385157352,🌟 零样本全新发现
-DB08622,"4-(4-CHLORO-PHENYL)-1-{3-[2-(4-FLUORO-PHENYL)-[1,3]DITHIOLAN-2-YL]-PROPYL}-PIPERIDIN-4-OL",C0019693,HIV Infections,TARGET_Gag-Pol_polyprotein,间接机制,0.717948717948718,23.745420385157352,🌟 零样本全新发现
-DB08600,Tivirapine,C0019693,HIV Infections,TARGET_Gag-Pol_polyprotein,间接机制,0.717948717948718,23.745420385157352,🌟 零样本全新发现
-DB12894,Raluridine,C0019693,HIV Infections,TARGET_Gag-Pol_polyprotein,间接机制,0.717948717948718,23.745420385157352,🌟 零样本全新发现
-DB12876,GS-9256,C0019693,HIV Infections,TARGET_Gag-Pol_polyprotein,间接机制,0.717948717948718,23.745420385157352,🌟 零样本全新发现
-DB12855,Apricitabine,C0019693,HIV Infections,TARGET_Gag-Pol_polyprotein,间接机制,0.717948717948718,23.745420385157352,🌟 零样本全新发现
-DB12531,Lobucavir,C0019693,HIV Infections,TARGET_Gag-Pol_polyprotein,间接机制,0.717948717948718,23.745420385157352,🌟 零样本全新发现
-DB12423,Fozivudine Tidoxil,C0019693,HIV Infections,TARGET_Gag-Pol_polyprotein,间接机制,0.717948717948718,23.745420385157352,🌟 零样本全新发现
-DB12405,Triciribine,C0019693,HIV Infections,TARGET_Gag-Pol_polyprotein,间接机制,0.717948717948718,23.745420385157352,🌟 零样本全新发现
-DB12264,Atevirdine,C0019693,HIV Infections,TARGET_Gag-Pol_polyprotein,间接机制,0.717948717948718,23.745420385157352,🌟 零样本全新发现
-DB12178,Telinavir,C0019693,HIV Infections,TARGET_Gag-Pol_polyprotein,间接机制,0.717948717948718,23.745420385157352,🌟 零样本全新发现
-DB12116,Epigallocatechin gallate,C0019693,HIV Infections,TARGET_Gag-Pol_polyprotein,"SQLE, STAT3, MMP2, FASN, ELANE, DNMT1, TGM2, DHFR2, MMP14, AHR",0.717948717948718,23.745420385157352,🌟 零样本全新发现
-DB12074,Censavudine,C0019693,HIV Infections,TARGET_Gag-Pol_polyprotein,间接机制,0.717948717948718,23.745420385157352,🌟 零样本全新发现
-DB12069,Sovaprevir,C0019693,HIV Infections,TARGET_Gag-Pol_polyprotein,间接机制,0.717948717948718,23.745420385157352,🌟 零样本全新发现
-DB11998,Sorivudine,C0019693,HIV Infections,TARGET_Gag-Pol_polyprotein,间接机制,0.717948717948718,23.745420385157352,🌟 零样本全新发现
-DB11929,Vaniprevir,C0019693,HIV Infections,TARGET_Gag-Pol_polyprotein,间接机制,0.717948717948718,23.745420385157352,🌟 零样本全新发现
-DB11808,Faldaprevir,C0019693,HIV Infections,TARGET_Gag-Pol_polyprotein,间接机制,0.717948717948718,23.745420385157352,🌟 零样本全新发现
-DB11779,Danoprevir,C0019693,HIV Infections,TARGET_Gag-Pol_polyprotein,间接机制,0.717948717948718,23.745420385157352,🌟 零样本全新发现
-DB11751,Cabotegravir,C0019693,HIV Infections,TARGET_Gag-Pol_polyprotein,间接机制,0.717948717948718,23.745420385157352,🌟 零样本全新发现
+DB12753,Racivir,C0019693,HIV Infections,TARGET_Reverse_transcriptase/RNaseH,间接机制,0.7999999999999999,13.674792899408285,🌟 零样本全新发现
+DB07935,"5-[(5-fluoro-3-methyl-1H-indazol-4-yl)oxy]benzene-1,3-dicarbonitrile",C0019693,HIV Infections,TARGET_Reverse_transcriptase/RNaseH,间接机制,0.7999999999999999,13.674792899408285,🌟 零样本全新发现
+DB11365,Sennosides,C0019693,HIV Infections,TARGET_Reverse_transcriptase/RNaseH,AQP3,0.7999999999999999,13.674792899408285,🌟 零样本全新发现
+DB12470,Dexelvucitabine,C0019693,HIV Infections,TARGET_Reverse_transcriptase/RNaseH,间接机制,0.7999999999999999,13.674792899408285,🌟 零样本全新发现
+DB01891,Tl-3-093,C0019693,HIV Infections,TARGET_Gag-Pol_polyprotein,间接机制,0.736842105263158,23.930887573964498,🌟 零样本全新发现
+DB01887,"N,N-[2,5-O-Dibenzyl-glucaryl]-DI-[1-amino-indan-2-OL]",C0019693,HIV Infections,TARGET_Gag-Pol_polyprotein,间接机制,0.736842105263158,23.930887573964498,🌟 零样本全新发现
+DB01824,"(3S)-Tetrahydro-3-furanyl {(2S,3S)-4-[(2S,4R)-4-{(1S,2R)-2-[(S)-amino(hydroxy)methoxy]-2,3-dihydro-1H-inden-1-yl}-2-benzyl-3-oxo-2-pyrrolidinyl]-3-hydroxy-1-phenyl-2-butanyl}carbamate",C0019693,HIV Infections,TARGET_Gag-Pol_polyprotein,间接机制,0.736842105263158,23.930887573964498,🌟 零样本全新发现
+DB01732,"(4R,5S,6S,7R)-1,3-dibenzyl-4,7-bis(phenoxymethyl)-5,6-dihydroxy-1,3 diazepan-2-one",C0019693,HIV Infections,TARGET_Gag-Pol_polyprotein,间接机制,0.736842105263158,23.930887573964498,🌟 零样本全新发现
+DB01721,"N-[2-hydroxy-1-indanyl]-5-[(2-tertiarybutylaminocarbonyl)-4(benzo[1,3]dioxol-5-ylmethyl)-piperazino]-4-hydroxy-2-(1-phenylethyl)-pentanamide",C0019693,HIV Infections,TARGET_Gag-Pol_polyprotein,间接机制,0.736842105263158,23.930887573964498,🌟 零样本全新发现
+DB02086,"(3,4-Dihydroxy-Phenyl)-Triphenyl-Arsonium",C0019693,HIV Infections,TARGET_Gag-Pol_polyprotein,间接机制,0.736842105263158,23.930887573964498,🌟 零样本全新发现
+DB02033,"N-(3-Cyclopropyl(5,6,7,8,9,10-Hexahydro-2-Oxo-2h-Cycloocta[B]Pyran-3-Yl)Methyl)Phenylbenzensulfonamide",C0019693,HIV Infections,TARGET_Gag-Pol_polyprotein,间接机制,0.736842105263158,23.930887573964498,🌟 零样本全新发现
+DB02009,L-756423,C0019693,HIV Infections,TARGET_Gag-Pol_polyprotein,间接机制,0.736842105263158,23.930887573964498,🌟 零样本全新发现
+DB00495,Zidovudine,C0019693,HIV Infections,TARGET_Gag-Pol_polyprotein,"TERT, FLT3",0.736842105263158,23.930887573964498,✅ 验证集完美命中
+DB00900,Didanosine,C0019693,HIV Infections,TARGET_Gag-Pol_polyprotein,PNP,0.736842105263158,23.930887573964498,✅ 验证集完美命中
+DB01319,Fosamprenavir,C0019693,HIV Infections,TARGET_Gag-Pol_polyprotein,间接机制,0.736842105263158,23.930887573964498,✅ 验证集完美命中
+DB20750,Lexipafant,C0019693,HIV Infections,TARGET_Gag-Pol_polyprotein,PTAFR,0.736842105263158,23.930887573964498,🌟 零样本全新发现
+DB20083,Palinavir,C0019693,HIV Infections,TARGET_Gag-Pol_polyprotein,间接机制,0.736842105263158,23.930887573964498,🌟 零样本全新发现
+DB19860,Lodenosine,C0019693,HIV Infections,TARGET_Gag-Pol_polyprotein,间接机制,0.736842105263158,23.930887573964498,🌟 零样本全新发现
+DB19546,Lasinavir,C0019693,HIV Infections,TARGET_Gag-Pol_polyprotein,间接机制,0.736842105263158,23.930887573964498,🌟 零样本全新发现
+DB17759,Navuridine,C0019693,HIV Infections,TARGET_Gag-Pol_polyprotein,间接机制,0.736842105263158,23.930887573964498,🌟 零样本全新发现
+DB17120,Imifoplatin,C0019693,HIV Infections,TARGET_Gag-Pol_polyprotein,间接机制,0.736842105263158,23.930887573964498,🌟 零样本全新发现
+DB16032,GW810781,C0019693,HIV Infections,TARGET_Gag-Pol_polyprotein,间接机制,0.736842105263158,23.930887573964498,🌟 零样本全新发现
+DB15673,Lenacapavir,C0019693,HIV Infections,TARGET_Gag-Pol_polyprotein,间接机制,0.736842105263158,23.930887573964498,🌟 零样本全新发现
+DB15623,TMC-310911,C0019693,HIV Infections,TARGET_Gag-Pol_polyprotein,间接机制,0.736842105263158,23.930887573964498,🌟 零样本全新发现
+DB14925,Tenofovir exalidex,C0019693,HIV Infections,TARGET_Gag-Pol_polyprotein,间接机制,0.736842105263158,23.930887573964498,🌟 零样本全新发现
+DB13373,Acriflavine,C0019693,HIV Infections,TARGET_Gag-Pol_polyprotein,间接机制,0.736842105263158,23.930887573964498,🌟 零样本全新发现
+DB13119,GSK-364735,C0019693,HIV Infections,TARGET_Gag-Pol_polyprotein,"CNR1, CNR2",0.736842105263158,23.930887573964498,🌟 零样本全新发现
+DB12999,MK-6186,C0019693,HIV Infections,TARGET_Gag-Pol_polyprotein,间接机制,0.736842105263158,23.930887573964498,🌟 零样本全新发现
+DB02972,1-Benzyl-(R)-Propylamine,C0019693,HIV Infections,TARGET_Gag-Pol_polyprotein,间接机制,0.736842105263158,23.930887573964498,🌟 零样本全新发现
+DB02804,A-98881,C0019693,HIV Infections,TARGET_Gag-Pol_polyprotein,间接机制,0.736842105263158,23.930887573964498,🌟 零样本全新发现
+DB02785,"(2S)-1-[(2S,4R)-4-Benzyl-2-hydroxy-5-{[(1S,2R,5S)-2-hydroxy-5-methylcyclopentyl]amino}-5-oxopentyl]-4-{[6-chloro-5-(4-methyl-1-piperazinyl)-2-pyrazinyl]carbonyl}-N-(2-methyl-2-propanyl)-2-piperazineca rboxamide",C0019693,HIV Infections,TARGET_Gag-Pol_polyprotein,间接机制,0.736842105263158,23.930887573964498,🌟 零样本全新发现
+DB02768,Tert-Butyloxycarbonyl Group,C0019693,HIV Infections,TARGET_Gag-Pol_polyprotein,间接机制,0.736842105263158,23.930887573964498,🌟 零样本全新发现
+DB02729,SD146,C0019693,HIV Infections,TARGET_Gag-Pol_polyprotein,间接机制,0.736842105263158,23.930887573964498,🌟 零样本全新发现
+DB02704,"(2R,3R,4R,5R)-3,4-Dihydroxy-N,N'-bis[(1S,2R)-2-hydroxy-2,3-dihydro-1H-inden-1-yl]-2,5-bis(2-phenylethyl)hexanediamide",C0019693,HIV Infections,TARGET_Gag-Pol_polyprotein,间接机制,0.736842105263158,23.930887573964498,🌟 零样本全新发现
+DB02702,XV638,C0019693,HIV Infections,TARGET_Gag-Pol_polyprotein,间接机制,0.736842105263158,23.930887573964498,🌟 零样本全新发现
+DB02683,Inhibitor Bea428,C0019693,HIV Infections,TARGET_Gag-Pol_polyprotein,间接机制,0.736842105263158,23.930887573964498,🌟 零样本全新发现
+DB02668,JE-2147,C0019693,HIV Infections,TARGET_Gag-Pol_polyprotein,间接机制,0.736842105263158,23.930887573964498,🌟 零样本全新发现
+DB02629,"N,N-[2,5-O-di-2-fluoro-benzyl-glucaryl]-di-[1-amino-indan-2-ol]",C0019693,HIV Infections,TARGET_Gag-Pol_polyprotein,间接机制,0.736842105263158,23.930887573964498,🌟 零样本全新发现
+DB02452,Thymidine 5'-triphosphate,C0019693,HIV Infections,TARGET_Gag-Pol_polyprotein,"TK1, TK2",0.736842105263158,23.930887573964498,🌟 零样本全新发现
+DB02428,Quinaldic Acid,C0019693,HIV Infections,TARGET_Gag-Pol_polyprotein,间接机制,0.736842105263158,23.930887573964498,🌟 零样本全新发现
+DB02413,Hydroxyethylcysteine,C0019693,HIV Infections,TARGET_Gag-Pol_polyprotein,间接机制,0.736842105263158,23.930887573964498,🌟 零样本全新发现
+DB02411,"2-(11-{2-[Benzenesulfonyl-(3-Methyl-Butyl)-Amino]-1-Hydroxy-Ethyl}-6,9-Dioxo-2-Oxa-7,10-Diaza-Bicyclo[11.2.2]Heptadeca-1(16),13(17),14-Trien-8-Yl)-Acetamide, Inhibitor 2",C0019693,HIV Infections,TARGET_Gag-Pol_polyprotein,间接机制,0.736842105263158,23.930887573964498,🌟 零样本全新发现
+DB02189,"2',3'-Dideoxyadenosine triphosphate",C0019693,HIV Infections,TARGET_Gag-Pol_polyprotein,间接机制,0.736842105263158,23.930887573964498,🌟 零样本全新发现
+DB02102,Mozenavir,C0019693,HIV Infections,TARGET_Gag-Pol_polyprotein,间接机制,0.736842105263158,23.930887573964498,🌟 零样本全新发现
+DB04490,3-(Mercaptomethylene)Pyridine,C0019693,HIV Infections,TARGET_Gag-Pol_polyprotein,间接机制,0.736842105263158,23.930887573964498,🌟 零样本全新发现
+DB04454,Alpha-Aminobutyric Acid,C0019693,HIV Infections,TARGET_Gag-Pol_polyprotein,"EGF, GATM",0.736842105263158,23.930887573964498,🌟 零样本全新发现
+DB04353,"Tert-butyl N-[(2S,5R)-6-[[(2S)-5-amino-1-[[(2S)-1-amino-1-oxo-3-phenylpropan-2-yl]amino]-1,5-dioxopentan-2-yl]amino]-5-benzyl-3,6-dioxo-1-phenylhexan-2-yl]carbamate",C0019693,HIV Infections,TARGET_Gag-Pol_polyprotein,间接机制,0.736842105263158,23.930887573964498,🌟 零样本全新发现
+DB04255,Inhibitor BEA388,C0019693,HIV Infections,TARGET_Gag-Pol_polyprotein,间接机制,0.736842105263158,23.930887573964498,🌟 零样本全新发现
+DB04191,Skf 107457,C0019693,HIV Infections,TARGET_Gag-Pol_polyprotein,间接机制,0.736842105263158,23.930887573964498,🌟 零样本全新发现
+DB04190,"2,5-dibenzyloxy-3-hydroxy-hexanedioic acid bis-[(2-hydroxy-indan-1-yl)-amide]",C0019693,HIV Infections,TARGET_Gag-Pol_polyprotein,间接机制,0.736842105263158,23.930887573964498,🌟 零样本全新发现
+DB04042,"2-[4-(Hydroxy-Methoxy-Methyl)-Benzyl]-7-(4-Hydroxymethyl-Benzyl)-1,1-Dioxo-3,6-Bis-Phenoxymethyl-1lambda6-[1,2,7]Thiadiazepane-4,5-Diol",C0019693,HIV Infections,TARGET_Gag-Pol_polyprotein,间接机制,0.736842105263158,23.930887573964498,🌟 零样本全新发现
+DB03963,S-(Dimethylarsenic)Cysteine,C0019693,HIV Infections,TARGET_Gag-Pol_polyprotein,"MSRA, TLR2, NOS3, XRCC4, COPG1",0.736842105263158,23.930887573964498,🌟 零样本全新发现
+DB03908,"N,N-[2,5-O-[Dibenzyl]-glucaryl]-DI-[isoleucyl-amido-methane]",C0019693,HIV Infections,TARGET_Gag-Pol_polyprotein,间接机制,0.736842105263158,23.930887573964498,🌟 零样本全新发现
+DB03803,"N,N-[2,5-O-dibenzyl-glucaryl]-DI-[valinyl-aminomethanyl-pyridine]",C0019693,HIV Infections,TARGET_Gag-Pol_polyprotein,间接机制,0.736842105263158,23.930887573964498,🌟 零样本全新发现
+DB03768,"N-[2-Hydroxy-2-(8-Isopropyl-6,9-Dioxo-2-Oxa-7,10-Diaza-Bicyclo[11.2.2]Heptadeca-1(16),13(17),14-Trien-11-Yl)-Ethyl]-N-(3-Methyl-Butyl)-Benzenesulfonamide,Inhibitor 3",C0019693,HIV Infections,TARGET_Gag-Pol_polyprotein,间接机制,0.736842105263158,23.930887573964498,🌟 零样本全新发现
+DB03676,Cystein-S-Yl Cacodylate,C0019693,HIV Infections,TARGET_Gag-Pol_polyprotein,间接机制,0.736842105263158,23.930887573964498,🌟 零样本全新发现
+DB03141,"3-{[(5R,6R)-5-Benzyl-6-hydroxy-2,4-bis(4-hydroxybenzyl)-3-oxo-1,2,4-triazepan-1-yl]sulfonyl}benzonitril",C0019693,HIV Infections,TARGET_Gag-Pol_polyprotein,间接机制,0.736842105263158,23.930887573964498,🌟 零样本全新发现
+DB03118,(2Z)-1-(5-Chloro-1H-indol-3-yl)-3-hydroxy-3-(1H-tetrazol-5-yl)-2-propen-1-one,C0019693,HIV Infections,TARGET_Gag-Pol_polyprotein,间接机制,0.736842105263158,23.930887573964498,🌟 零样本全新发现
+DB03076,"3-[[(3R,4S,5S,6R)-7-Benzyl-4,5-dihydroxy-1,1-dioxo-3,6-bis(phenoxymethyl)-1,2,7-thiadiazepan-2-yl]methyl]-N-methylbenzamide",C0019693,HIV Infections,TARGET_Gag-Pol_polyprotein,间接机制,0.736842105263158,23.930887573964498,🌟 零样本全新发现
+DB02994,Cacodylic acid,C0019693,HIV Infections,TARGET_Gag-Pol_polyprotein,"GNAT1, NOS3, AKR1B1",0.736842105263158,23.930887573964498,🌟 零样本全新发现
+DB06619,Amdoxovir,C0019693,HIV Infections,TARGET_Gag-Pol_polyprotein,间接机制,0.736842105263158,23.930887573964498,🌟 零样本全新发现
+DB06581,Bevirimat,C0019693,HIV Infections,TARGET_Gag-Pol_polyprotein,间接机制,0.736842105263158,23.930887573964498,🌟 零样本全新发现
+DB06414,Etravirine,C0019693,HIV Infections,TARGET_Gag-Pol_polyprotein,间接机制,0.736842105263158,23.930887573964498,✅ 验证集完美命中
+DB06236,Elvucitabine,C0019693,HIV Infections,TARGET_Gag-Pol_polyprotein,间接机制,0.736842105263158,23.930887573964498,🌟 零样本全新发现
+DB06198,Alovudine,C0019693,HIV Infections,TARGET_Gag-Pol_polyprotein,间接机制,0.736842105263158,23.930887573964498,🌟 零样本全新发现
+DB06166,Fosdevirine,C0019693,HIV Infections,TARGET_Gag-Pol_polyprotein,间接机制,0.736842105263158,23.930887573964498,🌟 零样本全新发现
+DB05961,PPL-100,C0019693,HIV Infections,TARGET_Gag-Pol_polyprotein,"SERPING1, SERPINA5, SERPINA1",0.736842105263158,23.930887573964498,🌟 零样本全新发现
+DB05871,UC-781,C0019693,HIV Infections,TARGET_Gag-Pol_polyprotein,间接机制,0.736842105263158,23.930887573964498,🌟 零样本全新发现
+DB05644,KP-1461,C0019693,HIV Infections,TARGET_Gag-Pol_polyprotein,间接机制,0.736842105263158,23.930887573964498,🌟 零样本全新发现
+DB05398,C31G,C0019693,HIV Infections,TARGET_Gag-Pol_polyprotein,CD9,0.736842105263158,23.930887573964498,🌟 零样本全新发现
+DB05328,VGV-1,C0019693,HIV Infections,TARGET_Gag-Pol_polyprotein,间接机制,0.736842105263158,23.930887573964498,🌟 零样本全新发现
+DB05228,RDEA806,C0019693,HIV Infections,TARGET_Gag-Pol_polyprotein,间接机制,0.736842105263158,23.930887573964498,🌟 零样本全新发现
+DB04887,Brecanavir,C0019693,HIV Infections,TARGET_Gag-Pol_polyprotein,间接机制,0.736842105263158,23.930887573964498,🌟 零样本全新发现
+DB04886,Calanolide A,C0019693,HIV Infections,TARGET_Gag-Pol_polyprotein,间接机制,0.736842105263158,23.930887573964498,🌟 零样本全新发现
+DB04609,INHIBITOR Q8467 OF DUPONT MERCK,C0019693,HIV Infections,TARGET_Gag-Pol_polyprotein,间接机制,0.736842105263158,23.930887573964498,🌟 零样本全新发现
+DB04547,Inhibitor BEA409,C0019693,HIV Infections,TARGET_Gag-Pol_polyprotein,间接机制,0.736842105263158,23.930887573964498,🌟 零样本全新发现
+DB07578,CP-94707,C0019693,HIV Infections,TARGET_Gag-Pol_polyprotein,间接机制,0.736842105263158,23.930887573964498,🌟 零样本全新发现
+DB07575,"2,4-DIAMINO-1,5-DIPHENYL-3-HYDROXYPENTANE",C0019693,HIV Infections,TARGET_Gag-Pol_polyprotein,间接机制,0.736842105263158,23.930887573964498,🌟 零样本全新发现
+DB07505,"N-({(3R,4R)-4-[(benzyloxy)methyl]pyrrolidin-3-yl}methyl)-N-(2-methylpropyl)benzenesulfonamide",C0019693,HIV Infections,TARGET_Gag-Pol_polyprotein,间接机制,0.736842105263158,23.930887573964498,🌟 零样本全新发现
+DB07499,"N-(4-{[amino(imino)methyl]amino}butyl)-2,4'-bi-1,3-thiazole-4-carboxamide",C0019693,HIV Infections,TARGET_Gag-Pol_polyprotein,间接机制,0.736842105263158,23.930887573964498,🌟 零样本全新发现
+DB07473,"(R)-(+) 5(9BH)-OXO-9B-PHENYL-2,3-DIHYDROTHIAZOLO[2,3-A]ISOINDOL-3-CARBOXYLIC ACID METHYL ESTER",C0019693,HIV Infections,TARGET_Gag-Pol_polyprotein,间接机制,0.736842105263158,23.930887573964498,🌟 零样本全新发现
+DB07472,"(R)-(+)9B-(3-METHYL)PHENYL-2,3-DIHYDROTHIAZOLO[2,3-A]ISOINDOL-5(9BH)-ONE",C0019693,HIV Infections,TARGET_Gag-Pol_polyprotein,间接机制,0.736842105263158,23.930887573964498,🌟 零样本全新发现
+DB07451,1-(5-BROMO-PYRIDIN-2-YL)-3-[2-(6-FLUORO-2-HYDROXY-3-PROPIONYL-PHENYL)-CYCLOPROPYL]-UREA,C0019693,HIV Infections,TARGET_Gag-Pol_polyprotein,间接机制,0.736842105263158,23.930887573964498,🌟 零样本全新发现
+DB07343,"4-[4-AMINO-6-(2,6-DICHLORO-PHENOXY)-[1,3,5]TRIAZIN-2-YLAMINO]-BENZONITRILE",C0019693,HIV Infections,TARGET_Gag-Pol_polyprotein,间接机制,0.736842105263158,23.930887573964498,🌟 零样本全新发现
+DB07337,"4-[4-AMINO-6-(5-CHLORO-1H-INDOL-4-YLMETHYL)-[1,3,5]TRIAZIN-2-YLAMINO]-BENZONITRILE",C0019693,HIV Infections,TARGET_Gag-Pol_polyprotein,间接机制,0.736842105263158,23.930887573964498,🌟 零样本全新发现
+DB07332,"ALPHA-(2,6-DICHLOROPHENYL)-ALPHA-(2-ACETYL-5-METHYLANILINO)ACETAMIDE",C0019693,HIV Infections,TARGET_Gag-Pol_polyprotein,间接机制,0.736842105263158,23.930887573964498,🌟 零样本全新发现
+DB07327,R-95845,C0019693,HIV Infections,TARGET_Gag-Pol_polyprotein,间接机制,0.736842105263158,23.930887573964498,🌟 零样本全新发现
+DB07184,"6-(cyclohexylsulfanyl)-1-(ethoxymethyl)-5-(1-methylethyl)pyrimidine-2,4(1H,3H)-dione",C0019693,HIV Infections,TARGET_Gag-Pol_polyprotein,间接机制,0.736842105263158,23.930887573964498,🌟 零样本全新发现
+DB07035,"(2E)-3-{3-[(5-ETHYL-3-IODO-6-METHYL-2-OXO-1,2-DIHYDROPYRIDIN-4-YL)OXY]PHENYL}ACRYLONITRILE",C0019693,HIV Infections,TARGET_Gag-Pol_polyprotein,间接机制,0.736842105263158,23.930887573964498,🌟 零样本全新发现
+DB07018,5-ETHYL-3-[(2-METHOXYETHYL)METHYLAMINO]-6-METHYL-4-(3-METHYLBENZYL)PYRIDIN-2(1H)-ONE,C0019693,HIV Infections,TARGET_Gag-Pol_polyprotein,间接机制,0.736842105263158,23.930887573964498,🌟 零样本全新发现
+DB06910,"[4-R-(4-ALPHA,6-BETA,7-BETA]-HEXAHYDRO-5,6-DI(HYDROXY)-1,3-DI(ALLYL)-4,7-BISPHENYLMETHYL)-2H-1,3-DIAZEPINONE",C0019693,HIV Infections,TARGET_Gag-Pol_polyprotein,间接机制,0.736842105263158,23.930887573964498,🌟 零样本全新发现
+DB06874,"(6-[4-(AMINOMETHYL)-2,6-DIMETHYLPHENOXY]-2-{[4-(AMINOMETHYL)PHENYL]AMINO}-5-BROMOPYRIMIDIN-4-YL)METHANOL",C0019693,HIV Infections,TARGET_Gag-Pol_polyprotein,间接机制,0.736842105263158,23.930887573964498,🌟 零样本全新发现
+DB07892,1-(2-HYDROXYETHYLOXYMETHYL)-6-PHENYL THIOTHYMINE,C0019693,HIV Infections,TARGET_Gag-Pol_polyprotein,间接机制,0.736842105263158,23.930887573964498,🌟 零样本全新发现
+DB07885,Talviraline,C0019693,HIV Infections,TARGET_Gag-Pol_polyprotein,间接机制,0.736842105263158,23.930887573964498,🌟 零样本全新发现
+DB07884,Opaviraline,C0019693,HIV Infections,TARGET_Gag-Pol_polyprotein,间接机制,0.736842105263158,23.930887573964498,🌟 零样本全新发现
+DB07871,6-CHLORO-4-(CYCLOHEXYLOXY)-3-ISOPROPYLQUINOLIN-2(1H)-ONE,C0019693,HIV Infections,TARGET_Gag-Pol_polyprotein,间接机制,0.736842105263158,23.930887573964498,🌟 零样本全新发现
+DB07869,6-Chloro-4-[(R)-cyclohexylsulfinyl]-3-propyl-2(1H)-quinolinone,C0019693,HIV Infections,TARGET_Gag-Pol_polyprotein,间接机制,0.736842105263158,23.930887573964498,🌟 零样本全新发现
+DB07868,6-CHLORO-4-(CYCLOHEXYLSULFANYL)-3-PROPYLQUINOLIN-2(1H)-ONE,C0019693,HIV Infections,TARGET_Gag-Pol_polyprotein,间接机制,0.736842105263158,23.930887573964498,🌟 零样本全新发现
+DB07867,6-CHLORO-4-(CYCLOHEXYLOXY)-3-PROPYLQUINOLIN-2(1H)-ONE,C0019693,HIV Infections,TARGET_Gag-Pol_polyprotein,间接机制,0.736842105263158,23.930887573964498,🌟 零样本全新发现
+DB07864,4-[(CYCLOPROPYLETHYNYL)OXY]-6-FLUORO-3-ISOPROPYLQUINOLIN-2(1H)-ONE,C0019693,HIV Infections,TARGET_Gag-Pol_polyprotein,间接机制,0.736842105263158,23.930887573964498,🌟 零样本全新发现
+DB07826,2-[4-chloro-2-(phenylcarbonyl)phenoxy]-N-phenylacetamide,C0019693,HIV Infections,TARGET_Gag-Pol_polyprotein,间接机制,0.736842105263158,23.930887573964498,🌟 零样本全新发现
+DB07820,"6-(3',5'-DIMETHYLBENZYL)-1-ETHOXYMETHYL-5-ISOPROPYLURACIL",C0019693,HIV Infections,TARGET_Gag-Pol_polyprotein,间接机制,0.736842105263158,23.930887573964498,🌟 零样本全新发现
+DB07806,"(2R,4S)-2-[(R)-BENZYLCARBAMOYL-PHENYLACETYL-METHYL]-5,5-DIMETHYL-THIAZOLIDINE-4-CARBOXYLIC ACID",C0019693,HIV Infections,TARGET_Gag-Pol_polyprotein,间接机制,0.736842105263158,23.930887573964498,🌟 零样本全新发现
+DB07797,N-[[3-FLUORO-4-ETHOXY-PYRID-2-YL]ETHYL]-N'-[5-CHLORO-PYRIDYL]-THIOUREA,C0019693,HIV Infections,TARGET_Gag-Pol_polyprotein,间接机制,0.736842105263158,23.930887573964498,🌟 零样本全新发现
+DB07781,N-[[3-FLUORO-4-ETHOXY-PYRID-2-YL]ETHYL]-N'-[5-NITRILOMETHYL-PYRIDYL]-THIOUREA,C0019693,HIV Infections,TARGET_Gag-Pol_polyprotein,间接机制,0.736842105263158,23.930887573964498,🌟 零样本全新发现
+DB07679,"(9S,12S)-9-(1-methylethyl)-7,10-dioxo-2-oxa-8,11-diazabicyclo[12.2.2]octadeca-1(16),14,17-triene-12-carboxylic acid",C0019693,HIV Infections,TARGET_Gag-Pol_polyprotein,间接机制,0.736842105263158,23.930887573964498,🌟 零样本全新发现
+DB07634,"(2,6-Dimethylphenoxy)acetic acid",C0019693,HIV Infections,TARGET_Gag-Pol_polyprotein,间接机制,0.736842105263158,23.930887573964498,🌟 零样本全新发现
+DB07581,5-AMINO-6-CYCLOHEXYL-4-HYDROXY-2-ISOPROPYL-HEXANOIC ACID,C0019693,HIV Infections,TARGET_Gag-Pol_polyprotein,间接机制,0.736842105263158,23.930887573964498,🌟 零样本全新发现
+DB08286,1-Naphthoxyacetic acid,C0019693,HIV Infections,TARGET_Gag-Pol_polyprotein,间接机制,0.736842105263158,23.930887573964498,🌟 零样本全新发现
+DB08284,"O-[2-(1,3-dioxo-1,3-dihydro-2H-isoindol-2-yl)ethyl] (4-iodophenyl)thiocarbamate",C0019693,HIV Infections,TARGET_Gag-Pol_polyprotein,间接机制,0.736842105263158,23.930887573964498,🌟 零样本全新发现
+DB08282,"O-[2-(1,3-dioxo-1,3-dihydro-2H-isoindol-2-yl)ethyl] (4-chlorophenyl)thiocarbamate",C0019693,HIV Infections,TARGET_Gag-Pol_polyprotein,间接机制,0.736842105263158,23.930887573964498,🌟 零样本全新发现
+DB08281,"O-[2-(1,3-dioxo-1,3-dihydro-2H-isoindol-2-yl)ethyl] (4-bromophenyl)thiocarbamate",C0019693,HIV Infections,TARGET_Gag-Pol_polyprotein,间接机制,0.736842105263158,23.930887573964498,🌟 零样本全新发现
+DB08274,"6,7,8,9-TETRAHYDRO-4-HYDROXY-3-(1-PHENYLPROPYL)CYCLOHEPTA[B]PYRAN-2-ONE",C0019693,HIV Infections,TARGET_Gag-Pol_polyprotein,间接机制,0.736842105263158,23.930887573964498,🌟 零样本全新发现
+DB08231,Myristic acid,C0019693,HIV Infections,TARGET_Gag-Pol_polyprotein,"PRKACA, PVR, INS, RCVRN, GM2A, PKIA, PPARA, CALM1, TLR4, PPP3CA, GUCA1A, ARF1, NCOA1, TRAPPC3, ABL1, FKBP1A, CALM3, CALM2, ECI2, ARF6, LY96, PPP3R1, HNF4A",0.736842105263158,23.930887573964498,🌟 零样本全新发现
+DB08212,1-[2-(3-ACETYL-2-HYDROXY-6-METHOXY-PHENYL)-CYCLOPROPYL]-3-(5-CYANO-PYRIDIN-2-YL)-THIOUREA,C0019693,HIV Infections,TARGET_Gag-Pol_polyprotein,间接机制,0.736842105263158,23.930887573964498,🌟 零样本全新发现
+DB08211,5-bromo-3-(pyrrolidin-1-ylsulfonyl)-1H-indole-2-carboxamide,C0019693,HIV Infections,TARGET_Gag-Pol_polyprotein,间接机制,0.736842105263158,23.930887573964498,🌟 零样本全新发现
+DB08188,Emivirine,C0019693,HIV Infections,TARGET_Gag-Pol_polyprotein,间接机制,0.736842105263158,23.930887573964498,🌟 零样本全新发现
+DB08154,3-chloro-5-[2-chloro-5-(1H-indazol-3-ylmethoxy)phenoxy]benzonitrile,C0019693,HIV Infections,TARGET_Gag-Pol_polyprotein,间接机制,0.736842105263158,23.930887573964498,🌟 零样本全新发现
+DB08115,2-aminoethyl naphthalen-1-ylacetate,C0019693,HIV Infections,TARGET_Gag-Pol_polyprotein,间接机制,0.736842105263158,23.930887573964498,🌟 零样本全新发现
+DB08041,3-BENZYLOXYCARBONYLAMINO-2-HYDROXY-4-PHENYL-BUTYRIC ACID,C0019693,HIV Infections,TARGET_Gag-Pol_polyprotein,间接机制,0.736842105263158,23.930887573964498,🌟 零样本全新发现
+DB08034,"(E)-3,4-DIHYDROXY-N'-[(2-METHOXYNAPHTHALEN-1-YL)METHYLENE]BENZOHYDRAZIDE",C0019693,HIV Infections,TARGET_Gag-Pol_polyprotein,间接机制,0.736842105263158,23.930887573964498,🌟 零样本全新发现
+DB08027,CAP-1,C0019693,HIV Infections,TARGET_Gag-Pol_polyprotein,间接机制,0.736842105263158,23.930887573964498,🌟 零样本全新发现
+DB07961,"1-(4-Cyano-phenyl)-3-[2-(2,6-dichloro-phenyl)-1-imino-ethyl]-thiourea",C0019693,HIV Infections,TARGET_Gag-Pol_polyprotein,间接机制,0.736842105263158,23.930887573964498,🌟 零样本全新发现
+DB07910,"(2S)-2-amino-3-phenylpropane-1,1-diol",C0019693,HIV Infections,TARGET_Gag-Pol_polyprotein,间接机制,0.736842105263158,23.930887573964498,🌟 零样本全新发现
+DB08598,R-82913,C0019693,HIV Infections,TARGET_Gag-Pol_polyprotein,间接机制,0.736842105263158,23.930887573964498,🌟 零样本全新发现
+DB08528,"2-AMINO-6-(3,5-DIMETHYLPHENYL)SULFONYLBENZONITRILE",C0019693,HIV Infections,TARGET_Gag-Pol_polyprotein,间接机制,0.736842105263158,23.930887573964498,🌟 零样本全新发现
+DB08502,Capravirine,C0019693,HIV Infections,TARGET_Gag-Pol_polyprotein,间接机制,0.736842105263158,23.930887573964498,🌟 零样本全新发现
+DB08494,"S-{2-[(2-chloro-4-sulfamoylphenyl)amino]-2-oxoethyl} 6-methyl-3,4-dihydroquinoline-1(2H)-carbothioate",C0019693,HIV Infections,TARGET_Gag-Pol_polyprotein,间接机制,0.736842105263158,23.930887573964498,🌟 零样本全新发现
+DB08474,3-(CARBOXYAMIDE(2-CARBOXYAMIDE-2-TERTBUTYLETHYL))PENTAN,C0019693,HIV Infections,TARGET_Gag-Pol_polyprotein,间接机制,0.736842105263158,23.930887573964498,🌟 零样本全新发现
+DB08460,MK-4965,C0019693,HIV Infections,TARGET_Gag-Pol_polyprotein,间接机制,0.736842105263158,23.930887573964498,🌟 零样本全新发现
+DB08459,"3-chloro-5-[2-chloro-5-(1H-pyrazolo[3,4-b]pyridin-3-ylmethoxy)phenoxy]benzonitrile",C0019693,HIV Infections,TARGET_Gag-Pol_polyprotein,间接机制,0.736842105263158,23.930887573964498,🌟 零样本全新发现
+DB08457,"4-(3,5-DIMETHYLPHENOXY)-5-(FURAN-2-YLMETHYLSULFANYLMETHYL)-3-IODO-6-METHYLPYRIDIN-2(1H)-ONE",C0019693,HIV Infections,TARGET_Gag-Pol_polyprotein,间接机制,0.736842105263158,23.930887573964498,🌟 零样本全新发现
+DB08446,"3-[6-bromo-2-fluoro-3-(1H-pyrazolo[3,4-c]pyridazin-3-ylmethyl)phenoxy]-5-chlorobenzonitrile",C0019693,HIV Infections,TARGET_Gag-Pol_polyprotein,间接机制,0.736842105263158,23.930887573964498,🌟 零样本全新发现
+DB08444,"3-[2-bromo-4-(1H-pyrazolo[3,4-c]pyridazin-3-ylmethyl)phenoxy]-5-methylbenzonitrile",C0019693,HIV Infections,TARGET_Gag-Pol_polyprotein,间接机制,0.736842105263158,23.930887573964498,🌟 零样本全新发现
+DB08428,3(S)-AMINO-4-PHENYL-BUTAN-2(S)-OL,C0019693,HIV Infections,TARGET_Gag-Pol_polyprotein,间接机制,0.736842105263158,23.930887573964498,🌟 零样本全新发现
+DB08421,PIPERIDINE-2-CARBOXYLIC ACID TERT-BUTYLAMIDE,C0019693,HIV Infections,TARGET_Gag-Pol_polyprotein,间接机制,0.736842105263158,23.930887573964498,🌟 零样本全新发现
+DB08414,PNU-142721,C0019693,HIV Infections,TARGET_Gag-Pol_polyprotein,间接机制,0.736842105263158,23.930887573964498,🌟 零样本全新发现
+DB08379,6-(4-chloro-2-fluoro-3-phenoxybenzyl)pyridazin-3(2H)-one,C0019693,HIV Infections,TARGET_Gag-Pol_polyprotein,间接机制,0.736842105263158,23.930887573964498,🌟 零样本全新发现
+DB08372,1-[2-(4-ETHOXY-3-FLUOROPYRIDIN-2-YL)ETHYL]-3-(5-METHYLPYRIDIN-2-YL)THIOUREA,C0019693,HIV Infections,TARGET_Gag-Pol_polyprotein,间接机制,0.736842105263158,23.930887573964498,🌟 零样本全新发现
+DB08331,"N-1H-imidazol-2-yl-N'-[4-(1H-imidazol-2-ylamino)phenyl]benzene-1,4-diamine",C0019693,HIV Infections,TARGET_Gag-Pol_polyprotein,间接机制,0.736842105263158,23.930887573964498,🌟 零样本全新发现
+DB11649,Lersivirine,C0019693,HIV Infections,TARGET_Gag-Pol_polyprotein,间接机制,0.736842105263158,23.930887573964498,🌟 零样本全新发现
+DB11586,Asunaprevir,C0019693,HIV Infections,TARGET_Gag-Pol_polyprotein,间接机制,0.736842105263158,23.930887573964498,🌟 零样本全新发现
+DB11575,Grazoprevir,C0019693,HIV Infections,TARGET_Gag-Pol_polyprotein,间接机制,0.736842105263158,23.930887573964498,🌟 零样本全新发现
+DB09297,Paritaprevir,C0019693,HIV Infections,TARGET_Gag-Pol_polyprotein,间接机制,0.736842105263158,23.930887573964498,🌟 零样本全新发现
+DB08686,"5,6,7,8,9,10-HEXAHYDRO-4-HYDROXY-3-(1-PHENYLPROPYL)CYCLOOCTA[B]PYRAN-2-ONE",C0019693,HIV Infections,TARGET_Gag-Pol_polyprotein,间接机制,0.736842105263158,23.930887573964498,🌟 零样本全新发现
+DB08682,"1-METHYL ETHYL 1-CHLORO-5-[[(5,6DIHYDRO-2-METHYL-1,4-OXATHIIN-3-YL)CARBONYL]AMINO]BENZOATE",C0019693,HIV Infections,TARGET_Gag-Pol_polyprotein,间接机制,0.736842105263158,23.930887573964498,🌟 零样本全新发现
+DB08681,1-METHYL ETHYL 2-CHLORO-5-[[[(1-METHYLETHOXY)THIOOXO]METHYL]AMINO]-BENZOATE,C0019693,HIV Infections,TARGET_Gag-Pol_polyprotein,间接机制,0.736842105263158,23.930887573964498,🌟 零样本全新发现
+DB08680,N-{3-[(E)-(tert-butoxyimino)methyl]-4-chlorophenyl}-2-methylfuran-3-carbimidothioic acid,C0019693,HIV Infections,TARGET_Gag-Pol_polyprotein,间接机制,0.736842105263158,23.930887573964498,🌟 零样本全新发现
+DB08665,"6,11-DIHYDRO-11-ETHYL-6-METHYL-9-NITRO-5H-PYRIDO[2,3-B][1,5]BENZODIAZEPIN-5-ONE",C0019693,HIV Infections,TARGET_Gag-Pol_polyprotein,间接机制,0.736842105263158,23.930887573964498,🌟 零样本全新发现
+DB08664,({3-[1-(4-Hydroxy-2-oxo-2H-chromen-3-yl)-propyl]-phenylcarbamoyl}-methyl)-carbamic acid tert-butyl ester,C0019693,HIV Infections,TARGET_Gag-Pol_polyprotein,间接机制,0.736842105263158,23.930887573964498,🌟 零样本全新发现
+DB08663,4-HYDROXY-7-METHOXY-3-(1-PHENYL-PROPYL)-CHROMEN-2-ONE,C0019693,HIV Infections,TARGET_Gag-Pol_polyprotein,间接机制,0.736842105263158,23.930887573964498,🌟 零样本全新发现
+DB08662,3-[1-(4-BROMO-PHENYL)-2-METHYL-PROPYL]-4-HYDROXY-CHROMEN-2-ONE,C0019693,HIV Infections,TARGET_Gag-Pol_polyprotein,间接机制,0.736842105263158,23.930887573964498,🌟 零样本全新发现
+DB08639,Dapivirine,C0019693,HIV Infections,TARGET_Gag-Pol_polyprotein,间接机制,0.736842105263158,23.930887573964498,🌟 零样本全新发现
+DB08634,6-BENZYL-1-BENZYLOXYMETHYL-5-ISOPROPYL URACIL,C0019693,HIV Infections,TARGET_Gag-Pol_polyprotein,间接机制,0.736842105263158,23.930887573964498,🌟 零样本全新发现
+DB08622,"4-(4-CHLORO-PHENYL)-1-{3-[2-(4-FLUORO-PHENYL)-[1,3]DITHIOLAN-2-YL]-PROPYL}-PIPERIDIN-4-OL",C0019693,HIV Infections,TARGET_Gag-Pol_polyprotein,间接机制,0.736842105263158,23.930887573964498,🌟 零样本全新发现
+DB08600,Tivirapine,C0019693,HIV Infections,TARGET_Gag-Pol_polyprotein,间接机制,0.736842105263158,23.930887573964498,🌟 零样本全新发现
+DB12894,Raluridine,C0019693,HIV Infections,TARGET_Gag-Pol_polyprotein,间接机制,0.736842105263158,23.930887573964498,🌟 零样本全新发现
+DB12876,GS-9256,C0019693,HIV Infections,TARGET_Gag-Pol_polyprotein,间接机制,0.736842105263158,23.930887573964498,🌟 零样本全新发现
+DB12855,Apricitabine,C0019693,HIV Infections,TARGET_Gag-Pol_polyprotein,间接机制,0.736842105263158,23.930887573964498,🌟 零样本全新发现
+DB12531,Lobucavir,C0019693,HIV Infections,TARGET_Gag-Pol_polyprotein,间接机制,0.736842105263158,23.930887573964498,🌟 零样本全新发现
+DB12423,Fozivudine Tidoxil,C0019693,HIV Infections,TARGET_Gag-Pol_polyprotein,间接机制,0.736842105263158,23.930887573964498,🌟 零样本全新发现
+DB12405,Triciribine,C0019693,HIV Infections,TARGET_Gag-Pol_polyprotein,间接机制,0.736842105263158,23.930887573964498,🌟 零样本全新发现
+DB12264,Atevirdine,C0019693,HIV Infections,TARGET_Gag-Pol_polyprotein,间接机制,0.736842105263158,23.930887573964498,🌟 零样本全新发现
+DB12178,Telinavir,C0019693,HIV Infections,TARGET_Gag-Pol_polyprotein,间接机制,0.736842105263158,23.930887573964498,🌟 零样本全新发现
+DB12116,Epigallocatechin gallate,C0019693,HIV Infections,TARGET_Gag-Pol_polyprotein,"FASN, SQLE, TGM2, MMP2, ELANE, DNMT1, AHR, MMP14, STAT3, DHFR2",0.736842105263158,23.930887573964498,🌟 零样本全新发现
+DB12074,Censavudine,C0019693,HIV Infections,TARGET_Gag-Pol_polyprotein,间接机制,0.736842105263158,23.930887573964498,🌟 零样本全新发现
+DB12069,Sovaprevir,C0019693,HIV Infections,TARGET_Gag-Pol_polyprotein,间接机制,0.736842105263158,23.930887573964498,🌟 零样本全新发现
+DB11998,Sorivudine,C0019693,HIV Infections,TARGET_Gag-Pol_polyprotein,间接机制,0.736842105263158,23.930887573964498,🌟 零样本全新发现
+DB11929,Vaniprevir,C0019693,HIV Infections,TARGET_Gag-Pol_polyprotein,间接机制,0.736842105263158,23.930887573964498,🌟 零样本全新发现
+DB11808,Faldaprevir,C0019693,HIV Infections,TARGET_Gag-Pol_polyprotein,间接机制,0.736842105263158,23.930887573964498,🌟 零样本全新发现
+DB11779,Danoprevir,C0019693,HIV Infections,TARGET_Gag-Pol_polyprotein,间接机制,0.736842105263158,23.930887573964498,🌟 零样本全新发现
+DB11751,Cabotegravir,C0019693,HIV Infections,TARGET_Gag-Pol_polyprotein,间接机制,0.736842105263158,23.930887573964498,🌟 零样本全新发现
 DB00178,Ramipril,C0020538,Hypertensive disease,TARGET_Angiotensin-converting_enzyme,间接机制,0.5909090909090908,inf,✅ 验证集完美命中
 DB00519,Trandolapril,C0020538,Hypertensive disease,TARGET_Angiotensin-converting_enzyme,间接机制,0.5909090909090908,inf,✅ 验证集完美命中
 DB00542,Benazepril,C0020538,Hypertensive disease,TARGET_Angiotensin-converting_enzyme,间接机制,0.5909090909090908,inf,✅ 验证集完美命中
@@ -192,163 +192,163 @@ DB21364,Alacepril,C0020538,Hypertensive disease,TARGET_Angiotensin-converting_en
 DB20306,Utibapril,C0020538,Hypertensive disease,TARGET_Angiotensin-converting_enzyme,间接机制,0.5909090909090908,inf,🌟 零样本全新发现
 DB19598,Idrapril,C0020538,Hypertensive disease,TARGET_Angiotensin-converting_enzyme,间接机制,0.5909090909090908,inf,🌟 零样本全新发现
 DB14511,Acetate,C0020538,Hypertensive disease,TARGET_Angiotensin-converting_enzyme,间接机制,0.5909090909090908,inf,🌟 零样本全新发现
-DB00753,Isoflurane,C0917801,Sleeplessness,TARGET_Gamma-aminobutyric_acid_receptor_subunit_alpha-1,间接机制,0.21311475409836064,11.024659464537342,🌟 零样本全新发现
-DB00794,Primidone,C0917801,Sleeplessness,TARGET_Gamma-aminobutyric_acid_receptor_subunit_alpha-1,间接机制,0.21311475409836064,11.024659464537342,🌟 零样本全新发现
-DB00837,Progabide,C0917801,Sleeplessness,TARGET_Gamma-aminobutyric_acid_receptor_subunit_alpha-1,间接机制,0.21311475409836064,11.024659464537342,🌟 零样本全新发现
-DB00599,Thiopental,C0917801,Sleeplessness,TARGET_Gamma-aminobutyric_acid_receptor_subunit_alpha-1,间接机制,0.21311475409836064,11.024659464537342,🌟 零样本全新发现
-DB00849,Methylphenobarbital,C0917801,Sleeplessness,TARGET_Gamma-aminobutyric_acid_receptor_subunit_alpha-1,间接机制,0.21311475409836064,11.024659464537342,🌟 零样本全新发现
-DB00543,Amoxapine,C0917801,Sleeplessness,TARGET_Gamma-aminobutyric_acid_receptor_subunit_alpha-1,间接机制,0.21311475409836064,11.024659464537342,🌟 零样本全新发现
-DB00474,Methohexital,C0917801,Sleeplessness,TARGET_Gamma-aminobutyric_acid_receptor_subunit_alpha-1,间接机制,0.21311475409836064,11.024659464537342,🌟 零样本全新发现
-DB00466,Picrotoxin,C0917801,Sleeplessness,TARGET_Gamma-aminobutyric_acid_receptor_subunit_alpha-1,间接机制,0.21311475409836064,11.024659464537342,🌟 零样本全新发现
-DB00395,Carisoprodol,C0917801,Sleeplessness,TARGET_Gamma-aminobutyric_acid_receptor_subunit_alpha-1,间接机制,0.21311475409836064,11.024659464537342,🌟 零样本全新发现
-DB00371,Meprobamate,C0917801,Sleeplessness,TARGET_Gamma-aminobutyric_acid_receptor_subunit_alpha-1,间接机制,0.21311475409836064,11.024659464537342,🌟 零样本全新发现
-DB00363,Clozapine,C0917801,Sleeplessness,TARGET_Gamma-aminobutyric_acid_receptor_subunit_alpha-1,间接机制,0.21311475409836064,11.024659464537342,🌟 零样本全新发现
-DB00349,Clobazam,C0917801,Sleeplessness,TARGET_Gamma-aminobutyric_acid_receptor_subunit_alpha-1,间接机制,0.21311475409836064,11.024659464537342,🌟 零样本全新发现
-DB00292,Etomidate,C0917801,Sleeplessness,TARGET_Gamma-aminobutyric_acid_receptor_subunit_alpha-1,间接机制,0.21311475409836064,11.024659464537342,🌟 零样本全新发现
-DB00273,Topiramate,C0917801,Sleeplessness,TARGET_Gamma-aminobutyric_acid_receptor_subunit_alpha-1,间接机制,0.21311475409836064,11.024659464537342,🌟 零样本全新发现
-DB00241,Butalbital,C0917801,Sleeplessness,TARGET_Gamma-aminobutyric_acid_receptor_subunit_alpha-1,间接机制,0.21311475409836064,11.024659464537342,🌟 零样本全新发现
-DB00237,Butabarbital,C0917801,Sleeplessness,TARGET_Gamma-aminobutyric_acid_receptor_subunit_alpha-1,间接机制,0.21311475409836064,11.024659464537342,✅ 验证集完美命中
-DB01595,Nitrazepam,C0917801,Sleeplessness,TARGET_Gamma-aminobutyric_acid_receptor_subunit_alpha-1,间接机制,0.21311475409836064,11.024659464537342,✅ 验证集完美命中
-DB01567,Fludiazepam,C0917801,Sleeplessness,TARGET_Gamma-aminobutyric_acid_receptor_subunit_alpha-1,间接机制,0.21311475409836064,11.024659464537342,🌟 零样本全新发现
-DB01496,"Dihydro-2-thioxo-5-((5-(2-(trifluoromethyl)phenyl)-2-furanyl)methyl)-4,6(1H,5H)-pyrimidinedione",C0917801,Sleeplessness,TARGET_Gamma-aminobutyric_acid_receptor_subunit_alpha-1,间接机制,0.21311475409836064,11.024659464537342,🌟 零样本全新发现
-DB01381,Ginkgo biloba,C0917801,Sleeplessness,TARGET_Gamma-aminobutyric_acid_receptor_subunit_alpha-1,间接机制,0.21311475409836064,11.024659464537342,🌟 零样本全新发现
-DB01355,Hexobarbital,C0917801,Sleeplessness,TARGET_Gamma-aminobutyric_acid_receptor_subunit_alpha-1,间接机制,0.21311475409836064,11.024659464537342,🌟 零样本全新发现
-DB01354,Heptabarbital,C0917801,Sleeplessness,TARGET_Gamma-aminobutyric_acid_receptor_subunit_alpha-1,间接机制,0.21311475409836064,11.024659464537342,🌟 零样本全新发现
-DB01346,Quinidine barbiturate,C0917801,Sleeplessness,TARGET_Gamma-aminobutyric_acid_receptor_subunit_alpha-1,间接机制,0.21311475409836064,11.024659464537342,🌟 零样本全新发现
-DB01341,Dihydroquinidine barbiturate,C0917801,Sleeplessness,TARGET_Gamma-aminobutyric_acid_receptor_subunit_alpha-1,间接机制,0.21311475409836064,11.024659464537342,🌟 零样本全新发现
-DB01205,Flumazenil,C0917801,Sleeplessness,TARGET_Gamma-aminobutyric_acid_receptor_subunit_alpha-1,间接机制,0.21311475409836064,11.024659464537342,🌟 零样本全新发现
-DB01174,Phenobarbital,C0917801,Sleeplessness,TARGET_Gamma-aminobutyric_acid_receptor_subunit_alpha-1,间接机制,0.21311475409836064,11.024659464537342,🌟 零样本全新发现
-DB01159,Halothane,C0917801,Sleeplessness,TARGET_Gamma-aminobutyric_acid_receptor_subunit_alpha-1,间接机制,0.21311475409836064,11.024659464537342,🌟 零样本全新发现
-DB01154,Thiamylal,C0917801,Sleeplessness,TARGET_Gamma-aminobutyric_acid_receptor_subunit_alpha-1,间接机制,0.21311475409836064,11.024659464537342,🌟 零样本全新发现
-DB01107,Methyprylon,C0917801,Sleeplessness,TARGET_Gamma-aminobutyric_acid_receptor_subunit_alpha-1,间接机制,0.21311475409836064,11.024659464537342,✅ 验证集完美命中
-DB01028,Methoxyflurane,C0917801,Sleeplessness,TARGET_Gamma-aminobutyric_acid_receptor_subunit_alpha-1,间接机制,0.21311475409836064,11.024659464537342,🌟 零样本全新发现
-DB00962,Zaleplon,C0917801,Sleeplessness,TARGET_Gamma-aminobutyric_acid_receptor_subunit_alpha-1,间接机制,0.21311475409836064,11.024659464537342,🌟 零样本全新发现
-DB00898,Ethanol,C0917801,Sleeplessness,TARGET_Gamma-aminobutyric_acid_receptor_subunit_alpha-1,间接机制,0.21311475409836064,11.024659464537342,🌟 零样本全新发现
-DB02530,gamma-Aminobutyric acid,C0917801,Sleeplessness,TARGET_Gamma-aminobutyric_acid_receptor_subunit_alpha-1,间接机制,0.21311475409836064,11.024659464537342,🌟 零样本全新发现
-DB05721,EVT 201,C0917801,Sleeplessness,TARGET_Gamma-aminobutyric_acid_receptor_subunit_alpha-1,间接机制,0.21311475409836064,11.024659464537342,🌟 零样本全新发现
-DB06119,Cenobamate,C0917801,Sleeplessness,TARGET_Gamma-aminobutyric_acid_receptor_subunit_alpha-1,间接机制,0.21311475409836064,11.024659464537342,🌟 零样本全新发现
-DB06470,Clomethiazole,C0917801,Sleeplessness,TARGET_Gamma-aminobutyric_acid_receptor_subunit_alpha-1,间接机制,0.21311475409836064,11.024659464537342,✅ 验证集完美命中
-DB07776,Flavone,C0917801,Sleeplessness,TARGET_Gamma-aminobutyric_acid_receptor_subunit_alpha-1,间接机制,0.21311475409836064,11.024659464537342,🌟 零样本全新发现
-DB11582,Thiocolchicoside,C0917801,Sleeplessness,TARGET_Gamma-aminobutyric_acid_receptor_subunit_alpha-1,间接机制,0.21311475409836064,11.024659464537342,🌟 零样本全新发现
-DB11859,Brexanolone,C0917801,Sleeplessness,TARGET_Gamma-aminobutyric_acid_receptor_subunit_alpha-1,间接机制,0.21311475409836064,11.024659464537342,🌟 零样本全新发现
-DB12308,Eltanolone,C0917801,Sleeplessness,TARGET_Gamma-aminobutyric_acid_receptor_subunit_alpha-1,间接机制,0.21311475409836064,11.024659464537342,🌟 零样本全新发现
-DB12458,Muscimol,C0917801,Sleeplessness,TARGET_Gamma-aminobutyric_acid_receptor_subunit_alpha-1,间接机制,0.21311475409836064,11.024659464537342,🌟 零样本全新发现
-DB12590,Indiplon,C0917801,Sleeplessness,TARGET_Gamma-aminobutyric_acid_receptor_subunit_alpha-1,间接机制,0.21311475409836064,11.024659464537342,🌟 零样本全新发现
-DB17063,ZK-93423,C0917801,Sleeplessness,TARGET_Gamma-aminobutyric_acid_receptor_subunit_alpha-1,间接机制,0.21311475409836064,11.024659464537342,🌟 零样本全新发现
-DB19929,Divaplon,C0917801,Sleeplessness,TARGET_Gamma-aminobutyric_acid_receptor_subunit_alpha-1,间接机制,0.21311475409836064,11.024659464537342,🌟 零样本全新发现
-DB20375,Ripazepam,C0917801,Sleeplessness,TARGET_Gamma-aminobutyric_acid_receptor_subunit_alpha-1,间接机制,0.21311475409836064,11.024659464537342,🌟 零样本全新发现
-DB21275,Panadiplon,C0917801,Sleeplessness,TARGET_Gamma-aminobutyric_acid_receptor_subunit_alpha-1,间接机制,0.21311475409836064,11.024659464537342,🌟 零样本全新发现
-DB11327,Dipyrithione,C0029408,Degenerative polyarthritis,TARGET_Prostaglandin_G/H_synthase_2,间接机制,0.15730337078651685,3.957570064192892,🌟 零样本全新发现
-DB11455,Robenacoxib,C0029408,Degenerative polyarthritis,TARGET_Prostaglandin_G/H_synthase_2,间接机制,0.15730337078651685,3.957570064192892,🌟 零样本全新发现
-DB20173,Darbufelone,C0029408,Degenerative polyarthritis,TARGET_Prostaglandin_G/H_synthase_2,间接机制,0.15730337078651685,3.957570064192892,🌟 零样本全新发现
-DB14060,NS-398,C0029408,Degenerative polyarthritis,TARGET_Prostaglandin_G/H_synthase_2,间接机制,0.15730337078651685,3.957570064192892,🌟 零样本全新发现
-DB14059,SC-236,C0029408,Degenerative polyarthritis,TARGET_Prostaglandin_G/H_synthase_2,间接机制,0.15730337078651685,3.957570064192892,🌟 零样本全新发现
-DB13961,Fish oil,C0029408,Degenerative polyarthritis,TARGET_Prostaglandin_G/H_synthase_2,间接机制,0.15730337078651685,3.957570064192892,🌟 零样本全新发现
-DB13167,Alclofenac,C0029408,Degenerative polyarthritis,TARGET_Prostaglandin_G/H_synthase_2,间接机制,0.15730337078651685,3.957570064192892,🌟 零样本全新发现
-DB11752,Bryostatin 1,C0029408,Degenerative polyarthritis,TARGET_Prostaglandin_G/H_synthase_2,间接机制,0.15730337078651685,3.957570064192892,🌟 零样本全新发现
-DB12378,Apricoxib,C0029408,Degenerative polyarthritis,TARGET_Prostaglandin_G/H_synthase_2,间接机制,0.15730337078651685,3.957570064192892,🌟 零样本全新发现
-DB12009,GW-406381,C0029408,Degenerative polyarthritis,TARGET_Prostaglandin_G/H_synthase_2,间接机制,0.15730337078651685,3.957570064192892,🌟 零样本全新发现
-DB20632,Tenosal,C0029408,Degenerative polyarthritis,TARGET_Prostaglandin_G/H_synthase_2,间接机制,0.15730337078651685,3.957570064192892,🌟 零样本全新发现
-DB20743,Flosulide,C0029408,Degenerative polyarthritis,TARGET_Prostaglandin_G/H_synthase_2,间接机制,0.15730337078651685,3.957570064192892,🌟 零样本全新发现
-DB20715,Tilmacoxib,C0029408,Degenerative polyarthritis,TARGET_Prostaglandin_G/H_synthase_2,间接机制,0.15730337078651685,3.957570064192892,🌟 零样本全新发现
-DB08439,Parecoxib,C0029408,Degenerative polyarthritis,TARGET_Prostaglandin_G/H_synthase_2,间接机制,0.15730337078651685,3.957570064192892,🌟 零样本全新发现
-DB08910,Pomalidomide,C0029408,Degenerative polyarthritis,TARGET_Prostaglandin_G/H_synthase_2,间接机制,0.15730337078651685,3.957570064192892,🌟 零样本全新发现
-DB09217,Firocoxib,C0029408,Degenerative polyarthritis,TARGET_Prostaglandin_G/H_synthase_2,间接机制,0.15730337078651685,3.957570064192892,🌟 零样本全新发现
-DB04743,Nimesulide,C0029408,Degenerative polyarthritis,TARGET_Prostaglandin_G/H_synthase_2,间接机制,0.15730337078651685,3.957570064192892,🌟 零样本全新发现
-DB04725,Licofelone,C0029408,Degenerative polyarthritis,TARGET_Prostaglandin_G/H_synthase_2,间接机制,0.15730337078651685,3.957570064192892,🌟 零样本全新发现
-DB00166,Lipoic acid,C0029408,Degenerative polyarthritis,TARGET_Prostaglandin_G/H_synthase_2,间接机制,0.15730337078651685,3.957570064192892,🌟 零样本全新发现
-DB00480,Lenalidomide,C0029408,Degenerative polyarthritis,TARGET_Prostaglandin_G/H_synthase_2,间接机制,0.15730337078651685,3.957570064192892,🌟 零样本全新发现
-DB00533,Rofecoxib,C0029408,Degenerative polyarthritis,TARGET_Prostaglandin_G/H_synthase_2,间接机制,0.15730337078651685,3.957570064192892,✅ 验证集完美命中
-DB01404,Ginseng,C0029408,Degenerative polyarthritis,TARGET_Prostaglandin_G/H_synthase_2,间接机制,0.15730337078651685,3.957570064192892,🌟 零样本全新发现
-DB03866,Prostaglandin G2,C0029408,Degenerative polyarthritis,TARGET_Prostaglandin_G/H_synthase_2,间接机制,0.15730337078651685,3.957570064192892,🌟 零样本全新发现
-DB01628,Etoricoxib,C0029408,Degenerative polyarthritis,TARGET_Prostaglandin_G/H_synthase_2,间接机制,0.15730337078651685,3.957570064192892,🌟 零样本全新发现
-DB03477,1-Phenylsulfonamide-3-Trifluoromethyl-5-Parabromophenylpyrazole,C0029408,Degenerative polyarthritis,TARGET_Prostaglandin_G/H_synthase_2,间接机制,0.15730337078651685,3.957570064192892,🌟 零样本全新发现
-DB21699,Tigemocoxib,C0029408,Degenerative polyarthritis,TARGET_Prostaglandin_G/H_synthase_2,间接机制,0.15730337078651685,3.957570064192892,🌟 零样本全新发现
-DB00132,alpha-Linolenic acid,C0029408,Degenerative polyarthritis,TARGET_Prostaglandin_G/H_synthase_2,间接机制,0.15730337078651685,3.957570064192892,🌟 零样本全新发现
-DB05095,Cimicoxib,C0029408,Degenerative polyarthritis,TARGET_Prostaglandin_G/H_synthase_2,间接机制,0.15730337078651685,3.957570064192892,🌟 零样本全新发现
-DB00580,Valdecoxib,C0029408,Degenerative polyarthritis,TARGET_Prostaglandin_G/H_synthase_2,间接机制,0.15730337078651685,3.957570064192892,🌟 零样本全新发现
-DB00316,Acetaminophen,C0029408,Degenerative polyarthritis,TARGET_Prostaglandin_G/H_synthase_1,间接机制,0.1511627906976744,4.409863785814936,🌟 零样本全新发现
-DB00233,Aminosalicylic acid,C0029408,Degenerative polyarthritis,TARGET_Prostaglandin_G/H_synthase_1,间接机制,0.1511627906976744,4.409863785814936,🌟 零样本全新发现
-DB00244,Mesalazine,C0029408,Degenerative polyarthritis,TARGET_Prostaglandin_G/H_synthase_1,间接机制,0.1511627906976744,4.409863785814936,🌟 零样本全新发现
-DB00870,Suprofen,C0029408,Degenerative polyarthritis,TARGET_Prostaglandin_G/H_synthase_1,间接机制,0.1511627906976744,4.409863785814936,🌟 零样本全新发现
-DB00963,Bromfenac,C0029408,Degenerative polyarthritis,TARGET_Prostaglandin_G/H_synthase_1,间接机制,0.1511627906976744,4.409863785814936,🌟 零样本全新发现
-DB01009,Ketoprofen,C0029408,Degenerative polyarthritis,TARGET_Prostaglandin_G/H_synthase_1,间接机制,0.1511627906976744,4.409863785814936,✅ 验证集完美命中
-DB01014,Balsalazide,C0029408,Degenerative polyarthritis,TARGET_Prostaglandin_G/H_synthase_1,间接机制,0.1511627906976744,4.409863785814936,🌟 零样本全新发现
-DB01419,Antrafenine,C0029408,Degenerative polyarthritis,TARGET_Prostaglandin_G/H_synthase_1,间接机制,0.1511627906976744,4.409863785814936,🌟 零样本全新发现
-DB00328,Indomethacin,C0029408,Degenerative polyarthritis,TARGET_Prostaglandin_G/H_synthase_1,间接机制,0.1511627906976744,4.409863785814936,✅ 验证集完美命中
-DB00350,Minoxidil,C0029408,Degenerative polyarthritis,TARGET_Prostaglandin_G/H_synthase_1,间接机制,0.1511627906976744,4.409863785814936,🌟 零样本全新发现
-DB00465,Ketorolac,C0029408,Degenerative polyarthritis,TARGET_Prostaglandin_G/H_synthase_1,间接机制,0.1511627906976744,4.409863785814936,🌟 零样本全新发现
-DB00469,Tenoxicam,C0029408,Degenerative polyarthritis,TARGET_Prostaglandin_G/H_synthase_1,间接机制,0.1511627906976744,4.409863785814936,🌟 零样本全新发现
-DB00573,Fenoprofen,C0029408,Degenerative polyarthritis,TARGET_Prostaglandin_G/H_synthase_1,间接机制,0.1511627906976744,4.409863785814936,✅ 验证集完美命中
-DB00586,Diclofenac,C0029408,Degenerative polyarthritis,TARGET_Prostaglandin_G/H_synthase_1,间接机制,0.1511627906976744,4.409863785814936,✅ 验证集完美命中
-DB00711,Diethylcarbamazine,C0029408,Degenerative polyarthritis,TARGET_Prostaglandin_G/H_synthase_1,间接机制,0.1511627906976744,4.409863785814936,🌟 零样本全新发现
-DB00784,Mefenamic acid,C0029408,Degenerative polyarthritis,TARGET_Prostaglandin_G/H_synthase_1,间接机制,0.1511627906976744,4.409863785814936,🌟 零样本全新发现
-DB00795,Sulfasalazine,C0029408,Degenerative polyarthritis,TARGET_Prostaglandin_G/H_synthase_1,间接机制,0.1511627906976744,4.409863785814936,🌟 零样本全新发现
-DB00812,Phenylbutazone,C0029408,Degenerative polyarthritis,TARGET_Prostaglandin_G/H_synthase_1,间接机制,0.1511627906976744,4.409863785814936,🌟 零样本全新发现
-DB00821,Carprofen,C0029408,Degenerative polyarthritis,TARGET_Prostaglandin_G/H_synthase_1,间接机制,0.1511627906976744,4.409863785814936,🌟 零样本全新发现
-DB00154,Daleuton,C0029408,Degenerative polyarthritis,TARGET_Prostaglandin_G/H_synthase_1,间接机制,0.1511627906976744,4.409863785814936,🌟 零样本全新发现
-DB00159,Icosapent,C0029408,Degenerative polyarthritis,TARGET_Prostaglandin_G/H_synthase_1,间接机制,0.1511627906976744,4.409863785814936,🌟 零样本全新发现
-DB03753,Flurbiprofen Methyl Ester,C0029408,Degenerative polyarthritis,TARGET_Prostaglandin_G/H_synthase_1,间接机制,0.1511627906976744,4.409863785814936,🌟 零样本全新发现
-DB03752,P-(2'-Iodo-5'-Thenoyl)Hydrotropic Acid,C0029408,Degenerative polyarthritis,TARGET_Prostaglandin_G/H_synthase_1,间接机制,0.1511627906976744,4.409863785814936,🌟 零样本全新发现
-DB03667,Acetic Acid Salicyloyl-Amino-Ester,C0029408,Degenerative polyarthritis,TARGET_Prostaglandin_G/H_synthase_1,间接机制,0.1511627906976744,4.409863785814936,🌟 零样本全新发现
-DB02773,(3-Chloro-4-Propoxy-Phenyl)-Acetic Acid,C0029408,Degenerative polyarthritis,TARGET_Prostaglandin_G/H_synthase_1,间接机制,0.1511627906976744,4.409863785814936,🌟 零样本全新发现
-DB02709,Resveratrol,C0029408,Degenerative polyarthritis,TARGET_Prostaglandin_G/H_synthase_1,间接机制,0.1511627906976744,4.409863785814936,🌟 零样本全新发现
-DB02379,Beta-D-Glucose,C0029408,Degenerative polyarthritis,TARGET_Prostaglandin_G/H_synthase_1,间接机制,0.1511627906976744,4.409863785814936,🌟 零样本全新发现
-DB02266,Flufenamic acid,C0029408,Degenerative polyarthritis,TARGET_Prostaglandin_G/H_synthase_1,间接机制,0.1511627906976744,4.409863785814936,🌟 零样本全新发现
-DB02198,2-Bromoacetyl Group,C0029408,Degenerative polyarthritis,TARGET_Prostaglandin_G/H_synthase_1,间接机制,0.1511627906976744,4.409863785814936,🌟 零样本全新发现
-DB02110,Protoporphyrin Ix Containing Co,C0029408,Degenerative polyarthritis,TARGET_Prostaglandin_G/H_synthase_1,间接机制,0.1511627906976744,4.409863785814936,🌟 零样本全新发现
-DB02047,(+)-2-(4-biphenyl)propionic acid,C0029408,Degenerative polyarthritis,TARGET_Prostaglandin_G/H_synthase_1,间接机制,0.1511627906976744,4.409863785814936,🌟 零样本全新发现
-DB01892,Hyperforin,C0029408,Degenerative polyarthritis,TARGET_Prostaglandin_G/H_synthase_1,间接机制,0.1511627906976744,4.409863785814936,🌟 零样本全新发现
-DB01837,O-acetyl-L-serine,C0029408,Degenerative polyarthritis,TARGET_Prostaglandin_G/H_synthase_1,间接机制,0.1511627906976744,4.409863785814936,🌟 零样本全新发现
-DB01435,Antipyrine,C0029408,Degenerative polyarthritis,TARGET_Prostaglandin_G/H_synthase_1,间接机制,0.1511627906976744,4.409863785814936,🌟 零样本全新发现
-DB03756,Doconexent,C0029408,Degenerative polyarthritis,TARGET_Prostaglandin_G/H_synthase_1,间接机制,0.1511627906976744,4.409863785814936,🌟 零样本全新发现
-DB04552,Niflumic acid,C0029408,Degenerative polyarthritis,TARGET_Prostaglandin_G/H_synthase_1,间接机制,0.1511627906976744,4.409863785814936,🌟 零样本全新发现
-DB03783,Phenacetin,C0029408,Degenerative polyarthritis,TARGET_Prostaglandin_G/H_synthase_1,间接机制,0.1511627906976744,4.409863785814936,🌟 零样本全新发现
-DB09061,Cannabidiol,C0029408,Degenerative polyarthritis,TARGET_Prostaglandin_G/H_synthase_1,间接机制,0.1511627906976744,4.409863785814936,🌟 零样本全新发现
-DB09084,Benzydamine,C0029408,Degenerative polyarthritis,TARGET_Prostaglandin_G/H_synthase_1,间接机制,0.1511627906976744,4.409863785814936,🌟 零样本全新发现
-DB09212,Loxoprofen,C0029408,Degenerative polyarthritis,TARGET_Prostaglandin_G/H_synthase_1,间接机制,0.1511627906976744,4.409863785814936,🌟 零样本全新发现
-DB04557,Arachidonic Acid,C0029408,Degenerative polyarthritis,TARGET_Prostaglandin_G/H_synthase_1,间接机制,0.1511627906976744,4.409863785814936,🌟 零样本全新发现
-DB04817,Metamizole,C0029408,Degenerative polyarthritis,TARGET_Prostaglandin_G/H_synthase_1,间接机制,0.1511627906976744,4.409863785814936,🌟 零样本全新发现
-DB04828,Zomepirac,C0029408,Degenerative polyarthritis,TARGET_Prostaglandin_G/H_synthase_1,间接机制,0.1511627906976744,4.409863785814936,🌟 零样本全新发现
-DB05409,NCX 701,C0029408,Degenerative polyarthritis,TARGET_Prostaglandin_G/H_synthase_1,间接机制,0.1511627906976744,4.409863785814936,🌟 零样本全新发现
-DB06682,Naproxcinod,C0029408,Degenerative polyarthritis,TARGET_Prostaglandin_G/H_synthase_1,间接机制,0.1511627906976744,4.409863785814936,🌟 零样本全新发现
-DB06725,Lornoxicam,C0029408,Degenerative polyarthritis,TARGET_Prostaglandin_G/H_synthase_1,间接机制,0.1511627906976744,4.409863785814936,🌟 零样本全新发现
-DB06802,Nepafenac,C0029408,Degenerative polyarthritis,TARGET_Prostaglandin_G/H_synthase_1,间接机制,0.1511627906976744,4.409863785814936,🌟 零样本全新发现
-DB07981,2-[1-(4-chlorobenzoyl)-5-methoxy-2-methyl-1H-indol-3-yl]-n-[(1R)-1-(hydroxymethyl)propyl]acetamide,C0029408,Degenerative polyarthritis,TARGET_Prostaglandin_G/H_synthase_1,间接机制,0.1511627906976744,4.409863785814936,🌟 零样本全新发现
-DB07983,1-(4-IODOBENZOYL)-5-METHOXY-2-METHYL INDOLE-3-ACETIC ACID,C0029408,Degenerative polyarthritis,TARGET_Prostaglandin_G/H_synthase_1,间接机制,0.1511627906976744,4.409863785814936,🌟 零样本全新发现
-DB07984,2-[1-(4-chlorobenzoyl)-5-methoxy-2-methyl-1H-indol-3-yl]-n-[(1S)-1-(hydroxymethyl)propyl]acetamide,C0029408,Degenerative polyarthritis,TARGET_Prostaglandin_G/H_synthase_1,间接机制,0.1511627906976744,4.409863785814936,🌟 零样本全新发现
-DB08814,Triflusal,C0029408,Degenerative polyarthritis,TARGET_Prostaglandin_G/H_synthase_1,间接机制,0.1511627906976744,4.409863785814936,🌟 零样本全新发现
-DB08951,Indoprofen,C0029408,Degenerative polyarthritis,TARGET_Prostaglandin_G/H_synthase_1,间接机制,0.1511627906976744,4.409863785814936,🌟 零样本全新发现
-DB08981,Fenbufen,C0029408,Degenerative polyarthritis,TARGET_Prostaglandin_G/H_synthase_1,间接机制,0.1511627906976744,4.409863785814936,🌟 零样本全新发现
-DB12039,Epicatechin,C0029408,Degenerative polyarthritis,TARGET_Prostaglandin_G/H_synthase_1,间接机制,0.1511627906976744,4.409863785814936,🌟 零样本全新发现
-DB11672,Curcumin,C0029408,Degenerative polyarthritis,TARGET_Prostaglandin_G/H_synthase_1,间接机制,0.1511627906976744,4.409863785814936,🌟 零样本全新发现
-DB11323,Glycol salicylate,C0029408,Degenerative polyarthritis,TARGET_Prostaglandin_G/H_synthase_1,间接机制,0.1511627906976744,4.409863785814936,🌟 零样本全新发现
-DB11201,Menthyl salicylate,C0029408,Degenerative polyarthritis,TARGET_Prostaglandin_G/H_synthase_1,间接机制,0.1511627906976744,4.409863785814936,🌟 零样本全新发现
-DB11085,Resorcinol,C0029408,Degenerative polyarthritis,TARGET_Prostaglandin_G/H_synthase_1,间接机制,0.1511627906976744,4.409863785814936,🌟 零样本全新发现
-DB11079,Trolamine salicylate,C0029408,Degenerative polyarthritis,TARGET_Prostaglandin_G/H_synthase_1,间接机制,0.1511627906976744,4.409863785814936,🌟 零样本全新发现
-DB11071,Phenyl salicylate,C0029408,Degenerative polyarthritis,TARGET_Prostaglandin_G/H_synthase_1,间接机制,0.1511627906976744,4.409863785814936,🌟 零样本全新发现
-DB09295,Talniflumate,C0029408,Degenerative polyarthritis,TARGET_Prostaglandin_G/H_synthase_1,间接机制,0.1511627906976744,4.409863785814936,🌟 零样本全新发现
-DB09288,Propacetamol,C0029408,Degenerative polyarthritis,TARGET_Prostaglandin_G/H_synthase_1,间接机制,0.1511627906976744,4.409863785814936,🌟 零样本全新发现
-DB09285,Morniflumate,C0029408,Degenerative polyarthritis,TARGET_Prostaglandin_G/H_synthase_1,间接机制,0.1511627906976744,4.409863785814936,🌟 零样本全新发现
-DB09216,Tolfenamic acid,C0029408,Degenerative polyarthritis,TARGET_Prostaglandin_G/H_synthase_1,间接机制,0.1511627906976744,4.409863785814936,🌟 零样本全新发现
-DB09215,Droxicam,C0029408,Degenerative polyarthritis,TARGET_Prostaglandin_G/H_synthase_1,间接机制,0.1511627906976744,4.409863785814936,🌟 零样本全新发现
-DB09214,Dexketoprofen,C0029408,Degenerative polyarthritis,TARGET_Prostaglandin_G/H_synthase_1,间接机制,0.1511627906976744,4.409863785814936,🌟 零样本全新发现
-DB12150,Pelubiprofen,C0029408,Degenerative polyarthritis,TARGET_Prostaglandin_G/H_synthase_1,间接机制,0.1511627906976744,4.409863785814936,🌟 零样本全新发现
-DB13308,Oxametacin,C0029408,Degenerative polyarthritis,TARGET_Prostaglandin_G/H_synthase_1,间接机制,0.1511627906976744,4.409863785814936,🌟 零样本全新发现
-DB12445,Nitroaspirin,C0029408,Degenerative polyarthritis,TARGET_Prostaglandin_G/H_synthase_1,间接机制,0.1511627906976744,4.409863785814936,🌟 零样本全新发现
-DB20457,Eltenac,C0029408,Degenerative polyarthritis,TARGET_Prostaglandin_G/H_synthase_1,间接机制,0.1511627906976744,4.409863785814936,🌟 零样本全新发现
-DB19479,Prifelone,C0029408,Degenerative polyarthritis,TARGET_Prostaglandin_G/H_synthase_1,间接机制,0.1511627906976744,4.409863785814936,🌟 零样本全新发现
-DB19283,Honokiol,C0029408,Degenerative polyarthritis,TARGET_Prostaglandin_G/H_synthase_1,间接机制,0.1511627906976744,4.409863785814936,🌟 零样本全新发现
-DB18267,Ferroheme,C0029408,Degenerative polyarthritis,TARGET_Prostaglandin_G/H_synthase_1,间接机制,0.1511627906976744,4.409863785814936,🌟 零样本全新发现
-DB16950,BN-82451,C0029408,Degenerative polyarthritis,TARGET_Prostaglandin_G/H_synthase_1,间接机制,0.1511627906976744,4.409863785814936,🌟 零样本全新发现
-DB16877,Ampiroxicam,C0029408,Degenerative polyarthritis,TARGET_Prostaglandin_G/H_synthase_1,间接机制,0.1511627906976744,4.409863785814936,🌟 零样本全新发现
-DB16088,Amtolmetin guacil,C0029408,Degenerative polyarthritis,TARGET_Prostaglandin_G/H_synthase_1,间接机制,0.1511627906976744,4.409863785814936,🌟 零样本全新发现
-DB14086,Cianidanol,C0029408,Degenerative polyarthritis,TARGET_Prostaglandin_G/H_synthase_1,间接机制,0.1511627906976744,4.409863785814936,🌟 零样本全新发现
-DB14011,Nabiximols,C0029408,Degenerative polyarthritis,TARGET_Prostaglandin_G/H_synthase_1,间接机制,0.1511627906976744,4.409863785814936,🌟 零样本全新发现
-DB14009,Medical Cannabis,C0029408,Degenerative polyarthritis,TARGET_Prostaglandin_G/H_synthase_1,间接机制,0.1511627906976744,4.409863785814936,🌟 零样本全新发现
-DB13783,Acemetacin,C0029408,Degenerative polyarthritis,TARGET_Prostaglandin_G/H_synthase_1,间接机制,0.1511627906976744,4.409863785814936,🌟 零样本全新发现
-DB13501,Bendazac,C0029408,Degenerative polyarthritis,TARGET_Prostaglandin_G/H_synthase_1,间接机制,0.1511627906976744,4.409863785814936,🌟 零样本全新发现
-DB13346,Bufexamac,C0029408,Degenerative polyarthritis,TARGET_Prostaglandin_G/H_synthase_1,间接机制,0.1511627906976744,4.409863785814936,🌟 零样本全新发现
-DB21002,Tebufelone,C0029408,Degenerative polyarthritis,TARGET_Prostaglandin_G/H_synthase_1,间接机制,0.1511627906976744,4.409863785814936,🌟 零样本全新发现
-DB21176,Florifenine,C0029408,Degenerative polyarthritis,TARGET_Prostaglandin_G/H_synthase_1,间接机制,0.1511627906976744,4.409863785814936,🌟 零样本全新发现
-DB20690,Pirazolac,C0029408,Degenerative polyarthritis,TARGET_Prostaglandin_G/H_synthase_1,间接机制,0.1511627906976744,4.409863785814936,🌟 零样本全新发现
+DB00753,Isoflurane,C0917801,Sleeplessness,TARGET_Gamma-aminobutyric_acid_receptor_subunit_alpha-1,间接机制,0.21311475409836064,11.11076923076923,🌟 零样本全新发现
+DB00794,Primidone,C0917801,Sleeplessness,TARGET_Gamma-aminobutyric_acid_receptor_subunit_alpha-1,间接机制,0.21311475409836064,11.11076923076923,🌟 零样本全新发现
+DB00837,Progabide,C0917801,Sleeplessness,TARGET_Gamma-aminobutyric_acid_receptor_subunit_alpha-1,间接机制,0.21311475409836064,11.11076923076923,🌟 零样本全新发现
+DB00599,Thiopental,C0917801,Sleeplessness,TARGET_Gamma-aminobutyric_acid_receptor_subunit_alpha-1,间接机制,0.21311475409836064,11.11076923076923,🌟 零样本全新发现
+DB00849,Methylphenobarbital,C0917801,Sleeplessness,TARGET_Gamma-aminobutyric_acid_receptor_subunit_alpha-1,间接机制,0.21311475409836064,11.11076923076923,🌟 零样本全新发现
+DB00543,Amoxapine,C0917801,Sleeplessness,TARGET_Gamma-aminobutyric_acid_receptor_subunit_alpha-1,间接机制,0.21311475409836064,11.11076923076923,🌟 零样本全新发现
+DB00474,Methohexital,C0917801,Sleeplessness,TARGET_Gamma-aminobutyric_acid_receptor_subunit_alpha-1,间接机制,0.21311475409836064,11.11076923076923,🌟 零样本全新发现
+DB00466,Picrotoxin,C0917801,Sleeplessness,TARGET_Gamma-aminobutyric_acid_receptor_subunit_alpha-1,间接机制,0.21311475409836064,11.11076923076923,🌟 零样本全新发现
+DB00395,Carisoprodol,C0917801,Sleeplessness,TARGET_Gamma-aminobutyric_acid_receptor_subunit_alpha-1,间接机制,0.21311475409836064,11.11076923076923,🌟 零样本全新发现
+DB00371,Meprobamate,C0917801,Sleeplessness,TARGET_Gamma-aminobutyric_acid_receptor_subunit_alpha-1,间接机制,0.21311475409836064,11.11076923076923,🌟 零样本全新发现
+DB00363,Clozapine,C0917801,Sleeplessness,TARGET_Gamma-aminobutyric_acid_receptor_subunit_alpha-1,间接机制,0.21311475409836064,11.11076923076923,🌟 零样本全新发现
+DB00349,Clobazam,C0917801,Sleeplessness,TARGET_Gamma-aminobutyric_acid_receptor_subunit_alpha-1,间接机制,0.21311475409836064,11.11076923076923,🌟 零样本全新发现
+DB00292,Etomidate,C0917801,Sleeplessness,TARGET_Gamma-aminobutyric_acid_receptor_subunit_alpha-1,间接机制,0.21311475409836064,11.11076923076923,🌟 零样本全新发现
+DB00273,Topiramate,C0917801,Sleeplessness,TARGET_Gamma-aminobutyric_acid_receptor_subunit_alpha-1,间接机制,0.21311475409836064,11.11076923076923,🌟 零样本全新发现
+DB00241,Butalbital,C0917801,Sleeplessness,TARGET_Gamma-aminobutyric_acid_receptor_subunit_alpha-1,间接机制,0.21311475409836064,11.11076923076923,🌟 零样本全新发现
+DB00237,Butabarbital,C0917801,Sleeplessness,TARGET_Gamma-aminobutyric_acid_receptor_subunit_alpha-1,间接机制,0.21311475409836064,11.11076923076923,✅ 验证集完美命中
+DB01595,Nitrazepam,C0917801,Sleeplessness,TARGET_Gamma-aminobutyric_acid_receptor_subunit_alpha-1,间接机制,0.21311475409836064,11.11076923076923,✅ 验证集完美命中
+DB01567,Fludiazepam,C0917801,Sleeplessness,TARGET_Gamma-aminobutyric_acid_receptor_subunit_alpha-1,间接机制,0.21311475409836064,11.11076923076923,🌟 零样本全新发现
+DB01496,"Dihydro-2-thioxo-5-((5-(2-(trifluoromethyl)phenyl)-2-furanyl)methyl)-4,6(1H,5H)-pyrimidinedione",C0917801,Sleeplessness,TARGET_Gamma-aminobutyric_acid_receptor_subunit_alpha-1,间接机制,0.21311475409836064,11.11076923076923,🌟 零样本全新发现
+DB01381,Ginkgo biloba,C0917801,Sleeplessness,TARGET_Gamma-aminobutyric_acid_receptor_subunit_alpha-1,间接机制,0.21311475409836064,11.11076923076923,🌟 零样本全新发现
+DB01355,Hexobarbital,C0917801,Sleeplessness,TARGET_Gamma-aminobutyric_acid_receptor_subunit_alpha-1,间接机制,0.21311475409836064,11.11076923076923,🌟 零样本全新发现
+DB01354,Heptabarbital,C0917801,Sleeplessness,TARGET_Gamma-aminobutyric_acid_receptor_subunit_alpha-1,间接机制,0.21311475409836064,11.11076923076923,🌟 零样本全新发现
+DB01346,Quinidine barbiturate,C0917801,Sleeplessness,TARGET_Gamma-aminobutyric_acid_receptor_subunit_alpha-1,间接机制,0.21311475409836064,11.11076923076923,🌟 零样本全新发现
+DB01341,Dihydroquinidine barbiturate,C0917801,Sleeplessness,TARGET_Gamma-aminobutyric_acid_receptor_subunit_alpha-1,间接机制,0.21311475409836064,11.11076923076923,🌟 零样本全新发现
+DB01205,Flumazenil,C0917801,Sleeplessness,TARGET_Gamma-aminobutyric_acid_receptor_subunit_alpha-1,间接机制,0.21311475409836064,11.11076923076923,🌟 零样本全新发现
+DB01174,Phenobarbital,C0917801,Sleeplessness,TARGET_Gamma-aminobutyric_acid_receptor_subunit_alpha-1,间接机制,0.21311475409836064,11.11076923076923,🌟 零样本全新发现
+DB01159,Halothane,C0917801,Sleeplessness,TARGET_Gamma-aminobutyric_acid_receptor_subunit_alpha-1,间接机制,0.21311475409836064,11.11076923076923,🌟 零样本全新发现
+DB01154,Thiamylal,C0917801,Sleeplessness,TARGET_Gamma-aminobutyric_acid_receptor_subunit_alpha-1,间接机制,0.21311475409836064,11.11076923076923,🌟 零样本全新发现
+DB01107,Methyprylon,C0917801,Sleeplessness,TARGET_Gamma-aminobutyric_acid_receptor_subunit_alpha-1,间接机制,0.21311475409836064,11.11076923076923,✅ 验证集完美命中
+DB01028,Methoxyflurane,C0917801,Sleeplessness,TARGET_Gamma-aminobutyric_acid_receptor_subunit_alpha-1,间接机制,0.21311475409836064,11.11076923076923,🌟 零样本全新发现
+DB00962,Zaleplon,C0917801,Sleeplessness,TARGET_Gamma-aminobutyric_acid_receptor_subunit_alpha-1,间接机制,0.21311475409836064,11.11076923076923,🌟 零样本全新发现
+DB00898,Ethanol,C0917801,Sleeplessness,TARGET_Gamma-aminobutyric_acid_receptor_subunit_alpha-1,间接机制,0.21311475409836064,11.11076923076923,🌟 零样本全新发现
+DB02530,gamma-Aminobutyric acid,C0917801,Sleeplessness,TARGET_Gamma-aminobutyric_acid_receptor_subunit_alpha-1,间接机制,0.21311475409836064,11.11076923076923,🌟 零样本全新发现
+DB05721,EVT 201,C0917801,Sleeplessness,TARGET_Gamma-aminobutyric_acid_receptor_subunit_alpha-1,间接机制,0.21311475409836064,11.11076923076923,🌟 零样本全新发现
+DB06119,Cenobamate,C0917801,Sleeplessness,TARGET_Gamma-aminobutyric_acid_receptor_subunit_alpha-1,间接机制,0.21311475409836064,11.11076923076923,🌟 零样本全新发现
+DB06470,Clomethiazole,C0917801,Sleeplessness,TARGET_Gamma-aminobutyric_acid_receptor_subunit_alpha-1,间接机制,0.21311475409836064,11.11076923076923,✅ 验证集完美命中
+DB07776,Flavone,C0917801,Sleeplessness,TARGET_Gamma-aminobutyric_acid_receptor_subunit_alpha-1,间接机制,0.21311475409836064,11.11076923076923,🌟 零样本全新发现
+DB11582,Thiocolchicoside,C0917801,Sleeplessness,TARGET_Gamma-aminobutyric_acid_receptor_subunit_alpha-1,间接机制,0.21311475409836064,11.11076923076923,🌟 零样本全新发现
+DB11859,Brexanolone,C0917801,Sleeplessness,TARGET_Gamma-aminobutyric_acid_receptor_subunit_alpha-1,间接机制,0.21311475409836064,11.11076923076923,🌟 零样本全新发现
+DB12308,Eltanolone,C0917801,Sleeplessness,TARGET_Gamma-aminobutyric_acid_receptor_subunit_alpha-1,间接机制,0.21311475409836064,11.11076923076923,🌟 零样本全新发现
+DB12458,Muscimol,C0917801,Sleeplessness,TARGET_Gamma-aminobutyric_acid_receptor_subunit_alpha-1,间接机制,0.21311475409836064,11.11076923076923,🌟 零样本全新发现
+DB12590,Indiplon,C0917801,Sleeplessness,TARGET_Gamma-aminobutyric_acid_receptor_subunit_alpha-1,间接机制,0.21311475409836064,11.11076923076923,🌟 零样本全新发现
+DB17063,ZK-93423,C0917801,Sleeplessness,TARGET_Gamma-aminobutyric_acid_receptor_subunit_alpha-1,间接机制,0.21311475409836064,11.11076923076923,🌟 零样本全新发现
+DB19929,Divaplon,C0917801,Sleeplessness,TARGET_Gamma-aminobutyric_acid_receptor_subunit_alpha-1,间接机制,0.21311475409836064,11.11076923076923,🌟 零样本全新发现
+DB20375,Ripazepam,C0917801,Sleeplessness,TARGET_Gamma-aminobutyric_acid_receptor_subunit_alpha-1,间接机制,0.21311475409836064,11.11076923076923,🌟 零样本全新发现
+DB21275,Panadiplon,C0917801,Sleeplessness,TARGET_Gamma-aminobutyric_acid_receptor_subunit_alpha-1,间接机制,0.21311475409836064,11.11076923076923,🌟 零样本全新发现
+DB11327,Dipyrithione,C0029408,Degenerative polyarthritis,TARGET_Prostaglandin_G/H_synthase_2,间接机制,0.15730337078651685,3.9884812623274164,🌟 零样本全新发现
+DB11455,Robenacoxib,C0029408,Degenerative polyarthritis,TARGET_Prostaglandin_G/H_synthase_2,间接机制,0.15730337078651685,3.9884812623274164,🌟 零样本全新发现
+DB20173,Darbufelone,C0029408,Degenerative polyarthritis,TARGET_Prostaglandin_G/H_synthase_2,间接机制,0.15730337078651685,3.9884812623274164,🌟 零样本全新发现
+DB14060,NS-398,C0029408,Degenerative polyarthritis,TARGET_Prostaglandin_G/H_synthase_2,间接机制,0.15730337078651685,3.9884812623274164,🌟 零样本全新发现
+DB14059,SC-236,C0029408,Degenerative polyarthritis,TARGET_Prostaglandin_G/H_synthase_2,间接机制,0.15730337078651685,3.9884812623274164,🌟 零样本全新发现
+DB13961,Fish oil,C0029408,Degenerative polyarthritis,TARGET_Prostaglandin_G/H_synthase_2,间接机制,0.15730337078651685,3.9884812623274164,🌟 零样本全新发现
+DB13167,Alclofenac,C0029408,Degenerative polyarthritis,TARGET_Prostaglandin_G/H_synthase_2,间接机制,0.15730337078651685,3.9884812623274164,🌟 零样本全新发现
+DB11752,Bryostatin 1,C0029408,Degenerative polyarthritis,TARGET_Prostaglandin_G/H_synthase_2,间接机制,0.15730337078651685,3.9884812623274164,🌟 零样本全新发现
+DB12378,Apricoxib,C0029408,Degenerative polyarthritis,TARGET_Prostaglandin_G/H_synthase_2,间接机制,0.15730337078651685,3.9884812623274164,🌟 零样本全新发现
+DB12009,GW-406381,C0029408,Degenerative polyarthritis,TARGET_Prostaglandin_G/H_synthase_2,间接机制,0.15730337078651685,3.9884812623274164,🌟 零样本全新发现
+DB20632,Tenosal,C0029408,Degenerative polyarthritis,TARGET_Prostaglandin_G/H_synthase_2,间接机制,0.15730337078651685,3.9884812623274164,🌟 零样本全新发现
+DB20743,Flosulide,C0029408,Degenerative polyarthritis,TARGET_Prostaglandin_G/H_synthase_2,间接机制,0.15730337078651685,3.9884812623274164,🌟 零样本全新发现
+DB20715,Tilmacoxib,C0029408,Degenerative polyarthritis,TARGET_Prostaglandin_G/H_synthase_2,间接机制,0.15730337078651685,3.9884812623274164,🌟 零样本全新发现
+DB08439,Parecoxib,C0029408,Degenerative polyarthritis,TARGET_Prostaglandin_G/H_synthase_2,间接机制,0.15730337078651685,3.9884812623274164,🌟 零样本全新发现
+DB08910,Pomalidomide,C0029408,Degenerative polyarthritis,TARGET_Prostaglandin_G/H_synthase_2,间接机制,0.15730337078651685,3.9884812623274164,🌟 零样本全新发现
+DB09217,Firocoxib,C0029408,Degenerative polyarthritis,TARGET_Prostaglandin_G/H_synthase_2,间接机制,0.15730337078651685,3.9884812623274164,🌟 零样本全新发现
+DB04743,Nimesulide,C0029408,Degenerative polyarthritis,TARGET_Prostaglandin_G/H_synthase_2,间接机制,0.15730337078651685,3.9884812623274164,🌟 零样本全新发现
+DB04725,Licofelone,C0029408,Degenerative polyarthritis,TARGET_Prostaglandin_G/H_synthase_2,间接机制,0.15730337078651685,3.9884812623274164,🌟 零样本全新发现
+DB00166,Lipoic acid,C0029408,Degenerative polyarthritis,TARGET_Prostaglandin_G/H_synthase_2,间接机制,0.15730337078651685,3.9884812623274164,🌟 零样本全新发现
+DB00480,Lenalidomide,C0029408,Degenerative polyarthritis,TARGET_Prostaglandin_G/H_synthase_2,间接机制,0.15730337078651685,3.9884812623274164,🌟 零样本全新发现
+DB00533,Rofecoxib,C0029408,Degenerative polyarthritis,TARGET_Prostaglandin_G/H_synthase_2,间接机制,0.15730337078651685,3.9884812623274164,✅ 验证集完美命中
+DB01404,Ginseng,C0029408,Degenerative polyarthritis,TARGET_Prostaglandin_G/H_synthase_2,间接机制,0.15730337078651685,3.9884812623274164,🌟 零样本全新发现
+DB03866,Prostaglandin G2,C0029408,Degenerative polyarthritis,TARGET_Prostaglandin_G/H_synthase_2,间接机制,0.15730337078651685,3.9884812623274164,🌟 零样本全新发现
+DB01628,Etoricoxib,C0029408,Degenerative polyarthritis,TARGET_Prostaglandin_G/H_synthase_2,间接机制,0.15730337078651685,3.9884812623274164,🌟 零样本全新发现
+DB03477,1-Phenylsulfonamide-3-Trifluoromethyl-5-Parabromophenylpyrazole,C0029408,Degenerative polyarthritis,TARGET_Prostaglandin_G/H_synthase_2,间接机制,0.15730337078651685,3.9884812623274164,🌟 零样本全新发现
+DB21699,Tigemocoxib,C0029408,Degenerative polyarthritis,TARGET_Prostaglandin_G/H_synthase_2,间接机制,0.15730337078651685,3.9884812623274164,🌟 零样本全新发现
+DB00132,alpha-Linolenic acid,C0029408,Degenerative polyarthritis,TARGET_Prostaglandin_G/H_synthase_2,间接机制,0.15730337078651685,3.9884812623274164,🌟 零样本全新发现
+DB05095,Cimicoxib,C0029408,Degenerative polyarthritis,TARGET_Prostaglandin_G/H_synthase_2,间接机制,0.15730337078651685,3.9884812623274164,🌟 零样本全新发现
+DB00580,Valdecoxib,C0029408,Degenerative polyarthritis,TARGET_Prostaglandin_G/H_synthase_2,间接机制,0.15730337078651685,3.9884812623274164,🌟 零样本全新发现
+DB00316,Acetaminophen,C0029408,Degenerative polyarthritis,TARGET_Prostaglandin_G/H_synthase_1,间接机制,0.15116279069767444,4.444307692307692,🌟 零样本全新发现
+DB00233,Aminosalicylic acid,C0029408,Degenerative polyarthritis,TARGET_Prostaglandin_G/H_synthase_1,间接机制,0.15116279069767444,4.444307692307692,🌟 零样本全新发现
+DB00244,Mesalazine,C0029408,Degenerative polyarthritis,TARGET_Prostaglandin_G/H_synthase_1,间接机制,0.15116279069767444,4.444307692307692,🌟 零样本全新发现
+DB00870,Suprofen,C0029408,Degenerative polyarthritis,TARGET_Prostaglandin_G/H_synthase_1,间接机制,0.15116279069767444,4.444307692307692,🌟 零样本全新发现
+DB00963,Bromfenac,C0029408,Degenerative polyarthritis,TARGET_Prostaglandin_G/H_synthase_1,间接机制,0.15116279069767444,4.444307692307692,🌟 零样本全新发现
+DB01009,Ketoprofen,C0029408,Degenerative polyarthritis,TARGET_Prostaglandin_G/H_synthase_1,间接机制,0.15116279069767444,4.444307692307692,✅ 验证集完美命中
+DB01014,Balsalazide,C0029408,Degenerative polyarthritis,TARGET_Prostaglandin_G/H_synthase_1,间接机制,0.15116279069767444,4.444307692307692,🌟 零样本全新发现
+DB01419,Antrafenine,C0029408,Degenerative polyarthritis,TARGET_Prostaglandin_G/H_synthase_1,间接机制,0.15116279069767444,4.444307692307692,🌟 零样本全新发现
+DB00328,Indomethacin,C0029408,Degenerative polyarthritis,TARGET_Prostaglandin_G/H_synthase_1,间接机制,0.15116279069767444,4.444307692307692,✅ 验证集完美命中
+DB00350,Minoxidil,C0029408,Degenerative polyarthritis,TARGET_Prostaglandin_G/H_synthase_1,间接机制,0.15116279069767444,4.444307692307692,🌟 零样本全新发现
+DB00465,Ketorolac,C0029408,Degenerative polyarthritis,TARGET_Prostaglandin_G/H_synthase_1,间接机制,0.15116279069767444,4.444307692307692,🌟 零样本全新发现
+DB00469,Tenoxicam,C0029408,Degenerative polyarthritis,TARGET_Prostaglandin_G/H_synthase_1,间接机制,0.15116279069767444,4.444307692307692,🌟 零样本全新发现
+DB00573,Fenoprofen,C0029408,Degenerative polyarthritis,TARGET_Prostaglandin_G/H_synthase_1,间接机制,0.15116279069767444,4.444307692307692,✅ 验证集完美命中
+DB00586,Diclofenac,C0029408,Degenerative polyarthritis,TARGET_Prostaglandin_G/H_synthase_1,间接机制,0.15116279069767444,4.444307692307692,✅ 验证集完美命中
+DB00711,Diethylcarbamazine,C0029408,Degenerative polyarthritis,TARGET_Prostaglandin_G/H_synthase_1,间接机制,0.15116279069767444,4.444307692307692,🌟 零样本全新发现
+DB00784,Mefenamic acid,C0029408,Degenerative polyarthritis,TARGET_Prostaglandin_G/H_synthase_1,间接机制,0.15116279069767444,4.444307692307692,🌟 零样本全新发现
+DB00795,Sulfasalazine,C0029408,Degenerative polyarthritis,TARGET_Prostaglandin_G/H_synthase_1,间接机制,0.15116279069767444,4.444307692307692,🌟 零样本全新发现
+DB00812,Phenylbutazone,C0029408,Degenerative polyarthritis,TARGET_Prostaglandin_G/H_synthase_1,间接机制,0.15116279069767444,4.444307692307692,🌟 零样本全新发现
+DB00821,Carprofen,C0029408,Degenerative polyarthritis,TARGET_Prostaglandin_G/H_synthase_1,间接机制,0.15116279069767444,4.444307692307692,🌟 零样本全新发现
+DB00154,Daleuton,C0029408,Degenerative polyarthritis,TARGET_Prostaglandin_G/H_synthase_1,间接机制,0.15116279069767444,4.444307692307692,🌟 零样本全新发现
+DB00159,Icosapent,C0029408,Degenerative polyarthritis,TARGET_Prostaglandin_G/H_synthase_1,间接机制,0.15116279069767444,4.444307692307692,🌟 零样本全新发现
+DB03753,Flurbiprofen Methyl Ester,C0029408,Degenerative polyarthritis,TARGET_Prostaglandin_G/H_synthase_1,间接机制,0.15116279069767444,4.444307692307692,🌟 零样本全新发现
+DB03752,P-(2'-Iodo-5'-Thenoyl)Hydrotropic Acid,C0029408,Degenerative polyarthritis,TARGET_Prostaglandin_G/H_synthase_1,间接机制,0.15116279069767444,4.444307692307692,🌟 零样本全新发现
+DB03667,Acetic Acid Salicyloyl-Amino-Ester,C0029408,Degenerative polyarthritis,TARGET_Prostaglandin_G/H_synthase_1,间接机制,0.15116279069767444,4.444307692307692,🌟 零样本全新发现
+DB02773,(3-Chloro-4-Propoxy-Phenyl)-Acetic Acid,C0029408,Degenerative polyarthritis,TARGET_Prostaglandin_G/H_synthase_1,间接机制,0.15116279069767444,4.444307692307692,🌟 零样本全新发现
+DB02709,Resveratrol,C0029408,Degenerative polyarthritis,TARGET_Prostaglandin_G/H_synthase_1,间接机制,0.15116279069767444,4.444307692307692,🌟 零样本全新发现
+DB02379,Beta-D-Glucose,C0029408,Degenerative polyarthritis,TARGET_Prostaglandin_G/H_synthase_1,间接机制,0.15116279069767444,4.444307692307692,🌟 零样本全新发现
+DB02266,Flufenamic acid,C0029408,Degenerative polyarthritis,TARGET_Prostaglandin_G/H_synthase_1,间接机制,0.15116279069767444,4.444307692307692,🌟 零样本全新发现
+DB02198,2-Bromoacetyl Group,C0029408,Degenerative polyarthritis,TARGET_Prostaglandin_G/H_synthase_1,间接机制,0.15116279069767444,4.444307692307692,🌟 零样本全新发现
+DB02110,Protoporphyrin Ix Containing Co,C0029408,Degenerative polyarthritis,TARGET_Prostaglandin_G/H_synthase_1,间接机制,0.15116279069767444,4.444307692307692,🌟 零样本全新发现
+DB02047,(+)-2-(4-biphenyl)propionic acid,C0029408,Degenerative polyarthritis,TARGET_Prostaglandin_G/H_synthase_1,间接机制,0.15116279069767444,4.444307692307692,🌟 零样本全新发现
+DB01892,Hyperforin,C0029408,Degenerative polyarthritis,TARGET_Prostaglandin_G/H_synthase_1,间接机制,0.15116279069767444,4.444307692307692,🌟 零样本全新发现
+DB01837,O-acetyl-L-serine,C0029408,Degenerative polyarthritis,TARGET_Prostaglandin_G/H_synthase_1,间接机制,0.15116279069767444,4.444307692307692,🌟 零样本全新发现
+DB01435,Antipyrine,C0029408,Degenerative polyarthritis,TARGET_Prostaglandin_G/H_synthase_1,间接机制,0.15116279069767444,4.444307692307692,🌟 零样本全新发现
+DB03756,Doconexent,C0029408,Degenerative polyarthritis,TARGET_Prostaglandin_G/H_synthase_1,间接机制,0.15116279069767444,4.444307692307692,🌟 零样本全新发现
+DB04552,Niflumic acid,C0029408,Degenerative polyarthritis,TARGET_Prostaglandin_G/H_synthase_1,间接机制,0.15116279069767444,4.444307692307692,🌟 零样本全新发现
+DB03783,Phenacetin,C0029408,Degenerative polyarthritis,TARGET_Prostaglandin_G/H_synthase_1,间接机制,0.15116279069767444,4.444307692307692,🌟 零样本全新发现
+DB09061,Cannabidiol,C0029408,Degenerative polyarthritis,TARGET_Prostaglandin_G/H_synthase_1,间接机制,0.15116279069767444,4.444307692307692,🌟 零样本全新发现
+DB09084,Benzydamine,C0029408,Degenerative polyarthritis,TARGET_Prostaglandin_G/H_synthase_1,间接机制,0.15116279069767444,4.444307692307692,🌟 零样本全新发现
+DB09212,Loxoprofen,C0029408,Degenerative polyarthritis,TARGET_Prostaglandin_G/H_synthase_1,间接机制,0.15116279069767444,4.444307692307692,🌟 零样本全新发现
+DB04557,Arachidonic Acid,C0029408,Degenerative polyarthritis,TARGET_Prostaglandin_G/H_synthase_1,间接机制,0.15116279069767444,4.444307692307692,🌟 零样本全新发现
+DB04817,Metamizole,C0029408,Degenerative polyarthritis,TARGET_Prostaglandin_G/H_synthase_1,间接机制,0.15116279069767444,4.444307692307692,🌟 零样本全新发现
+DB04828,Zomepirac,C0029408,Degenerative polyarthritis,TARGET_Prostaglandin_G/H_synthase_1,间接机制,0.15116279069767444,4.444307692307692,🌟 零样本全新发现
+DB05409,NCX 701,C0029408,Degenerative polyarthritis,TARGET_Prostaglandin_G/H_synthase_1,间接机制,0.15116279069767444,4.444307692307692,🌟 零样本全新发现
+DB06682,Naproxcinod,C0029408,Degenerative polyarthritis,TARGET_Prostaglandin_G/H_synthase_1,间接机制,0.15116279069767444,4.444307692307692,🌟 零样本全新发现
+DB06725,Lornoxicam,C0029408,Degenerative polyarthritis,TARGET_Prostaglandin_G/H_synthase_1,间接机制,0.15116279069767444,4.444307692307692,🌟 零样本全新发现
+DB06802,Nepafenac,C0029408,Degenerative polyarthritis,TARGET_Prostaglandin_G/H_synthase_1,间接机制,0.15116279069767444,4.444307692307692,🌟 零样本全新发现
+DB07981,2-[1-(4-chlorobenzoyl)-5-methoxy-2-methyl-1H-indol-3-yl]-n-[(1R)-1-(hydroxymethyl)propyl]acetamide,C0029408,Degenerative polyarthritis,TARGET_Prostaglandin_G/H_synthase_1,间接机制,0.15116279069767444,4.444307692307692,🌟 零样本全新发现
+DB07983,1-(4-IODOBENZOYL)-5-METHOXY-2-METHYL INDOLE-3-ACETIC ACID,C0029408,Degenerative polyarthritis,TARGET_Prostaglandin_G/H_synthase_1,间接机制,0.15116279069767444,4.444307692307692,🌟 零样本全新发现
+DB07984,2-[1-(4-chlorobenzoyl)-5-methoxy-2-methyl-1H-indol-3-yl]-n-[(1S)-1-(hydroxymethyl)propyl]acetamide,C0029408,Degenerative polyarthritis,TARGET_Prostaglandin_G/H_synthase_1,间接机制,0.15116279069767444,4.444307692307692,🌟 零样本全新发现
+DB08814,Triflusal,C0029408,Degenerative polyarthritis,TARGET_Prostaglandin_G/H_synthase_1,间接机制,0.15116279069767444,4.444307692307692,🌟 零样本全新发现
+DB08951,Indoprofen,C0029408,Degenerative polyarthritis,TARGET_Prostaglandin_G/H_synthase_1,间接机制,0.15116279069767444,4.444307692307692,🌟 零样本全新发现
+DB08981,Fenbufen,C0029408,Degenerative polyarthritis,TARGET_Prostaglandin_G/H_synthase_1,间接机制,0.15116279069767444,4.444307692307692,🌟 零样本全新发现
+DB12039,Epicatechin,C0029408,Degenerative polyarthritis,TARGET_Prostaglandin_G/H_synthase_1,间接机制,0.15116279069767444,4.444307692307692,🌟 零样本全新发现
+DB11672,Curcumin,C0029408,Degenerative polyarthritis,TARGET_Prostaglandin_G/H_synthase_1,间接机制,0.15116279069767444,4.444307692307692,🌟 零样本全新发现
+DB11323,Glycol salicylate,C0029408,Degenerative polyarthritis,TARGET_Prostaglandin_G/H_synthase_1,间接机制,0.15116279069767444,4.444307692307692,🌟 零样本全新发现
+DB11201,Menthyl salicylate,C0029408,Degenerative polyarthritis,TARGET_Prostaglandin_G/H_synthase_1,间接机制,0.15116279069767444,4.444307692307692,🌟 零样本全新发现
+DB11085,Resorcinol,C0029408,Degenerative polyarthritis,TARGET_Prostaglandin_G/H_synthase_1,间接机制,0.15116279069767444,4.444307692307692,🌟 零样本全新发现
+DB11079,Trolamine salicylate,C0029408,Degenerative polyarthritis,TARGET_Prostaglandin_G/H_synthase_1,间接机制,0.15116279069767444,4.444307692307692,🌟 零样本全新发现
+DB11071,Phenyl salicylate,C0029408,Degenerative polyarthritis,TARGET_Prostaglandin_G/H_synthase_1,间接机制,0.15116279069767444,4.444307692307692,🌟 零样本全新发现
+DB09295,Talniflumate,C0029408,Degenerative polyarthritis,TARGET_Prostaglandin_G/H_synthase_1,间接机制,0.15116279069767444,4.444307692307692,🌟 零样本全新发现
+DB09288,Propacetamol,C0029408,Degenerative polyarthritis,TARGET_Prostaglandin_G/H_synthase_1,间接机制,0.15116279069767444,4.444307692307692,🌟 零样本全新发现
+DB09285,Morniflumate,C0029408,Degenerative polyarthritis,TARGET_Prostaglandin_G/H_synthase_1,间接机制,0.15116279069767444,4.444307692307692,🌟 零样本全新发现
+DB09216,Tolfenamic acid,C0029408,Degenerative polyarthritis,TARGET_Prostaglandin_G/H_synthase_1,间接机制,0.15116279069767444,4.444307692307692,🌟 零样本全新发现
+DB09215,Droxicam,C0029408,Degenerative polyarthritis,TARGET_Prostaglandin_G/H_synthase_1,间接机制,0.15116279069767444,4.444307692307692,🌟 零样本全新发现
+DB09214,Dexketoprofen,C0029408,Degenerative polyarthritis,TARGET_Prostaglandin_G/H_synthase_1,间接机制,0.15116279069767444,4.444307692307692,🌟 零样本全新发现
+DB12150,Pelubiprofen,C0029408,Degenerative polyarthritis,TARGET_Prostaglandin_G/H_synthase_1,间接机制,0.15116279069767444,4.444307692307692,🌟 零样本全新发现
+DB13308,Oxametacin,C0029408,Degenerative polyarthritis,TARGET_Prostaglandin_G/H_synthase_1,间接机制,0.15116279069767444,4.444307692307692,🌟 零样本全新发现
+DB12445,Nitroaspirin,C0029408,Degenerative polyarthritis,TARGET_Prostaglandin_G/H_synthase_1,间接机制,0.15116279069767444,4.444307692307692,🌟 零样本全新发现
+DB20457,Eltenac,C0029408,Degenerative polyarthritis,TARGET_Prostaglandin_G/H_synthase_1,间接机制,0.15116279069767444,4.444307692307692,🌟 零样本全新发现
+DB19479,Prifelone,C0029408,Degenerative polyarthritis,TARGET_Prostaglandin_G/H_synthase_1,间接机制,0.15116279069767444,4.444307692307692,🌟 零样本全新发现
+DB19283,Honokiol,C0029408,Degenerative polyarthritis,TARGET_Prostaglandin_G/H_synthase_1,间接机制,0.15116279069767444,4.444307692307692,🌟 零样本全新发现
+DB18267,Ferroheme,C0029408,Degenerative polyarthritis,TARGET_Prostaglandin_G/H_synthase_1,间接机制,0.15116279069767444,4.444307692307692,🌟 零样本全新发现
+DB16950,BN-82451,C0029408,Degenerative polyarthritis,TARGET_Prostaglandin_G/H_synthase_1,间接机制,0.15116279069767444,4.444307692307692,🌟 零样本全新发现
+DB16877,Ampiroxicam,C0029408,Degenerative polyarthritis,TARGET_Prostaglandin_G/H_synthase_1,间接机制,0.15116279069767444,4.444307692307692,🌟 零样本全新发现
+DB16088,Amtolmetin guacil,C0029408,Degenerative polyarthritis,TARGET_Prostaglandin_G/H_synthase_1,间接机制,0.15116279069767444,4.444307692307692,🌟 零样本全新发现
+DB14086,Cianidanol,C0029408,Degenerative polyarthritis,TARGET_Prostaglandin_G/H_synthase_1,间接机制,0.15116279069767444,4.444307692307692,🌟 零样本全新发现
+DB14011,Nabiximols,C0029408,Degenerative polyarthritis,TARGET_Prostaglandin_G/H_synthase_1,间接机制,0.15116279069767444,4.444307692307692,🌟 零样本全新发现
+DB14009,Medical Cannabis,C0029408,Degenerative polyarthritis,TARGET_Prostaglandin_G/H_synthase_1,间接机制,0.15116279069767444,4.444307692307692,🌟 零样本全新发现
+DB13783,Acemetacin,C0029408,Degenerative polyarthritis,TARGET_Prostaglandin_G/H_synthase_1,间接机制,0.15116279069767444,4.444307692307692,🌟 零样本全新发现
+DB13501,Bendazac,C0029408,Degenerative polyarthritis,TARGET_Prostaglandin_G/H_synthase_1,间接机制,0.15116279069767444,4.444307692307692,🌟 零样本全新发现
+DB13346,Bufexamac,C0029408,Degenerative polyarthritis,TARGET_Prostaglandin_G/H_synthase_1,间接机制,0.15116279069767444,4.444307692307692,🌟 零样本全新发现
+DB21002,Tebufelone,C0029408,Degenerative polyarthritis,TARGET_Prostaglandin_G/H_synthase_1,间接机制,0.15116279069767444,4.444307692307692,🌟 零样本全新发现
+DB21176,Florifenine,C0029408,Degenerative polyarthritis,TARGET_Prostaglandin_G/H_synthase_1,间接机制,0.15116279069767444,4.444307692307692,🌟 零样本全新发现
+DB20690,Pirazolac,C0029408,Degenerative polyarthritis,TARGET_Prostaglandin_G/H_synthase_1,间接机制,0.15116279069767444,4.444307692307692,🌟 零样本全新发现

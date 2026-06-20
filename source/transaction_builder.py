@@ -23,7 +23,8 @@ class TransactionBuilder:
 
             if drug_features:
                 transaction = drug_features + [f"DISEASE_{disease_id}"]
-                transactions.append(transaction)
+                # 对本地事务进行去重
+                transactions.append(list(dict.fromkeys(transaction)))
 
             pbar.update(1)
 
