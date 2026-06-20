@@ -76,26 +76,34 @@ python main.py
 
 ```text
 📦 HFPM-DDA/
-├── 📁 data/                              # 原始数据
-│   ├── 🧬 ctd_genes_diseases_schema.json # 自己生成的 CTD JSON 结构定义（无需创建）
-│   ├── 💾 CTD_genes_diseases.tsv         # CTD 数据库
-│   ├── 🧬 drugbank.xsd                   # DrugBank XML 结构定义（无需下载）
-│   ├── 💾 drugbank_all_full_database.xml # DrugBank 数据库
-│   └── ⛓️ repoDB_full.csv                # repoDB 数据库
-├── 📁 output/                            # 输出结果
-│   ├── 🧾 train_approved.csv             # 成功药训练集
-│   ├── 🧾 train_failed.csv               # 失败药训练集
-│   ├── 🧾 test_approved.csv              # 成功药测试集
-│   ├── 🧾 test_failed.csv                # 失败药测试集
-│   ├── 🧾 new_drug_discoveries.csv       # 新药预测清单
-│   └── 🧠 association_rules_train.csv    # 关联规则结果
-├── 📁 source/                            # 源代码目录
-│   ├── 🧾 data_parser.py                 # 数据解析模块
-│   ├── 🧾 transaction_builder.py         # 事务集构建模块
-│   ├── 🧾 fpm_miner.py                   # FP-Growth 关联规则挖掘模块
-│   └── 🚀 main.py                        # 主程序与调度中心
-├── 👀 README.md                          # README
-└── 📜 requirements.txt                   # 依赖列表
+├── 📁 data/                                 # 原始数据
+│   ├── 🧬 ctd_genes_diseases_schema.json    # 自己生成的 CTD JSON 结构定义（无需创建）
+│   ├── 💾 CTD_genes_diseases.tsv            # CTD 数据库
+│   ├── 🧬 drugbank.xsd                      # DrugBank XML 结构定义（无需下载）
+│   ├── 💾 drugbank_all_full_database.xml    # DrugBank 数据库
+│   └── ⛓️ repoDB_full.csv                   # repoDB 数据库
+├── 📁 output/                               # 输出结果
+│   ├── 🧾 train_approved.csv                # 成功药训练集
+│   ├── 🧾 train_failed.csv                  # 失败药训练集
+│   ├── 🧾 test_approved.csv                 # 成功药测试集
+│   ├── 🧾 test_failed.csv                   # 失败药测试集
+│   ├── 🧾 new_drug_discoveries.csv          # 新药预测清单
+│   ├── 🧠 association_rules_train.csv       # 关联规则结果
+│   ├── 🧾 spark_train_approved.csv          # Apache Spark 版本成功药训练集
+│   ├── 🧾 spark_train_failed.csv            # Apache Spark 版本失败药训练集
+│   ├── 🧾 spark_test_approved.csv           # Apache Spark 版本成功药测试集
+│   ├── 🧾 spark_test_failed.csv             # Apache Spark 版本失败药测试集
+│   ├── 🧾 spark_new_drug_discoveries.csv    # Apache Spark 版本新药预测清单
+│   └── 🧠 spark_association_rules_train.csv # Apache Spark 版本关联规则结果
+├── 📁 source/                               # 源代码目录
+│   ├── 🧾 data_parser.py                    # 数据解析模块
+│   ├── 🧾 transaction_builder.py            # 事务集构建模块
+│   ├── 🧾 fpm_miner.py                      # FP-Growth 关联规则挖掘模块
+│   ├── 🚀 main.py                           # 主程序与调度中心
+│   ├── 🧾 spark_fpm_miner.py                # Apache Spark 版本 FP-Growth 关联规则挖掘模块
+│   └── 🚀 spark_main.py                     # Apache Spark 版本主程序与调度中心
+├── 👀 README.md                             # README
+└── 📜 requirements.txt                      # 依赖列表
 ```
 
 ---
