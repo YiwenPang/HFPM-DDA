@@ -9,7 +9,7 @@ sys.path.append(os.path.dirname(os.path.abspath(__file__)))
 
 from data_parser import DataParser
 from transaction_builder import TransactionBuilder
-from fpm_miner import FPMMiner
+from fpm_miner import FPMMiner, RuleRefiner
 
 
 def main():
@@ -80,19 +80,16 @@ def main():
     print("\n--- [📊 Phase 4: 全自动参数网格搜索中 (Grid Search) ] ---")
     print("[提示] 寻优策略：支持度由高到低扫描（递减剪枝），一旦触发熔断，立即终止后续更低支持度的无效计算。")
 
-    # 定义搜索网格（从大到小严格递减）
     support_grid = [0.05, 0.03, 0.02, 0.015, 0.01, 0.008, 0.005, 0.003, 0.0016]
     confidence_grid = [0.15, 0.25, 0.35, 0.45]
 
     search_logs = []
     best_score = -1
     best_params = {"support": None, "confidence": None}
-    high_value_rules = None  # 用于承接最终选出的最优规则集
+    high_value_rules = None
 
-    # 全局熔断标志位
     global_meltdown_triggered = False
 
-    # 开始网格搜索大循环
     for supp in support_grid:
         if global_meltdown_triggered:
             break
@@ -102,14 +99,12 @@ def main():
         for conf in confidence_grid:
             print(f"  🔍 [尝试组合] 正在测试: min_support={supp}, min_confidence={conf} ...")
 
-            # 1. 运行数据挖掘
             rules_df = miner.mine_rules(
                 transactions=trans_train_approved,
                 min_support=supp,
                 min_confidence=conf
             )
 
-            # 2. 熔断保护检查
             if rules_df is None:
                 print(f"🔥 [严重熔断] 检测到 min_support={supp} 导致频繁项集指数级组合爆炸！")
                 print(f"💥 [严格剪枝] 由于支持度网格是严格递减的，所有小于 {supp} 的参数必然引发更惨烈的内存灾难。")
@@ -123,13 +118,11 @@ def main():
                 global_meltdown_triggered = True
                 break
 
-            # 3. 规则为空检查
             if rules_df.empty:
                 search_logs.append(
                     {"supp": supp, "conf": conf, "rules": 0, "hits": 0, "novel": 0, "status": "❌ 规则为0"})
                 continue
 
-            # 4. 计算对比指标 (Growth Rate) 过滤高特异性规则
             growth_rates = []
             failed_count = len(trans_train_failed_sets)
             for _, row in rules_df.iterrows():
@@ -141,7 +134,6 @@ def main():
             rules_df['growth_rate'] = growth_rates
             current_high_value_rules = rules_df[rules_df['growth_rate'] > 3.0]
 
-            # 5. 在当前参数下，统计盲测集命中数
             hits_count = 0
             novel_count = 0
             known_train_pairs = set(zip(train_app['drugbank_id'], train_app['ind_id']))
@@ -170,7 +162,6 @@ def main():
                             else:
                                 novel_count += 1
 
-            # 6. 综合打分
             score = hits_count * 10000 + len(current_high_value_rules)
             status_str = f"✅ 成功 (Hits: {hits_count})"
             search_logs.append(
@@ -178,15 +169,11 @@ def main():
                  "novel": novel_count,
                  "status": status_str})
 
-            # 更新最优解
             if score > best_score:
                 best_score = score
                 best_params = {"support": supp, "confidence": conf}
                 high_value_rules = current_high_value_rules.copy()
 
-    # =========================================================================
-    # 📑 打印寻优报告表格
-    # =========================================================================
     print("\n" + "=" * 70)
     print("📊 参数敏感性分析与网格搜索报告 (Parameter Tuning Summary)")
     print("=" * 70)
@@ -208,16 +195,37 @@ def main():
     print("\n[挖掘机] 正在基于训练集计算对比指标 (Growth Rate)...")
     high_value_rules = high_value_rules.sort_values(by=['growth_rate', 'lift'], ascending=[False, False])
 
-    print("\n🏆 Top 10 高特异性关联规则 (源自训练集):")
-    for idx, row in high_value_rules.head(10).iterrows():
+    # ==========================================
+    # 🧪 Phase 4.5 知识发现精炼器
+    # ==========================================
+    print("\n--- [Phase 4.5: 规则精炼与去冗余] ---")
+    pre_count = len(high_value_rules)
+    high_value_rules = RuleRefiner.remove_redundant_rules(high_value_rules)
+    post_count = len(high_value_rules)
+    print(f"🧹 [去冗余] 成功抹除 {pre_count - post_count} 条同质化超集规则。")
+
+    rep_rules = RuleRefiner.extract_representative_rules(high_value_rules)
+    print("\n🥇 各疾病最优代表机制:")
+    for idx, row in rep_rules.head(10).iterrows():
+        antecedents = ", ".join([format_item(x) for x in row['antecedents']])
+        cons_item = list(row['consequents'])[0]
+        dis_name = get_disease_name(cons_item)
+        gr_display = "∞" if row['growth_rate'] == float('inf') else f"{row['growth_rate']:.2f}"
+        print(f"   🎯 疾病: 【{dis_name}】")
+        print(f"       => 核心靶向机制: {antecedents}")
+        print(
+            f"       => [Score: {row['rep_score']:.1f} | Conf: {row['confidence']:.4f} | Supp: {row['support']:.4f} | 特异性GR: {gr_display}]")
+
+    print("\n🏆 Top 10 最优参数下高特异性关联规则 (多样性筛选):")
+    diverse_top_rules = RuleRefiner.get_diverse_top_rules(high_value_rules, top_n=10, max_per_disease=2)
+    for idx, row in diverse_top_rules.iterrows():
         antecedents = ", ".join([format_item(x) for x in row['antecedents']])
         consequents = ", ".join([format_item(x) for x in row['consequents']])
         gr_display = "∞ (纯正向)" if row['growth_rate'] == float('inf') else f"{row['growth_rate']:.2f}"
         print(f"   前件: {antecedents} -> 后件: {consequents}")
-        print(
-            f"       (Support: {row['support']:.4f}, Confidence: {row['confidence']:.4f}, Lift: {row['lift']:.2f}, GrowthRate: {gr_display})")
+        print(f"       (Support: {row['support']:.4f}, Confidence: {row['confidence']:.4f}, GrowthRate: {gr_display})")
 
-    print("\n--- [Phase 5: 零样本药物重定位与双重验证 (Knowledge Discovery)] ---")
+    print("\n--- [Phase 5: 零样本药物重定位与双重验证] ---")
 
     known_train_pairs = set(zip(train_app['drugbank_id'], train_app['ind_id']))
     test_pairs = set(zip(test_app['drugbank_id'], test_app['ind_id']))
@@ -279,9 +287,7 @@ def main():
         print(f"   📊 统计验证：成功命中 20% 盲测集真实临床数据: {hits_count} 条")
         print(f"   🔭 科学探索：挖掘出超出已知数据库的全新潜在靶向组合: {novel_count} 条")
 
-        # ==========================================
-        # 输出 1：按照置信度排序
-        # ==========================================
+        # 按照置信度排序
         print("\n🌟 Top 15 新药重定位候选推荐 (按置信度排序 - 反应治愈概率):")
         top_15_df = discovery_df.head(15)
         for idx, row in top_15_df.iterrows():
@@ -291,9 +297,7 @@ def main():
             print(
                 f"      (靶向机制: {row['Matched_Targets']}\n       关联基因: {row['Bridging_Genes']} | 置信度: {row['Rule_Confidence']:.4f} | 特异性: {gr_str})")
 
-        # ==========================================
-        # 输出 2：新增按照增长率（特异性）排序
-        # ==========================================
+        # 按照增长率（特异性）排序
         print("\n🔥 Top 15 新药重定位候选推荐 (按特异性/增长率排序 - 反应靶向独特性):")
         discovery_df_by_growth = discovery_df.sort_values(by=['Rule_Growth_Rate', 'Rule_Confidence'],
                                                           ascending=[False, False])
@@ -305,18 +309,14 @@ def main():
             print(
                 f"      (靶向机制: {row['Matched_Targets']}\n       关联基因: {row['Bridging_Genes']} | 置信度: {row['Rule_Confidence']:.4f} | 特异性: {gr_str})")
 
-        # ==========================================
-        # 输出 3：长尾探索 (消除头部霸屏)
-        # ==========================================
+        # 长尾探索
         print("\n🌈 更多长尾/多样的重定位候选:")
-        displayed_diseases = set(top_15_df['Predicted_Disease_ID']).union(
-            set(top_15_growth_df['Predicted_Disease_ID']))
+        displayed_diseases = set(top_15_df['Predicted_Disease_ID']).union(set(top_15_growth_df['Predicted_Disease_ID']))
         seen_diverse_diseases = set()
         diverse_count = 0
 
         for idx, row in discovery_df.iterrows():
             dis_id = row['Predicted_Disease_ID']
-
             if dis_id not in displayed_diseases and dis_id not in seen_diverse_diseases:
                 gr_str = "∞" if row['Rule_Growth_Rate'] == float('inf') else f"{row['Rule_Growth_Rate']:.2f}"
                 print(
@@ -333,6 +333,7 @@ def main():
         discovery_path = os.path.join(project_root, "output", "new_drug_discoveries.csv")
         discovery_df.to_csv(discovery_path, index=False, encoding='utf-8-sig')
         print(f"\n✅ 包含模型盲测验证标签的重定位清单已保存至: {discovery_path}")
+
     else:
         print("目前高特异性规则暂未在现有数据库中匹配到全新未知的组合。")
 

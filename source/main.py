@@ -9,7 +9,7 @@ sys.path.append(os.path.dirname(os.path.abspath(__file__)))
 
 from data_parser import DataParser
 from transaction_builder import TransactionBuilder
-from fpm_miner import FPMMiner
+from fpm_miner import FPMMiner, RuleRefiner
 
 
 def main():
@@ -35,9 +35,7 @@ def main():
     print(f"[数据] 成功(Approved)记录: {len(df_approved)} 条")
     print(f"[数据] 失败(Terminated/Withdrawn等)记录: {len(df_failed)} 条")
 
-    # ==========================================
     # 数据集切分 (80% 训练集 / 20% 测试集)
-    # ==========================================
     print("\n--- [Phase 2.5: 数据集切分 (80% 训练集 / 20% 测试集)] ---")
     train_app, test_app = train_test_split(df_approved, test_size=0.2, random_state=42)
     train_fail, test_fail = train_test_split(df_failed, test_size=0.2, random_state=42)
@@ -107,16 +105,39 @@ def main():
         high_value_rules = rules_df[rules_df['growth_rate'] > 3.0].sort_values(by=['growth_rate', 'lift'],
                                                                                ascending=[False, False])
 
-        print("\n🏆 Top 10 高特异性关联规则 (源自训练集):")
-        for idx, row in high_value_rules.head(10).iterrows():
+        # 🧪 Phase 4.5 知识发现精炼器
+
+        print("\n--- [Phase 4.5: 规则精炼与去冗余] ---")
+
+        pre_count = len(high_value_rules)
+        high_value_rules = RuleRefiner.remove_redundant_rules(high_value_rules)
+        post_count = len(high_value_rules)
+        print(f"🧹 [去冗余] 成功抹除 {pre_count - post_count} 条同质化超集规则，保留最纯粹特征组合。")
+
+        rep_rules = RuleRefiner.extract_representative_rules(high_value_rules)
+
+        print("\n🥇 各疾病高分代表机制 (Disease Representative Mechanisms):")
+        for idx, row in rep_rules.head(10).iterrows():
+            antecedents = ", ".join([format_item(x) for x in row['antecedents']])
+            cons_item = list(row['consequents'])[0]
+            dis_name = get_disease_name(cons_item)
+            gr_display = "∞" if row['growth_rate'] == float('inf') else f"{row['growth_rate']:.2f}"
+            print(f"   🎯 疾病: 【{dis_name}】")
+            print(f"       => 核心靶向机制: {antecedents}")
+            print(
+                f"       => [Score: {row['rep_score']:.1f} | Conf: {row['confidence']:.4f} | Supp: {row['support']:.4f} | GR: {gr_display}]")
+
+        print("\n🏆 Top 10 高特异性关联规则 (多样性筛选):")
+        diverse_top_rules = RuleRefiner.get_diverse_top_rules(high_value_rules, top_n=10, max_per_disease=2)
+        for idx, row in diverse_top_rules.iterrows():
             antecedents = ", ".join([format_item(x) for x in row['antecedents']])
             consequents = ", ".join([format_item(x) for x in row['consequents']])
             gr_display = "∞ (纯正向)" if row['growth_rate'] == float('inf') else f"{row['growth_rate']:.2f}"
             print(f"   前件: {antecedents} -> 后件: {consequents}")
             print(
-                f"       (Support: {row['support']:.4f}, Confidence: {row['confidence']:.4f}, Lift: {row['lift']:.2f}, GrowthRate: {gr_display})")
+                f"       (Support: {row['support']:.4f}, Confidence: {row['confidence']:.4f}, GrowthRate: {gr_display})")
 
-        print("\n--- [Phase 5: 零样本药物重定位与双重验证 (Knowledge Discovery)] ---")
+        print("\n--- [Phase 5: 零样本药物重定位与双重验证] ---")
 
         known_train_pairs = set(zip(train_app['drugbank_id'], train_app['ind_id']))
         test_pairs = set(zip(test_app['drugbank_id'], test_app['ind_id']))
@@ -147,9 +168,7 @@ def main():
                 drug_genes = info.get("genes", [])
 
                 if antecedents_targets.issubset(drug_features):
-                    # 只要不在训练集里的，都是模型的“重定位预测输出”
                     if (db_id, target_disease_id) not in known_train_pairs:
-                        # 核心校验：该推论是否落在了未知的 20% 测试集里
                         is_hit = (db_id, target_disease_id) in test_pairs
                         status = "✅ 验证集完美命中" if is_hit else "🌟 零样本全新发现"
 
@@ -181,9 +200,7 @@ def main():
             print(f"   📊 统计验证：成功命中 20% 盲测集真实临床数据: {hits_count} 条")
             print(f"   🔭 科学探索：挖掘出超出已知数据库的全新潜在靶向组合: {novel_count} 条")
 
-            # ==========================================
-            # 输出 1：按照置信度排序 (保留原样)
-            # ==========================================
+            # 按照置信度排序 (反应治愈概率)
             print("\n🌟 Top 15 新药重定位候选推荐 (按置信度排序 - 反应治愈概率):")
             top_15_df = discovery_df.head(15)
             for idx, row in top_15_df.iterrows():
@@ -193,9 +210,7 @@ def main():
                 print(
                     f"      (靶向机制: {row['Matched_Targets']}\n       关联基因: {row['Bridging_Genes']} | 置信度: {row['Rule_Confidence']:.4f} | 特异性: {gr_str})")
 
-            # ==========================================
-            # 输出 2：新增按照增长率（特异性）排序
-            # ==========================================
+            # 按照增长率（特异性）排序 (反应靶向独特度)
             print("\n🔥 Top 15 新药重定位候选推荐 (按特异性/增长率排序 - 反应靶向独特性):")
             discovery_df_by_growth = discovery_df.sort_values(by=['Rule_Growth_Rate', 'Rule_Confidence'],
                                                               ascending=[False, False])
@@ -207,9 +222,7 @@ def main():
                 print(
                     f"      (靶向机制: {row['Matched_Targets']}\n       关联基因: {row['Bridging_Genes']} | 置信度: {row['Rule_Confidence']:.4f} | 特异性: {gr_str})")
 
-            # ==========================================
-            # 输出 3：长尾探索 (消除头部霸屏)
-            # ==========================================
+            # 长尾探索
             print("\n🌈 更多长尾/多样的重定位候选:")
             displayed_diseases = set(top_15_df['Predicted_Disease_ID']).union(
                 set(top_15_growth_df['Predicted_Disease_ID']))
@@ -218,7 +231,6 @@ def main():
 
             for idx, row in discovery_df.iterrows():
                 dis_id = row['Predicted_Disease_ID']
-
                 if dis_id not in displayed_diseases and dis_id not in seen_diverse_diseases:
                     gr_str = "∞" if row['Rule_Growth_Rate'] == float('inf') else f"{row['Rule_Growth_Rate']:.2f}"
                     print(
@@ -235,6 +247,7 @@ def main():
             discovery_path = os.path.join(project_root, "output", "new_drug_discoveries.csv")
             discovery_df.to_csv(discovery_path, index=False, encoding='utf-8-sig')
             print(f"\n✅ 包含模型盲测验证标签的重定位清单已保存至: {discovery_path}")
+
         else:
             print("目前高特异性规则暂未在现有数据库中匹配到全新未知的组合。")
 
